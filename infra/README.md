@@ -1,18 +1,38 @@
 # AgentCore Gateway — real enterprise-api backend
 
 A working Amazon Bedrock AgentCore Gateway that exposes PropertyFinder's
-external partner API ("enterprise-api", `atlas.propertyfinder.com`) as MCP
-tools. This is a parallel track to the CSV-based demo agent (`agent.py` /
-`tools.py` / `demo_data.py`) — it does not replace or gate the demo. The demo
-stays fast and offline-safe; this is the real-data path, built and verified
-working, ready for whenever real credentials and/or the multi-agent
-JupyterLab setup are ready.
+external partner API ("enterprise-api") as MCP tools. This is a parallel
+track to the CSV-based demo agent (`agent.py` / `tools.py` / `demo_data.py`)
+— it does not replace or gate the demo. The demo stays fast and
+offline-safe; this is the real-data path, built and verified working up to
+the network boundary described below.
+
+## ⚠️ Currently targets staging, which is not reachable yet
+
+Per explicit direction, all 5 Lambdas default to
+`atlas.staging.propertyfinder.com`, not production. **This will not return
+data yet** — verified directly (not just from a laptop) that staging is
+IP-allowlisted to PropertyFinder's corporate network/VPN, and an actual
+Lambda invocation from this AWS account's `us-east-1` network hit the same
+CloudFront "Request blocked" response a laptop off-VPN gets. This needs a
+network bridge (VPN/PrivateLink connecting this AWS account into
+PropertyFinder's corporate network) before staging calls can succeed —
+credentials alone won't fix it.
+
+`atlas.propertyfinder.com` (production) **is** reachable today with no
+network changes — tested via a real `tools/call`, got as far as a genuine
+auth response from enterprise-api's production auth server (a real,
+non-network-level 401 on the specific credential tried, not a connectivity
+failure). If unblocking staging network access takes a while, switching the
+`ENTERPRISE_API_AUTH_URL`/`ENTERPRISE_API_BASE_URL` defaults in
+`_enterprise_api_auth.py` back to production is a one-line change per
+environment need.
 
 ## What's deployed (AWS account `065148239320`, region `us-east-1`)
 
 | Resource | Name / ID |
 |---|---|
-| Secrets Manager secret | `listingiq/enterprise-api-credentials` (placeholder values — see below) |
+| Secrets Manager secret | `listingiq/enterprise-api-credentials` (a real credential was tried — see "What's left") |
 | Lambda | `listingiq-credits-tool` |
 | Lambda | `listingiq-listings-tool` |
 | Lambda | `listingiq-leads-tool` |
@@ -39,9 +59,8 @@ correctly returns all 11 tools across the 5 targets:
 `leads-api___get_leads`, `stats-api___get_public_profile_stats`,
 `stats-api___get_stats_overview`, `stats-api___get_superagent_stats`,
 `stats-api___get_arena_ranking`, `stats-api___get_top_public_profiles`,
-`locations-api___search_locations`. Actual **tool calls** (`tools/call`) are
-untested beyond that, because the secret still holds `REPLACE_ME` placeholder
-values — see "What's left" below.
+`locations-api___search_locations`. Actual **tool calls** (`tools/call`)
+are blocked by the staging network issue above.
 
 ## Why Lambda targets, not REST API/OpenAPI targets
 
@@ -65,11 +84,11 @@ target with a non-standard auth flow.
 Instead, each target here is a **Lambda target**
 (`targetConfiguration.mcp.lambda`, not `openApiSchema`). The Lambda fully
 owns its tool call: mint/cache the JWT via `_enterprise_api_auth.py`, call
-`atlas.propertyfinder.com` directly with the Bearer token, return the JSON
+the configured base URL directly with the Bearer token, return the JSON
 result. This sidesteps the interceptor limitation entirely, since the
 Gateway never makes the backend HTTP call itself — the Lambda does.
 
-Outbound credential type on both targets is `GATEWAY_IAM_ROLE` (i.e. "trust
+Outbound credential type on every target is `GATEWAY_IAM_ROLE` (i.e. "trust
 what's already been handled" — the Lambda, not the Gateway, owns auth).
 
 ## Files
@@ -78,7 +97,7 @@ what's already been handled" — the Lambda, not the Gateway, owns auth).
   Lambdas, Gateway, all 5 targets). `python deploy.py --status` /
   `--teardown` also available.
 - `_enterprise_api_auth.py` — shared JWT mint/cache + HTTP helper, imported
-  by every Lambda handler.
+  by every Lambda handler. Base URL defaults to staging (see warning above).
 - `credits_tool_lambda.py` — implements `get_credit_balance`,
   `get_credit_transactions` against `/v1/credits/*`.
 - `listings_tool_lambda.py` — implements `search_listings`, `get_listing`
@@ -91,7 +110,7 @@ what's already been handled" — the Lambda, not the Gateway, owns auth).
   (status, channel, listing, entity type, date-range filters). Array-type
   filters are passed as comma-separated strings — not yet verified against a
   real call, see the module docstring for what to check first once
-  credentials land.
+  network access + credentials are both sorted.
 - `stats_tool_lambda.py` — implements `get_public_profile_stats` (v2),
   `get_stats_overview`, `get_superagent_stats`, `get_arena_ranking`,
   `get_top_public_profiles` against `/v1/stats/*` and `/v2/stats/public-profiles`.
@@ -104,20 +123,24 @@ what's already been handled" — the Lambda, not the Gateway, owns auth).
 
 ## What's left
 
-1. **Real credentials.** Update the secret with a real enterprise-api
-   `apiKey`/`apiSecret`:
+1. **Network access to staging.** The real blocker. Needs a VPN/PrivateLink
+   bridge from this AWS account into PropertyFinder's corporate network
+   before `atlas.staging.propertyfinder.com` is reachable at all. Nothing
+   in this repo can fix this — it's a networking/infra decision outside the
+   Gateway itself.
+2. **Credentials.** A real enterprise-api `apiKey`/`apiSecret` scoped to
+   whichever environment ends up reachable (staging, once bridged, or
+   production if that's used instead):
    ```
    aws secretsmanager put-secret-value --profile pf-hackathon \
      --secret-id listingiq/enterprise-api-credentials \
      --secret-string '{"apiKey":"...","apiSecret":"..."}'
    ```
-   Until this is set, any `tools/call` against either target will fail at
-   the token-mint step.
-2. **JupyterLab agents.** The 3-agent architecture (Agent 1: credits,
-   Agent 2: listings, Agent 3: orchestrator combining both) hasn't been
-   written yet. Each agent needs an MCP client (e.g. via the `strands` SDK)
-   pointed at the Gateway URL above, using SigV4-signed requests (see the
-   smoke-test pattern in git history for the exact signing approach with
-   `botocore.auth.SigV4Auth`).
-3. Re-run `python deploy.py` any time to pick up Lambda code changes — it's
+   A production credential was tried already and got a real (non-network)
+   401 "credential not found" from enterprise-api's auth server — worth
+   checking whether that key is actually scoped to a different environment.
+3. **JupyterLab agents.** The 3-agent architecture (Agent 1: credits,
+   Agent 2: listings, Agent 3: orchestrator combining both) is in PR #7,
+   independent of this one.
+4. Re-run `python deploy.py` any time to pick up Lambda code changes — it's
    idempotent and updates existing functions in place.

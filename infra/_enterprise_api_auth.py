@@ -1,7 +1,7 @@
 """
-Shared enterprise-api (atlas.propertyfinder.com) auth helper for the AgentCore
-Gateway Lambda targets. Not a Lambda handler itself — imported by
-credits_tool_lambda.py and listings_tool_lambda.py.
+Shared enterprise-api (atlas.staging.propertyfinder.com) auth helper for the
+AgentCore Gateway Lambda targets. Not a Lambda handler itself — imported by
+every *_tool_lambda.py handler.
 
 enterprise-api's token exchange is a custom JSON-body flow, not standard
 OAuth2 client_credentials, which is why this is a Lambda target rather than
@@ -10,6 +10,16 @@ interceptors only see the MCP layer between caller and Gateway, not the
 Gateway's internal call to a REST target's backend, so there is no supported
 way to inject a header into that call for a non-standard auth flow. Owning
 the whole tool call in Lambda sidesteps the problem.
+
+IMPORTANT — staging is currently unreachable from this Lambda: verified
+directly (not just from a laptop) that atlas.staging.propertyfinder.com is
+IP-allowlisted to PropertyFinder's corporate network/VPN, and a Lambda
+invocation from this account's us-east-1 network hit the same CloudFront
+"Request blocked" response a laptop off-VPN gets. Configured for staging
+per explicit direction, but tool calls will fail with that block until a
+network bridge (VPN/PrivateLink into the corporate network) exists for this
+AWS account. Production (atlas.propertyfinder.com) IS reachable today, if
+that's ever preferred over waiting on network access.
 """
 import json
 import os
@@ -19,8 +29,8 @@ import urllib.error
 
 import boto3
 
-AUTH_URL = os.environ.get("ENTERPRISE_API_AUTH_URL", "https://atlas.propertyfinder.com/v1/auth/token")
-BASE_URL = os.environ.get("ENTERPRISE_API_BASE_URL", "https://atlas.propertyfinder.com")
+AUTH_URL = os.environ.get("ENTERPRISE_API_AUTH_URL", "https://atlas.staging.propertyfinder.com/v1/auth/token")
+BASE_URL = os.environ.get("ENTERPRISE_API_BASE_URL", "https://atlas.staging.propertyfinder.com")
 SECRET_ID = os.environ["CREDENTIALS_SECRET_ID"]
 REFRESH_MARGIN_SECONDS = 60
 

@@ -19,6 +19,7 @@ from tools import (
     get_quality_optimization_opportunities,
     get_lead_quality_ranking,
     get_credit_spend_last_period,
+    get_credit_balance,
     get_target_location_recommendation,
     run_python,
 )
@@ -98,6 +99,7 @@ def _get_or_create_agent(session_id: str) -> Agent:
                 get_quality_optimization_opportunities,
                 get_lead_quality_ranking,
                 get_credit_spend_last_period,
+                get_credit_balance,
                 get_target_location_recommendation,
                 run_python,
             ],

@@ -1,0 +1,88 @@
+credit_id,listing_id,agent_id,agent_name,agency,property_type,community,emirate,listing_price,credit_type,credits_used,transaction_date
+CRD0001,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,Palm Jumeirah,Dubai,12500000,Featured,50,2026-07-01
+CRD0002,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,Palm Jumeirah,Dubai,12500000,Featured,50,2026-06-30
+CRD0003,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,Palm Jumeirah,Dubai,12500000,Premium Listing,120,2026-06-29
+CRD0004,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,Palm Jumeirah,Dubai,12500000,Premium Listing,120,2026-06-28
+CRD0005,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,Palm Jumeirah,Dubai,12500000,Hot Property,75,2026-06-27
+CRD0006,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,Palm Jumeirah,Dubai,12500000,Hot Property,75,2026-06-26
+CRD0007,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,Palm Jumeirah,Dubai,12500000,Boost,30,2026-07-01
+CRD0008,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,Downtown Dubai,Dubai,8700000,Premium Listing,120,2026-07-01
+CRD0009,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,Downtown Dubai,Dubai,8700000,Featured,50,2026-06-30
+CRD0010,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,Downtown Dubai,Dubai,8700000,Boost,30,2026-06-29
+CRD0011,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,Downtown Dubai,Dubai,8700000,Boost,30,2026-06-28
+CRD0012,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,Downtown Dubai,Dubai,8700000,Hot Property,75,2026-06-27
+CRD0013,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,Downtown Dubai,Dubai,8700000,Hot Property,75,2026-06-26
+CRD0014,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,Dubai Marina,Dubai,1850000,Featured,50,2026-07-01
+CRD0015,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,Dubai Marina,Dubai,1850000,Featured,50,2026-06-29
+CRD0016,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,Dubai Marina,Dubai,1850000,Refresh,10,2026-06-30
+CRD0017,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,Dubai Marina,Dubai,1850000,Refresh,10,2026-06-28
+CRD0018,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,Dubai Marina,Dubai,1850000,Hot Property,75,2026-06-27
+CRD0019,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,Dubai Marina,Dubai,1850000,Boost,5,2026-06-26
+CRD0020,LST0005,AGT001,Sarah Al Mansoori,Betterhomes,Studio,Jumeirah Village Circle,Dubai,480000,Refresh,10,2026-07-01
+CRD0021,LST0005,AGT001,Sarah Al Mansoori,Betterhomes,Studio,Jumeirah Village Circle,Dubai,480000,Refresh,10,2026-06-29
+CRD0022,LST0005,AGT001,Sarah Al Mansoori,Betterhomes,Studio,Jumeirah Village Circle,Dubai,480000,Featured,50,2026-06-27
+CRD0023,LST0005,AGT001,Sarah Al Mansoori,Betterhomes,Studio,Jumeirah Village Circle,Dubai,480000,Boost,20,2026-06-26
+CRD0024,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,Dubai Marina,Dubai,1850000,Featured,50,2026-06-17
+CRD0025,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,Dubai Marina,Dubai,1850000,Refresh,10,2026-06-12
+CRD0026,LST0003,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,JBR,Dubai,950000,Boost,30,2026-06-07
+CRD0027,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,Arabian Ranches,Dubai,3200000,Featured,50,2026-06-02
+CRD0028,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,Dubai Marina,Dubai,5600000,Premium Listing,120,2026-05-28
+CRD0029,LST0012,AGT001,Sarah Al Mansoori,Betterhomes,Villa,Palm Jumeirah,Dubai,18000000,Hot Property,75,2026-06-20
+CRD0030,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,DIFC,Dubai,4100000,Featured,50,2026-06-14
+CRD0031,LST0008,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,Emirates Hills,Dubai,2300000,Refresh,10,2026-06-10
+CRD0032,LST0013,AGT002,James Mitchell,Espace Real Estate,Apartment,Business Bay,Dubai,1600000,Featured,50,2026-07-01
+CRD0033,LST0013,AGT002,James Mitchell,Espace Real Estate,Apartment,Business Bay,Dubai,1600000,Refresh,10,2026-06-29
+CRD0034,LST0014,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,Business Bay,Dubai,1100000,Premium Listing,120,2026-06-30
+CRD0035,LST0014,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,Business Bay,Dubai,1100000,Hot Property,75,2026-06-28
+CRD0036,LST0015,AGT004,Raj Patel,Driven Properties,Studio,Business Bay,Dubai,650000,Refresh,10,2026-06-29
+CRD0037,LST0015,AGT004,Raj Patel,Driven Properties,Studio,Business Bay,Dubai,650000,Boost,30,2026-06-27
+CRD0038,LST0016,AGT005,Emma Clarke,Dubizzle Property,Apartment,Business Bay,Dubai,2400000,Hot Property,75,2026-06-28
+CRD0039,LST0016,AGT005,Emma Clarke,Dubizzle Property,Apartment,Business Bay,Dubai,2400000,Featured,50,2026-06-26
+CRD0040,LST0017,AGT002,James Mitchell,Espace Real Estate,Villa,Meydan City,Dubai,4500000,Boost,30,2026-06-27
+CRD0041,LST0017,AGT002,James Mitchell,Espace Real Estate,Villa,Meydan City,Dubai,4500000,Premium Listing,120,2026-06-25
+CRD0042,LST0018,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,Meydan City,Dubai,3100000,Featured,50,2026-06-26
+CRD0043,LST0018,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,Meydan City,Dubai,3100000,Refresh,10,2026-06-24
+CRD0044,LST0019,AGT004,Raj Patel,Driven Properties,Apartment,Meydan City,Dubai,1900000,Premium Listing,120,2026-06-25
+CRD0045,LST0019,AGT004,Raj Patel,Driven Properties,Apartment,Meydan City,Dubai,1900000,Hot Property,75,2026-06-23
+CRD0046,LST0020,AGT005,Emma Clarke,Dubizzle Property,Villa,Saadiyat Island,Abu Dhabi,7200000,Refresh,10,2026-06-24
+CRD0047,LST0020,AGT005,Emma Clarke,Dubizzle Property,Villa,Saadiyat Island,Abu Dhabi,7200000,Boost,30,2026-06-22
+CRD0048,LST0021,AGT002,James Mitchell,Espace Real Estate,Penthouse,Saadiyat Island,Abu Dhabi,9500000,Hot Property,75,2026-06-23
+CRD0049,LST0021,AGT002,James Mitchell,Espace Real Estate,Penthouse,Saadiyat Island,Abu Dhabi,9500000,Featured,50,2026-06-21
+CRD0050,LST0022,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,Al Nahda,Sharjah,350000,Boost,30,2026-06-22
+CRD0051,LST0022,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,Al Nahda,Sharjah,350000,Premium Listing,120,2026-06-20
+CRD0052,LST0023,AGT004,Raj Patel,Driven Properties,Studio,Al Nahda,Sharjah,220000,Featured,50,2026-06-21
+CRD0053,LST0023,AGT004,Raj Patel,Driven Properties,Studio,Al Nahda,Sharjah,220000,Refresh,10,2026-06-29
+CRD0054,LST0024,AGT002,James Mitchell,Espace Real Estate,Apartment,Dubai Marina,Dubai,2100000,Premium Listing,120,2026-06-20
+CRD0055,LST0024,AGT002,James Mitchell,Espace Real Estate,Apartment,Dubai Marina,Dubai,2100000,Hot Property,75,2026-06-28
+CRD0056,LST0025,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,Palm Jumeirah,Dubai,14000000,Refresh,10,2026-06-19
+CRD0057,LST0025,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,Palm Jumeirah,Dubai,14000000,Boost,30,2026-06-27
+CRD0058,LST0026,AGT004,Raj Patel,Driven Properties,Apartment,JBR,Dubai,1050000,Hot Property,75,2026-06-18
+CRD0059,LST0026,AGT004,Raj Patel,Driven Properties,Apartment,JBR,Dubai,1050000,Featured,50,2026-06-26
+CRD0060,LST0027,AGT005,Emma Clarke,Dubizzle Property,Townhouse,Arabian Ranches,Dubai,2900000,Boost,30,2026-07-01
+CRD0061,LST0027,AGT005,Emma Clarke,Dubizzle Property,Townhouse,Arabian Ranches,Dubai,2900000,Premium Listing,120,2026-06-25
+CRD0062,LST0028,AGT002,James Mitchell,Espace Real Estate,Penthouse,Downtown Dubai,Dubai,7800000,Featured,50,2026-06-30
+CRD0063,LST0028,AGT002,James Mitchell,Espace Real Estate,Penthouse,Downtown Dubai,Dubai,7800000,Refresh,10,2026-06-24
+CRD0064,LST0029,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,DIFC,Dubai,3800000,Premium Listing,120,2026-06-29
+CRD0065,LST0029,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,DIFC,Dubai,3800000,Hot Property,75,2026-06-23
+CRD0066,LST0030,AGT004,Raj Patel,Driven Properties,Apartment,Jumeirah Village Circle,Dubai,520000,Refresh,10,2026-06-28
+CRD0067,LST0030,AGT004,Raj Patel,Driven Properties,Apartment,Jumeirah Village Circle,Dubai,520000,Boost,30,2026-06-22
+CRD0068,LST0031,AGT005,Emma Clarke,Dubizzle Property,Studio,Al Reem Island,Abu Dhabi,580000,Hot Property,75,2026-06-27
+CRD0069,LST0031,AGT005,Emma Clarke,Dubizzle Property,Studio,Al Reem Island,Abu Dhabi,580000,Featured,50,2026-06-21
+CRD0070,LST0032,AGT002,James Mitchell,Espace Real Estate,Villa,Yas Island,Abu Dhabi,3400000,Boost,30,2026-06-26
+CRD0071,LST0032,AGT002,James Mitchell,Espace Real Estate,Villa,Yas Island,Abu Dhabi,3400000,Premium Listing,120,2026-06-20
+CRD0072,LST0033,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,Al Majaz,Sharjah,450000,Featured,50,2026-06-25
+CRD0073,LST0033,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,Al Majaz,Sharjah,450000,Refresh,10,2026-06-29
+CRD0074,LST0034,AGT004,Raj Patel,Driven Properties,Villa,Khalifa City,Abu Dhabi,2600000,Premium Listing,120,2026-06-24
+CRD0075,LST0034,AGT004,Raj Patel,Driven Properties,Villa,Khalifa City,Abu Dhabi,2600000,Hot Property,75,2026-06-28
+CRD0076,LST0035,AGT005,Emma Clarke,Dubizzle Property,Townhouse,Khalifa City,Abu Dhabi,1900000,Refresh,10,2026-06-23
+CRD0077,LST0035,AGT005,Emma Clarke,Dubizzle Property,Townhouse,Khalifa City,Abu Dhabi,1900000,Boost,30,2026-06-27
+CRD0078,LST0036,AGT002,James Mitchell,Espace Real Estate,Penthouse,Business Bay,Dubai,5200000,Hot Property,75,2026-06-22
+CRD0079,LST0036,AGT002,James Mitchell,Espace Real Estate,Penthouse,Business Bay,Dubai,5200000,Featured,50,2026-06-26
+CRD0080,LST0037,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,Emirates Hills,Dubai,22000000,Boost,30,2026-06-21
+CRD0081,LST0037,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,Emirates Hills,Dubai,22000000,Premium Listing,120,2026-06-25
+CRD0082,LST0038,AGT005,Emma Clarke,Dubizzle Property,Apartment,Meydan City,Dubai,1700000,Featured,50,2026-06-20
+CRD0083,LST0038,AGT005,Emma Clarke,Dubizzle Property,Apartment,Meydan City,Dubai,1700000,Refresh,10,2026-06-24
+CRD0084,LST0039,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,Jumeirah Village Circle,Dubai,550000,Premium Listing,120,2026-06-19
+CRD0085,LST0039,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,Jumeirah Village Circle,Dubai,550000,Hot Property,75,2026-06-23
+CRD0086,LST0040,AGT004,Raj Patel,Driven Properties,Penthouse,Dubai Marina,Dubai,6500000,Refresh,10,2026-06-18
+CRD0087,LST0040,AGT004,Raj Patel,Driven Properties,Penthouse,Dubai Marina,Dubai,6500000,Boost,30,2026-06-22

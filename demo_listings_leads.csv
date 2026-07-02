@@ -1,0 +1,344 @@
+lead_id,listing_id,agent_id,agent_name,agency,property_type,bedrooms,community,emirate,listing_price,lead_source,lead_status,lead_date,buyer_name,channel,is_spam,responded,response_time_minutes
+LED0001,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Bayut,Qualified,2026-07-01,Buyer_0001,call,True,False,
+LED0002,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Direct Call,Contacted,2026-06-30,Buyer_0002,email,False,True,6.0
+LED0003,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Referral,New,2026-06-29,Buyer_0003,whatsapp,False,True,7.0
+LED0004,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Walk-in,Lost,2026-06-28,Buyer_0004,call,False,True,8.0
+LED0005,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,PropertyFinder,Converted,2026-06-27,Buyer_0005,email,False,True,10.0
+LED0006,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Bayut,Qualified,2026-06-26,Buyer_0006,whatsapp,False,True,11.0
+LED0007,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Direct Call,Contacted,2026-06-25,Buyer_0007,call,False,True,12.0
+LED0008,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Referral,New,2026-06-24,Buyer_0008,email,False,True,13.0
+LED0009,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Walk-in,Lost,2026-06-23,Buyer_0009,whatsapp,False,True,15.0
+LED0010,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,PropertyFinder,Converted,2026-06-22,Buyer_0010,call,False,True,16.0
+LED0011,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Bayut,Qualified,2026-06-21,Buyer_0011,email,False,True,17.0
+LED0012,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Direct Call,Contacted,2026-06-20,Buyer_0012,whatsapp,False,True,18.0
+LED0013,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Referral,New,2026-06-19,Buyer_0013,call,False,True,20.0
+LED0014,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Walk-in,Lost,2026-06-18,Buyer_0014,email,False,True,21.0
+LED0015,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,PropertyFinder,Converted,2026-06-17,Buyer_0015,whatsapp,False,True,22.0
+LED0016,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Bayut,Qualified,2026-06-16,Buyer_0016,call,False,True,23.0
+LED0017,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Direct Call,Contacted,2026-06-15,Buyer_0017,email,False,True,25.0
+LED0018,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Referral,New,2026-06-14,Buyer_0018,whatsapp,False,True,26.0
+LED0019,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,Walk-in,Lost,2026-06-13,Buyer_0019,call,False,False,
+LED0020,LST0001,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Dubai Marina,Dubai,1850000,PropertyFinder,Converted,2026-06-12,Buyer_0020,email,False,False,
+LED0021,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Bayut,Qualified,2026-06-11,Buyer_0021,whatsapp,True,False,
+LED0022,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Direct Call,Contacted,2026-06-10,Buyer_0022,call,False,True,12.0
+LED0023,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Referral,New,2026-06-09,Buyer_0023,email,False,True,14.0
+LED0024,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Walk-in,Lost,2026-06-08,Buyer_0024,whatsapp,False,True,16.0
+LED0025,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,PropertyFinder,Converted,2026-06-07,Buyer_0025,call,False,True,18.0
+LED0026,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Bayut,Qualified,2026-06-06,Buyer_0026,email,False,True,20.0
+LED0027,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Direct Call,Contacted,2026-06-05,Buyer_0027,whatsapp,False,True,23.0
+LED0028,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Referral,New,2026-06-04,Buyer_0028,call,False,True,25.0
+LED0029,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Walk-in,Lost,2026-06-03,Buyer_0029,email,False,True,27.0
+LED0030,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,PropertyFinder,Converted,2026-07-02,Buyer_0030,whatsapp,False,True,29.0
+LED0031,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Bayut,Qualified,2026-07-01,Buyer_0031,call,False,True,31.0
+LED0032,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Direct Call,Contacted,2026-06-30,Buyer_0032,email,False,True,34.0
+LED0033,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Referral,New,2026-06-29,Buyer_0033,whatsapp,False,True,36.0
+LED0034,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Walk-in,Lost,2026-06-28,Buyer_0034,call,False,True,38.0
+LED0035,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,PropertyFinder,Converted,2026-06-27,Buyer_0035,email,False,False,
+LED0036,LST0004,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Arabian Ranches,Dubai,3200000,Bayut,Qualified,2026-06-26,Buyer_0036,whatsapp,False,False,
+LED0037,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,Direct Call,Contacted,2026-06-25,Buyer_0037,call,True,False,
+LED0038,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,Referral,New,2026-06-24,Buyer_0038,email,False,True,12.0
+LED0039,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,Walk-in,Lost,2026-06-23,Buyer_0039,whatsapp,False,True,16.0
+LED0040,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,PropertyFinder,Converted,2026-06-22,Buyer_0040,call,False,True,21.0
+LED0041,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,Bayut,Qualified,2026-06-21,Buyer_0041,email,False,True,25.0
+LED0042,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,Direct Call,Contacted,2026-06-20,Buyer_0042,whatsapp,False,True,29.0
+LED0043,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,Referral,New,2026-06-19,Buyer_0043,call,False,True,34.0
+LED0044,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,Walk-in,Lost,2026-06-18,Buyer_0044,email,False,True,38.0
+LED0045,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,PropertyFinder,Converted,2026-06-17,Buyer_0045,whatsapp,False,True,42.0
+LED0046,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,Bayut,Qualified,2026-06-16,Buyer_0046,call,False,True,47.0
+LED0047,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,Direct Call,Contacted,2026-06-15,Buyer_0047,email,False,False,
+LED0048,LST0009,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Dubai Marina,Dubai,5600000,Referral,New,2026-06-14,Buyer_0048,whatsapp,False,False,
+LED0049,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,DIFC,Dubai,4100000,Walk-in,Lost,2026-06-13,Buyer_0049,call,True,False,
+LED0050,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,DIFC,Dubai,4100000,PropertyFinder,Converted,2026-06-12,Buyer_0050,email,True,False,
+LED0051,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,DIFC,Dubai,4100000,Bayut,Qualified,2026-06-11,Buyer_0051,whatsapp,False,True,30.0
+LED0052,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,DIFC,Dubai,4100000,Direct Call,Contacted,2026-06-10,Buyer_0052,call,False,True,37.0
+LED0053,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,DIFC,Dubai,4100000,Referral,New,2026-06-09,Buyer_0053,email,False,True,45.0
+LED0054,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,DIFC,Dubai,4100000,Walk-in,Lost,2026-06-08,Buyer_0054,whatsapp,False,True,52.0
+LED0055,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,DIFC,Dubai,4100000,PropertyFinder,Converted,2026-06-07,Buyer_0055,call,False,True,60.0
+LED0056,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,DIFC,Dubai,4100000,Bayut,Qualified,2026-06-06,Buyer_0056,email,False,True,67.0
+LED0057,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,DIFC,Dubai,4100000,Direct Call,Contacted,2026-06-05,Buyer_0057,whatsapp,False,False,
+LED0058,LST0007,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,DIFC,Dubai,4100000,Referral,New,2026-06-04,Buyer_0058,call,False,False,
+LED0059,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Walk-in,Lost,2026-06-03,Buyer_0059,email,True,False,
+LED0060,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,PropertyFinder,Converted,2026-07-02,Buyer_0060,whatsapp,True,False,
+LED0061,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Bayut,Qualified,2026-07-01,Buyer_0061,call,True,False,
+LED0062,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Direct Call,Contacted,2026-06-30,Buyer_0062,email,False,True,41.0
+LED0063,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Referral,New,2026-06-29,Buyer_0063,whatsapp,False,True,48.0
+LED0064,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Walk-in,Lost,2026-06-28,Buyer_0064,call,False,True,55.0
+LED0065,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,PropertyFinder,Converted,2026-06-27,Buyer_0065,email,False,True,62.0
+LED0066,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Bayut,Qualified,2026-06-26,Buyer_0066,whatsapp,False,True,70.0
+LED0067,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Direct Call,Contacted,2026-06-25,Buyer_0067,call,False,True,77.0
+LED0068,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Referral,New,2026-06-24,Buyer_0068,email,False,True,84.0
+LED0069,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Walk-in,Lost,2026-06-23,Buyer_0069,whatsapp,False,False,
+LED0070,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,PropertyFinder,Converted,2026-06-22,Buyer_0070,call,False,False,
+LED0071,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Bayut,Qualified,2026-06-21,Buyer_0071,email,False,False,
+LED0072,LST0002,AGT001,Sarah Al Mansoori,Betterhomes,Villa,5,Palm Jumeirah,Dubai,12500000,Direct Call,Contacted,2026-06-20,Buyer_0072,whatsapp,False,False,
+LED0073,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Referral,New,2026-06-19,Buyer_0073,call,True,False,
+LED0074,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Walk-in,Lost,2026-06-18,Buyer_0074,email,True,False,
+LED0075,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,PropertyFinder,Converted,2026-06-17,Buyer_0075,whatsapp,True,False,
+LED0076,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Bayut,Qualified,2026-06-16,Buyer_0076,call,True,False,
+LED0077,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Direct Call,Contacted,2026-06-15,Buyer_0077,email,True,False,
+LED0078,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Referral,New,2026-06-14,Buyer_0078,whatsapp,True,False,
+LED0079,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Walk-in,Lost,2026-06-13,Buyer_0079,call,False,True,200.0
+LED0080,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,PropertyFinder,Converted,2026-06-12,Buyer_0080,email,False,True,223.0
+LED0081,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Bayut,Qualified,2026-06-11,Buyer_0081,whatsapp,False,True,246.0
+LED0082,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Direct Call,Contacted,2026-06-10,Buyer_0082,call,False,True,270.0
+LED0083,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Referral,New,2026-06-09,Buyer_0083,email,False,True,293.0
+LED0084,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Walk-in,Lost,2026-06-08,Buyer_0084,whatsapp,False,False,
+LED0085,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,PropertyFinder,Converted,2026-06-07,Buyer_0085,call,False,False,
+LED0086,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Bayut,Qualified,2026-06-06,Buyer_0086,email,False,False,
+LED0087,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Direct Call,Contacted,2026-06-05,Buyer_0087,whatsapp,False,False,
+LED0088,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Referral,New,2026-06-04,Buyer_0088,call,False,False,
+LED0089,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,Walk-in,Lost,2026-06-03,Buyer_0089,email,False,False,
+LED0090,LST0006,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Downtown Dubai,Dubai,8700000,PropertyFinder,Converted,2026-07-02,Buyer_0090,whatsapp,False,False,
+LED0091,LST0003,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,JBR,Dubai,950000,Bayut,Qualified,2026-07-01,Buyer_0091,call,True,False,
+LED0092,LST0003,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,JBR,Dubai,950000,Direct Call,Contacted,2026-06-30,Buyer_0092,email,True,False,
+LED0093,LST0003,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,JBR,Dubai,950000,Referral,New,2026-06-29,Buyer_0093,whatsapp,False,True,52.0
+LED0094,LST0003,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,JBR,Dubai,950000,Walk-in,Lost,2026-06-28,Buyer_0094,call,False,True,63.0
+LED0095,LST0003,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,JBR,Dubai,950000,PropertyFinder,Converted,2026-06-27,Buyer_0095,email,False,True,75.0
+LED0096,LST0003,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,JBR,Dubai,950000,Bayut,Qualified,2026-06-26,Buyer_0096,whatsapp,False,True,86.0
+LED0097,LST0003,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,JBR,Dubai,950000,Direct Call,Contacted,2026-06-25,Buyer_0097,call,False,False,
+LED0098,LST0003,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,JBR,Dubai,950000,Referral,New,2026-06-24,Buyer_0098,email,False,False,
+LED0099,LST0005,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Jumeirah Village Circle,Dubai,480000,Walk-in,Lost,2026-06-23,Buyer_0099,whatsapp,True,False,
+LED0100,LST0005,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Jumeirah Village Circle,Dubai,480000,PropertyFinder,Converted,2026-06-22,Buyer_0100,call,False,True,72.0
+LED0101,LST0005,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Jumeirah Village Circle,Dubai,480000,Bayut,Qualified,2026-06-21,Buyer_0101,email,False,True,99.0
+LED0102,LST0005,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Jumeirah Village Circle,Dubai,480000,Direct Call,Contacted,2026-06-20,Buyer_0102,whatsapp,False,False,
+LED0103,LST0005,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Jumeirah Village Circle,Dubai,480000,Referral,New,2026-06-19,Buyer_0103,call,False,False,
+LED0104,LST0008,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Emirates Hills,Dubai,2300000,Walk-in,Lost,2026-06-18,Buyer_0104,email,False,True,10.0
+LED0105,LST0008,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Emirates Hills,Dubai,2300000,PropertyFinder,Converted,2026-06-17,Buyer_0105,whatsapp,False,True,20.0
+LED0106,LST0008,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Emirates Hills,Dubai,2300000,Bayut,Qualified,2026-06-16,Buyer_0106,call,False,False,
+LED0107,LST0010,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,Al Reem Island,Abu Dhabi,720000,Direct Call,Contacted,2026-06-15,Buyer_0107,email,True,False,
+LED0108,LST0010,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,Al Reem Island,Abu Dhabi,720000,Referral,New,2026-06-14,Buyer_0108,whatsapp,False,True,37.0
+LED0109,LST0010,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,Al Reem Island,Abu Dhabi,720000,Walk-in,Lost,2026-06-13,Buyer_0109,call,False,True,55.0
+LED0110,LST0010,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,Al Reem Island,Abu Dhabi,720000,PropertyFinder,Converted,2026-06-12,Buyer_0110,email,False,False,
+LED0111,LST0011,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Yas Island,Abu Dhabi,2800000,Bayut,Qualified,2026-06-11,Buyer_0111,whatsapp,True,False,
+LED0112,LST0011,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Yas Island,Abu Dhabi,2800000,Direct Call,Contacted,2026-06-10,Buyer_0112,call,False,True,37.0
+LED0113,LST0011,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Yas Island,Abu Dhabi,2800000,Referral,New,2026-06-09,Buyer_0113,email,False,True,50.0
+LED0114,LST0011,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Yas Island,Abu Dhabi,2800000,Walk-in,Lost,2026-06-08,Buyer_0114,whatsapp,False,True,62.0
+LED0115,LST0011,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Yas Island,Abu Dhabi,2800000,PropertyFinder,Converted,2026-06-07,Buyer_0115,call,False,False,
+LED0116,LST0011,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Yas Island,Abu Dhabi,2800000,Bayut,Qualified,2026-06-06,Buyer_0116,email,False,False,
+LED0117,LST0012,AGT001,Sarah Al Mansoori,Betterhomes,Villa,6,Palm Jumeirah,Dubai,18000000,Direct Call,Contacted,2026-06-05,Buyer_0117,whatsapp,False,True,15.0
+LED0118,LST0012,AGT001,Sarah Al Mansoori,Betterhomes,Villa,6,Palm Jumeirah,Dubai,18000000,Referral,New,2026-06-04,Buyer_0118,call,False,True,26.0
+LED0119,LST0012,AGT001,Sarah Al Mansoori,Betterhomes,Villa,6,Palm Jumeirah,Dubai,18000000,Walk-in,Lost,2026-06-03,Buyer_0119,email,False,False,
+LED0120,LST0013,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Business Bay,Dubai,1600000,PropertyFinder,Converted,2026-07-02,Buyer_0120,whatsapp,True,False,
+LED0121,LST0013,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Business Bay,Dubai,1600000,Bayut,Qualified,2026-07-01,Buyer_0121,call,True,False,
+LED0122,LST0013,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Business Bay,Dubai,1600000,Direct Call,Contacted,2026-06-30,Buyer_0122,email,False,True,52.0
+LED0123,LST0013,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Business Bay,Dubai,1600000,Referral,New,2026-06-29,Buyer_0123,whatsapp,False,True,68.0
+LED0124,LST0013,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Business Bay,Dubai,1600000,Walk-in,Lost,2026-06-28,Buyer_0124,call,False,True,85.0
+LED0125,LST0013,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Business Bay,Dubai,1600000,PropertyFinder,Converted,2026-06-27,Buyer_0125,email,False,True,101.0
+LED0126,LST0013,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Business Bay,Dubai,1600000,Bayut,Qualified,2026-06-26,Buyer_0126,whatsapp,False,False,
+LED0127,LST0013,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Business Bay,Dubai,1600000,Direct Call,Contacted,2026-06-25,Buyer_0127,call,False,False,
+LED0128,LST0014,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Business Bay,Dubai,1100000,Referral,New,2026-06-24,Buyer_0128,email,True,False,
+LED0129,LST0014,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Business Bay,Dubai,1100000,Walk-in,Lost,2026-06-23,Buyer_0129,whatsapp,True,False,
+LED0130,LST0014,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Business Bay,Dubai,1100000,PropertyFinder,Converted,2026-06-22,Buyer_0130,call,False,True,52.0
+LED0131,LST0014,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Business Bay,Dubai,1100000,Bayut,Qualified,2026-06-21,Buyer_0131,email,False,True,68.0
+LED0132,LST0014,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Business Bay,Dubai,1100000,Direct Call,Contacted,2026-06-20,Buyer_0132,whatsapp,False,True,85.0
+LED0133,LST0014,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Business Bay,Dubai,1100000,Referral,New,2026-06-19,Buyer_0133,call,False,True,101.0
+LED0134,LST0014,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Business Bay,Dubai,1100000,Walk-in,Lost,2026-06-18,Buyer_0134,email,False,False,
+LED0135,LST0014,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Business Bay,Dubai,1100000,PropertyFinder,Converted,2026-06-17,Buyer_0135,whatsapp,False,False,
+LED0136,LST0015,AGT004,Raj Patel,Driven Properties,Studio,0,Business Bay,Dubai,650000,Bayut,Qualified,2026-06-16,Buyer_0136,call,True,False,
+LED0137,LST0015,AGT004,Raj Patel,Driven Properties,Studio,0,Business Bay,Dubai,650000,Direct Call,Contacted,2026-06-15,Buyer_0137,email,True,False,
+LED0138,LST0015,AGT004,Raj Patel,Driven Properties,Studio,0,Business Bay,Dubai,650000,Referral,New,2026-06-14,Buyer_0138,whatsapp,False,True,52.0
+LED0139,LST0015,AGT004,Raj Patel,Driven Properties,Studio,0,Business Bay,Dubai,650000,Walk-in,Lost,2026-06-13,Buyer_0139,call,False,True,68.0
+LED0140,LST0015,AGT004,Raj Patel,Driven Properties,Studio,0,Business Bay,Dubai,650000,PropertyFinder,Converted,2026-06-12,Buyer_0140,email,False,True,85.0
+LED0141,LST0015,AGT004,Raj Patel,Driven Properties,Studio,0,Business Bay,Dubai,650000,Bayut,Qualified,2026-06-11,Buyer_0141,whatsapp,False,True,101.0
+LED0142,LST0015,AGT004,Raj Patel,Driven Properties,Studio,0,Business Bay,Dubai,650000,Direct Call,Contacted,2026-06-10,Buyer_0142,call,False,False,
+LED0143,LST0015,AGT004,Raj Patel,Driven Properties,Studio,0,Business Bay,Dubai,650000,Referral,New,2026-06-09,Buyer_0143,email,False,False,
+LED0144,LST0016,AGT005,Emma Clarke,Dubizzle Property,Apartment,3,Business Bay,Dubai,2400000,Walk-in,Lost,2026-06-08,Buyer_0144,whatsapp,True,False,
+LED0145,LST0016,AGT005,Emma Clarke,Dubizzle Property,Apartment,3,Business Bay,Dubai,2400000,PropertyFinder,Converted,2026-06-07,Buyer_0145,call,True,False,
+LED0146,LST0016,AGT005,Emma Clarke,Dubizzle Property,Apartment,3,Business Bay,Dubai,2400000,Bayut,Qualified,2026-06-06,Buyer_0146,email,False,True,52.0
+LED0147,LST0016,AGT005,Emma Clarke,Dubizzle Property,Apartment,3,Business Bay,Dubai,2400000,Direct Call,Contacted,2026-06-05,Buyer_0147,whatsapp,False,True,68.0
+LED0148,LST0016,AGT005,Emma Clarke,Dubizzle Property,Apartment,3,Business Bay,Dubai,2400000,Referral,New,2026-06-04,Buyer_0148,call,False,True,85.0
+LED0149,LST0016,AGT005,Emma Clarke,Dubizzle Property,Apartment,3,Business Bay,Dubai,2400000,Walk-in,Lost,2026-06-03,Buyer_0149,email,False,True,101.0
+LED0150,LST0016,AGT005,Emma Clarke,Dubizzle Property,Apartment,3,Business Bay,Dubai,2400000,PropertyFinder,Converted,2026-07-02,Buyer_0150,whatsapp,False,False,
+LED0151,LST0016,AGT005,Emma Clarke,Dubizzle Property,Apartment,3,Business Bay,Dubai,2400000,Bayut,Qualified,2026-07-01,Buyer_0151,call,False,False,
+LED0152,LST0017,AGT002,James Mitchell,Espace Real Estate,Villa,4,Meydan City,Dubai,4500000,Direct Call,Contacted,2026-06-30,Buyer_0152,email,True,False,
+LED0153,LST0017,AGT002,James Mitchell,Espace Real Estate,Villa,4,Meydan City,Dubai,4500000,Referral,New,2026-06-29,Buyer_0153,whatsapp,True,False,
+LED0154,LST0017,AGT002,James Mitchell,Espace Real Estate,Villa,4,Meydan City,Dubai,4500000,Walk-in,Lost,2026-06-28,Buyer_0154,call,False,True,52.0
+LED0155,LST0017,AGT002,James Mitchell,Espace Real Estate,Villa,4,Meydan City,Dubai,4500000,PropertyFinder,Converted,2026-06-27,Buyer_0155,email,False,True,68.0
+LED0156,LST0017,AGT002,James Mitchell,Espace Real Estate,Villa,4,Meydan City,Dubai,4500000,Bayut,Qualified,2026-06-26,Buyer_0156,whatsapp,False,True,85.0
+LED0157,LST0017,AGT002,James Mitchell,Espace Real Estate,Villa,4,Meydan City,Dubai,4500000,Direct Call,Contacted,2026-06-25,Buyer_0157,call,False,True,101.0
+LED0158,LST0017,AGT002,James Mitchell,Espace Real Estate,Villa,4,Meydan City,Dubai,4500000,Referral,New,2026-06-24,Buyer_0158,email,False,False,
+LED0159,LST0017,AGT002,James Mitchell,Espace Real Estate,Villa,4,Meydan City,Dubai,4500000,Walk-in,Lost,2026-06-23,Buyer_0159,whatsapp,False,False,
+LED0160,LST0018,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,3,Meydan City,Dubai,3100000,PropertyFinder,Converted,2026-06-22,Buyer_0160,call,True,False,
+LED0161,LST0018,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,3,Meydan City,Dubai,3100000,Bayut,Qualified,2026-06-21,Buyer_0161,email,True,False,
+LED0162,LST0018,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,3,Meydan City,Dubai,3100000,Direct Call,Contacted,2026-06-20,Buyer_0162,whatsapp,False,True,52.0
+LED0163,LST0018,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,3,Meydan City,Dubai,3100000,Referral,New,2026-06-19,Buyer_0163,call,False,True,68.0
+LED0164,LST0018,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,3,Meydan City,Dubai,3100000,Walk-in,Lost,2026-06-18,Buyer_0164,email,False,True,85.0
+LED0165,LST0018,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,3,Meydan City,Dubai,3100000,PropertyFinder,Converted,2026-06-17,Buyer_0165,whatsapp,False,True,101.0
+LED0166,LST0018,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,3,Meydan City,Dubai,3100000,Bayut,Qualified,2026-06-16,Buyer_0166,call,False,False,
+LED0167,LST0018,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,3,Meydan City,Dubai,3100000,Direct Call,Contacted,2026-06-15,Buyer_0167,email,False,False,
+LED0168,LST0019,AGT004,Raj Patel,Driven Properties,Apartment,2,Meydan City,Dubai,1900000,Referral,New,2026-06-14,Buyer_0168,whatsapp,True,False,
+LED0169,LST0019,AGT004,Raj Patel,Driven Properties,Apartment,2,Meydan City,Dubai,1900000,Walk-in,Lost,2026-06-13,Buyer_0169,call,True,False,
+LED0170,LST0019,AGT004,Raj Patel,Driven Properties,Apartment,2,Meydan City,Dubai,1900000,PropertyFinder,Converted,2026-06-12,Buyer_0170,email,False,True,52.0
+LED0171,LST0019,AGT004,Raj Patel,Driven Properties,Apartment,2,Meydan City,Dubai,1900000,Bayut,Qualified,2026-06-11,Buyer_0171,whatsapp,False,True,68.0
+LED0172,LST0019,AGT004,Raj Patel,Driven Properties,Apartment,2,Meydan City,Dubai,1900000,Direct Call,Contacted,2026-06-10,Buyer_0172,call,False,True,85.0
+LED0173,LST0019,AGT004,Raj Patel,Driven Properties,Apartment,2,Meydan City,Dubai,1900000,Referral,New,2026-06-09,Buyer_0173,email,False,True,101.0
+LED0174,LST0019,AGT004,Raj Patel,Driven Properties,Apartment,2,Meydan City,Dubai,1900000,Walk-in,Lost,2026-06-08,Buyer_0174,whatsapp,False,False,
+LED0175,LST0019,AGT004,Raj Patel,Driven Properties,Apartment,2,Meydan City,Dubai,1900000,PropertyFinder,Converted,2026-06-07,Buyer_0175,call,False,False,
+LED0176,LST0020,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Saadiyat Island,Abu Dhabi,7200000,Bayut,Qualified,2026-06-06,Buyer_0176,email,True,False,
+LED0177,LST0020,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Saadiyat Island,Abu Dhabi,7200000,Direct Call,Contacted,2026-06-05,Buyer_0177,whatsapp,True,False,
+LED0178,LST0020,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Saadiyat Island,Abu Dhabi,7200000,Referral,New,2026-06-04,Buyer_0178,call,False,True,52.0
+LED0179,LST0020,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Saadiyat Island,Abu Dhabi,7200000,Walk-in,Lost,2026-06-03,Buyer_0179,email,False,True,68.0
+LED0180,LST0020,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Saadiyat Island,Abu Dhabi,7200000,PropertyFinder,Converted,2026-07-02,Buyer_0180,whatsapp,False,True,85.0
+LED0181,LST0020,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Saadiyat Island,Abu Dhabi,7200000,Bayut,Qualified,2026-07-01,Buyer_0181,call,False,True,101.0
+LED0182,LST0020,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Saadiyat Island,Abu Dhabi,7200000,Direct Call,Contacted,2026-06-30,Buyer_0182,email,False,False,
+LED0183,LST0020,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Saadiyat Island,Abu Dhabi,7200000,Referral,New,2026-06-29,Buyer_0183,whatsapp,False,False,
+LED0184,LST0021,AGT002,James Mitchell,Espace Real Estate,Penthouse,4,Saadiyat Island,Abu Dhabi,9500000,Walk-in,Lost,2026-06-28,Buyer_0184,call,True,False,
+LED0185,LST0021,AGT002,James Mitchell,Espace Real Estate,Penthouse,4,Saadiyat Island,Abu Dhabi,9500000,PropertyFinder,Converted,2026-06-27,Buyer_0185,email,True,False,
+LED0186,LST0021,AGT002,James Mitchell,Espace Real Estate,Penthouse,4,Saadiyat Island,Abu Dhabi,9500000,Bayut,Qualified,2026-06-26,Buyer_0186,whatsapp,False,True,52.0
+LED0187,LST0021,AGT002,James Mitchell,Espace Real Estate,Penthouse,4,Saadiyat Island,Abu Dhabi,9500000,Direct Call,Contacted,2026-06-25,Buyer_0187,call,False,True,68.0
+LED0188,LST0021,AGT002,James Mitchell,Espace Real Estate,Penthouse,4,Saadiyat Island,Abu Dhabi,9500000,Referral,New,2026-06-24,Buyer_0188,email,False,True,85.0
+LED0189,LST0021,AGT002,James Mitchell,Espace Real Estate,Penthouse,4,Saadiyat Island,Abu Dhabi,9500000,Walk-in,Lost,2026-06-23,Buyer_0189,whatsapp,False,True,101.0
+LED0190,LST0021,AGT002,James Mitchell,Espace Real Estate,Penthouse,4,Saadiyat Island,Abu Dhabi,9500000,PropertyFinder,Converted,2026-06-22,Buyer_0190,call,False,False,
+LED0191,LST0021,AGT002,James Mitchell,Espace Real Estate,Penthouse,4,Saadiyat Island,Abu Dhabi,9500000,Bayut,Qualified,2026-06-21,Buyer_0191,email,False,False,
+LED0192,LST0022,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Nahda,Sharjah,350000,Direct Call,Contacted,2026-06-20,Buyer_0192,whatsapp,True,False,
+LED0193,LST0022,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Nahda,Sharjah,350000,Referral,New,2026-06-19,Buyer_0193,call,True,False,
+LED0194,LST0022,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Nahda,Sharjah,350000,Walk-in,Lost,2026-06-18,Buyer_0194,email,False,True,52.0
+LED0195,LST0022,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Nahda,Sharjah,350000,PropertyFinder,Converted,2026-06-17,Buyer_0195,whatsapp,False,True,68.0
+LED0196,LST0022,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Nahda,Sharjah,350000,Bayut,Qualified,2026-06-16,Buyer_0196,call,False,True,85.0
+LED0197,LST0022,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Nahda,Sharjah,350000,Direct Call,Contacted,2026-06-15,Buyer_0197,email,False,True,101.0
+LED0198,LST0022,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Nahda,Sharjah,350000,Referral,New,2026-06-14,Buyer_0198,whatsapp,False,False,
+LED0199,LST0022,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Nahda,Sharjah,350000,Walk-in,Lost,2026-06-13,Buyer_0199,call,False,False,
+LED0200,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Al Nahda,Sharjah,220000,PropertyFinder,Converted,2026-06-12,Buyer_0200,email,True,False,
+LED0201,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Al Nahda,Sharjah,220000,Bayut,Qualified,2026-06-11,Buyer_0201,whatsapp,True,False,
+LED0202,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Al Nahda,Sharjah,220000,Direct Call,Contacted,2026-06-10,Buyer_0202,call,False,True,52.0
+LED0203,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Al Nahda,Sharjah,220000,Referral,New,2026-06-09,Buyer_0203,email,False,True,68.0
+LED0204,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Al Nahda,Sharjah,220000,Walk-in,Lost,2026-06-08,Buyer_0204,whatsapp,False,True,85.0
+LED0205,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Al Nahda,Sharjah,220000,PropertyFinder,Converted,2026-06-07,Buyer_0205,call,False,True,101.0
+LED0206,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Al Nahda,Sharjah,220000,Bayut,Qualified,2026-06-06,Buyer_0206,email,False,False,
+LED0207,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Al Nahda,Sharjah,220000,Direct Call,Contacted,2026-06-05,Buyer_0207,whatsapp,False,False,
+LED0208,LST0024,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Dubai Marina,Dubai,2100000,Referral,New,2026-06-04,Buyer_0208,call,True,False,
+LED0209,LST0024,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Dubai Marina,Dubai,2100000,Walk-in,Lost,2026-06-03,Buyer_0209,email,True,False,
+LED0210,LST0024,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Dubai Marina,Dubai,2100000,PropertyFinder,Converted,2026-07-02,Buyer_0210,whatsapp,False,True,52.0
+LED0211,LST0024,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Dubai Marina,Dubai,2100000,Bayut,Qualified,2026-07-01,Buyer_0211,call,False,True,68.0
+LED0212,LST0024,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Dubai Marina,Dubai,2100000,Direct Call,Contacted,2026-06-30,Buyer_0212,email,False,True,85.0
+LED0213,LST0024,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Dubai Marina,Dubai,2100000,Referral,New,2026-06-29,Buyer_0213,whatsapp,False,True,101.0
+LED0214,LST0024,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Dubai Marina,Dubai,2100000,Walk-in,Lost,2026-06-28,Buyer_0214,call,False,False,
+LED0215,LST0024,AGT002,James Mitchell,Espace Real Estate,Apartment,2,Dubai Marina,Dubai,2100000,PropertyFinder,Converted,2026-06-27,Buyer_0215,email,False,False,
+LED0216,LST0025,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Palm Jumeirah,Dubai,14000000,Bayut,Qualified,2026-06-26,Buyer_0216,whatsapp,True,False,
+LED0217,LST0025,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Palm Jumeirah,Dubai,14000000,Direct Call,Contacted,2026-06-25,Buyer_0217,call,True,False,
+LED0218,LST0025,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Palm Jumeirah,Dubai,14000000,Referral,New,2026-06-24,Buyer_0218,email,False,True,52.0
+LED0219,LST0025,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Palm Jumeirah,Dubai,14000000,Walk-in,Lost,2026-06-23,Buyer_0219,whatsapp,False,True,68.0
+LED0220,LST0025,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Palm Jumeirah,Dubai,14000000,PropertyFinder,Converted,2026-06-22,Buyer_0220,call,False,True,85.0
+LED0221,LST0025,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Palm Jumeirah,Dubai,14000000,Bayut,Qualified,2026-06-21,Buyer_0221,email,False,True,101.0
+LED0222,LST0025,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Palm Jumeirah,Dubai,14000000,Direct Call,Contacted,2026-06-20,Buyer_0222,whatsapp,False,False,
+LED0223,LST0025,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Palm Jumeirah,Dubai,14000000,Referral,New,2026-06-19,Buyer_0223,call,False,False,
+LED0224,LST0026,AGT004,Raj Patel,Driven Properties,Apartment,1,JBR,Dubai,1050000,Walk-in,Lost,2026-06-18,Buyer_0224,email,True,False,
+LED0225,LST0026,AGT004,Raj Patel,Driven Properties,Apartment,1,JBR,Dubai,1050000,PropertyFinder,Converted,2026-06-17,Buyer_0225,whatsapp,True,False,
+LED0226,LST0026,AGT004,Raj Patel,Driven Properties,Apartment,1,JBR,Dubai,1050000,Bayut,Qualified,2026-06-16,Buyer_0226,call,False,True,52.0
+LED0227,LST0026,AGT004,Raj Patel,Driven Properties,Apartment,1,JBR,Dubai,1050000,Direct Call,Contacted,2026-06-15,Buyer_0227,email,False,True,68.0
+LED0228,LST0026,AGT004,Raj Patel,Driven Properties,Apartment,1,JBR,Dubai,1050000,Referral,New,2026-06-14,Buyer_0228,whatsapp,False,True,85.0
+LED0229,LST0026,AGT004,Raj Patel,Driven Properties,Apartment,1,JBR,Dubai,1050000,Walk-in,Lost,2026-06-13,Buyer_0229,call,False,True,101.0
+LED0230,LST0026,AGT004,Raj Patel,Driven Properties,Apartment,1,JBR,Dubai,1050000,PropertyFinder,Converted,2026-06-12,Buyer_0230,email,False,False,
+LED0231,LST0026,AGT004,Raj Patel,Driven Properties,Apartment,1,JBR,Dubai,1050000,Bayut,Qualified,2026-06-11,Buyer_0231,whatsapp,False,False,
+LED0232,LST0027,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Arabian Ranches,Dubai,2900000,Direct Call,Contacted,2026-06-10,Buyer_0232,call,True,False,
+LED0233,LST0027,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Arabian Ranches,Dubai,2900000,Referral,New,2026-06-09,Buyer_0233,email,True,False,
+LED0234,LST0027,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Arabian Ranches,Dubai,2900000,Walk-in,Lost,2026-06-08,Buyer_0234,whatsapp,False,True,52.0
+LED0235,LST0027,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Arabian Ranches,Dubai,2900000,PropertyFinder,Converted,2026-06-07,Buyer_0235,call,False,True,68.0
+LED0236,LST0027,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Arabian Ranches,Dubai,2900000,Bayut,Qualified,2026-06-06,Buyer_0236,email,False,True,85.0
+LED0237,LST0027,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Arabian Ranches,Dubai,2900000,Direct Call,Contacted,2026-06-05,Buyer_0237,whatsapp,False,True,101.0
+LED0238,LST0027,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Arabian Ranches,Dubai,2900000,Referral,New,2026-06-04,Buyer_0238,call,False,False,
+LED0239,LST0027,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Arabian Ranches,Dubai,2900000,Walk-in,Lost,2026-06-03,Buyer_0239,email,False,False,
+LED0240,LST0028,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Downtown Dubai,Dubai,7800000,PropertyFinder,Converted,2026-07-02,Buyer_0240,whatsapp,True,False,
+LED0241,LST0028,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Downtown Dubai,Dubai,7800000,Bayut,Qualified,2026-07-01,Buyer_0241,call,True,False,
+LED0242,LST0028,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Downtown Dubai,Dubai,7800000,Direct Call,Contacted,2026-06-30,Buyer_0242,email,False,True,52.0
+LED0243,LST0028,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Downtown Dubai,Dubai,7800000,Referral,New,2026-06-29,Buyer_0243,whatsapp,False,True,68.0
+LED0244,LST0028,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Downtown Dubai,Dubai,7800000,Walk-in,Lost,2026-06-28,Buyer_0244,call,False,True,85.0
+LED0245,LST0028,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Downtown Dubai,Dubai,7800000,PropertyFinder,Converted,2026-06-27,Buyer_0245,email,False,True,101.0
+LED0246,LST0028,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Downtown Dubai,Dubai,7800000,Bayut,Qualified,2026-06-26,Buyer_0246,whatsapp,False,False,
+LED0247,LST0028,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Downtown Dubai,Dubai,7800000,Direct Call,Contacted,2026-06-25,Buyer_0247,call,False,False,
+LED0248,LST0029,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,DIFC,Dubai,3800000,Referral,New,2026-06-24,Buyer_0248,email,True,False,
+LED0249,LST0029,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,DIFC,Dubai,3800000,Walk-in,Lost,2026-06-23,Buyer_0249,whatsapp,True,False,
+LED0250,LST0029,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,DIFC,Dubai,3800000,PropertyFinder,Converted,2026-06-22,Buyer_0250,call,False,True,52.0
+LED0251,LST0029,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,DIFC,Dubai,3800000,Bayut,Qualified,2026-06-21,Buyer_0251,email,False,True,68.0
+LED0252,LST0029,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,DIFC,Dubai,3800000,Direct Call,Contacted,2026-06-20,Buyer_0252,whatsapp,False,True,85.0
+LED0253,LST0029,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,DIFC,Dubai,3800000,Referral,New,2026-06-19,Buyer_0253,call,False,True,101.0
+LED0254,LST0029,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,DIFC,Dubai,3800000,Walk-in,Lost,2026-06-18,Buyer_0254,email,False,False,
+LED0255,LST0029,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,DIFC,Dubai,3800000,PropertyFinder,Converted,2026-06-17,Buyer_0255,whatsapp,False,False,
+LED0256,LST0030,AGT004,Raj Patel,Driven Properties,Apartment,1,Jumeirah Village Circle,Dubai,520000,Bayut,Qualified,2026-06-16,Buyer_0256,call,True,False,
+LED0257,LST0030,AGT004,Raj Patel,Driven Properties,Apartment,1,Jumeirah Village Circle,Dubai,520000,Direct Call,Contacted,2026-06-15,Buyer_0257,email,True,False,
+LED0258,LST0030,AGT004,Raj Patel,Driven Properties,Apartment,1,Jumeirah Village Circle,Dubai,520000,Referral,New,2026-06-14,Buyer_0258,whatsapp,False,True,52.0
+LED0259,LST0030,AGT004,Raj Patel,Driven Properties,Apartment,1,Jumeirah Village Circle,Dubai,520000,Walk-in,Lost,2026-06-13,Buyer_0259,call,False,True,68.0
+LED0260,LST0030,AGT004,Raj Patel,Driven Properties,Apartment,1,Jumeirah Village Circle,Dubai,520000,PropertyFinder,Converted,2026-06-12,Buyer_0260,email,False,True,85.0
+LED0261,LST0030,AGT004,Raj Patel,Driven Properties,Apartment,1,Jumeirah Village Circle,Dubai,520000,Bayut,Qualified,2026-06-11,Buyer_0261,whatsapp,False,True,101.0
+LED0262,LST0030,AGT004,Raj Patel,Driven Properties,Apartment,1,Jumeirah Village Circle,Dubai,520000,Direct Call,Contacted,2026-06-10,Buyer_0262,call,False,False,
+LED0263,LST0030,AGT004,Raj Patel,Driven Properties,Apartment,1,Jumeirah Village Circle,Dubai,520000,Referral,New,2026-06-09,Buyer_0263,email,False,False,
+LED0264,LST0031,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,580000,Walk-in,Lost,2026-06-08,Buyer_0264,whatsapp,True,False,
+LED0265,LST0031,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,580000,PropertyFinder,Converted,2026-06-07,Buyer_0265,call,True,False,
+LED0266,LST0031,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,580000,Bayut,Qualified,2026-06-06,Buyer_0266,email,False,True,52.0
+LED0267,LST0031,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,580000,Direct Call,Contacted,2026-06-05,Buyer_0267,whatsapp,False,True,68.0
+LED0268,LST0031,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,580000,Referral,New,2026-06-04,Buyer_0268,call,False,True,85.0
+LED0269,LST0031,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,580000,Walk-in,Lost,2026-06-03,Buyer_0269,email,False,True,101.0
+LED0270,LST0031,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,580000,PropertyFinder,Converted,2026-07-02,Buyer_0270,whatsapp,False,False,
+LED0271,LST0031,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,580000,Bayut,Qualified,2026-07-01,Buyer_0271,call,False,False,
+LED0272,LST0032,AGT002,James Mitchell,Espace Real Estate,Villa,5,Yas Island,Abu Dhabi,3400000,Direct Call,Contacted,2026-06-30,Buyer_0272,email,True,False,
+LED0273,LST0032,AGT002,James Mitchell,Espace Real Estate,Villa,5,Yas Island,Abu Dhabi,3400000,Referral,New,2026-06-29,Buyer_0273,whatsapp,True,False,
+LED0274,LST0032,AGT002,James Mitchell,Espace Real Estate,Villa,5,Yas Island,Abu Dhabi,3400000,Walk-in,Lost,2026-06-28,Buyer_0274,call,False,True,52.0
+LED0275,LST0032,AGT002,James Mitchell,Espace Real Estate,Villa,5,Yas Island,Abu Dhabi,3400000,PropertyFinder,Converted,2026-06-27,Buyer_0275,email,False,True,68.0
+LED0276,LST0032,AGT002,James Mitchell,Espace Real Estate,Villa,5,Yas Island,Abu Dhabi,3400000,Bayut,Qualified,2026-06-26,Buyer_0276,whatsapp,False,True,85.0
+LED0277,LST0032,AGT002,James Mitchell,Espace Real Estate,Villa,5,Yas Island,Abu Dhabi,3400000,Direct Call,Contacted,2026-06-25,Buyer_0277,call,False,True,101.0
+LED0278,LST0032,AGT002,James Mitchell,Espace Real Estate,Villa,5,Yas Island,Abu Dhabi,3400000,Referral,New,2026-06-24,Buyer_0278,email,False,False,
+LED0279,LST0032,AGT002,James Mitchell,Espace Real Estate,Villa,5,Yas Island,Abu Dhabi,3400000,Walk-in,Lost,2026-06-23,Buyer_0279,whatsapp,False,False,
+LED0280,LST0033,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Majaz,Sharjah,450000,PropertyFinder,Converted,2026-06-22,Buyer_0280,call,True,False,
+LED0281,LST0033,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Majaz,Sharjah,450000,Bayut,Qualified,2026-06-21,Buyer_0281,email,True,False,
+LED0282,LST0033,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Majaz,Sharjah,450000,Direct Call,Contacted,2026-06-20,Buyer_0282,whatsapp,False,True,52.0
+LED0283,LST0033,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Majaz,Sharjah,450000,Referral,New,2026-06-19,Buyer_0283,call,False,True,68.0
+LED0284,LST0033,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Majaz,Sharjah,450000,Walk-in,Lost,2026-06-18,Buyer_0284,email,False,True,85.0
+LED0285,LST0033,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Majaz,Sharjah,450000,PropertyFinder,Converted,2026-06-17,Buyer_0285,whatsapp,False,True,101.0
+LED0286,LST0033,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Majaz,Sharjah,450000,Bayut,Qualified,2026-06-16,Buyer_0286,call,False,False,
+LED0287,LST0033,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Majaz,Sharjah,450000,Direct Call,Contacted,2026-06-15,Buyer_0287,email,False,False,
+LED0288,LST0034,AGT004,Raj Patel,Driven Properties,Villa,4,Khalifa City,Abu Dhabi,2600000,Referral,New,2026-06-14,Buyer_0288,whatsapp,True,False,
+LED0289,LST0034,AGT004,Raj Patel,Driven Properties,Villa,4,Khalifa City,Abu Dhabi,2600000,Walk-in,Lost,2026-06-13,Buyer_0289,call,True,False,
+LED0290,LST0034,AGT004,Raj Patel,Driven Properties,Villa,4,Khalifa City,Abu Dhabi,2600000,PropertyFinder,Converted,2026-06-12,Buyer_0290,email,False,True,52.0
+LED0291,LST0034,AGT004,Raj Patel,Driven Properties,Villa,4,Khalifa City,Abu Dhabi,2600000,Bayut,Qualified,2026-06-11,Buyer_0291,whatsapp,False,True,68.0
+LED0292,LST0034,AGT004,Raj Patel,Driven Properties,Villa,4,Khalifa City,Abu Dhabi,2600000,Direct Call,Contacted,2026-06-10,Buyer_0292,call,False,True,85.0
+LED0293,LST0034,AGT004,Raj Patel,Driven Properties,Villa,4,Khalifa City,Abu Dhabi,2600000,Referral,New,2026-06-09,Buyer_0293,email,False,True,101.0
+LED0294,LST0034,AGT004,Raj Patel,Driven Properties,Villa,4,Khalifa City,Abu Dhabi,2600000,Walk-in,Lost,2026-06-08,Buyer_0294,whatsapp,False,False,
+LED0295,LST0034,AGT004,Raj Patel,Driven Properties,Villa,4,Khalifa City,Abu Dhabi,2600000,PropertyFinder,Converted,2026-06-07,Buyer_0295,call,False,False,
+LED0296,LST0035,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Khalifa City,Abu Dhabi,1900000,Bayut,Qualified,2026-06-06,Buyer_0296,email,True,False,
+LED0297,LST0035,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Khalifa City,Abu Dhabi,1900000,Direct Call,Contacted,2026-06-05,Buyer_0297,whatsapp,True,False,
+LED0298,LST0035,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Khalifa City,Abu Dhabi,1900000,Referral,New,2026-06-04,Buyer_0298,call,False,True,52.0
+LED0299,LST0035,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Khalifa City,Abu Dhabi,1900000,Walk-in,Lost,2026-06-03,Buyer_0299,email,False,True,68.0
+LED0300,LST0035,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Khalifa City,Abu Dhabi,1900000,PropertyFinder,Converted,2026-07-02,Buyer_0300,whatsapp,False,True,85.0
+LED0301,LST0035,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Khalifa City,Abu Dhabi,1900000,Bayut,Qualified,2026-07-01,Buyer_0301,call,False,True,101.0
+LED0302,LST0035,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Khalifa City,Abu Dhabi,1900000,Direct Call,Contacted,2026-06-30,Buyer_0302,email,False,False,
+LED0303,LST0035,AGT005,Emma Clarke,Dubizzle Property,Townhouse,3,Khalifa City,Abu Dhabi,1900000,Referral,New,2026-06-29,Buyer_0303,whatsapp,False,False,
+LED0304,LST0036,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Business Bay,Dubai,5200000,Walk-in,Lost,2026-06-28,Buyer_0304,call,True,False,
+LED0305,LST0036,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Business Bay,Dubai,5200000,PropertyFinder,Converted,2026-06-27,Buyer_0305,email,True,False,
+LED0306,LST0036,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Business Bay,Dubai,5200000,Bayut,Qualified,2026-06-26,Buyer_0306,whatsapp,False,True,52.0
+LED0307,LST0036,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Business Bay,Dubai,5200000,Direct Call,Contacted,2026-06-25,Buyer_0307,call,False,True,68.0
+LED0308,LST0036,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Business Bay,Dubai,5200000,Referral,New,2026-06-24,Buyer_0308,email,False,True,85.0
+LED0309,LST0036,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Business Bay,Dubai,5200000,Walk-in,Lost,2026-06-23,Buyer_0309,whatsapp,False,True,101.0
+LED0310,LST0036,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Business Bay,Dubai,5200000,PropertyFinder,Converted,2026-06-22,Buyer_0310,call,False,False,
+LED0311,LST0036,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Business Bay,Dubai,5200000,Bayut,Qualified,2026-06-21,Buyer_0311,email,False,False,
+LED0312,LST0037,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,6,Emirates Hills,Dubai,22000000,Direct Call,Contacted,2026-06-20,Buyer_0312,whatsapp,True,False,
+LED0313,LST0037,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,6,Emirates Hills,Dubai,22000000,Referral,New,2026-06-19,Buyer_0313,call,True,False,
+LED0314,LST0037,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,6,Emirates Hills,Dubai,22000000,Walk-in,Lost,2026-06-18,Buyer_0314,email,False,True,52.0
+LED0315,LST0037,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,6,Emirates Hills,Dubai,22000000,PropertyFinder,Converted,2026-06-17,Buyer_0315,whatsapp,False,True,68.0
+LED0316,LST0037,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,6,Emirates Hills,Dubai,22000000,Bayut,Qualified,2026-06-16,Buyer_0316,call,False,True,85.0
+LED0317,LST0037,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,6,Emirates Hills,Dubai,22000000,Direct Call,Contacted,2026-06-15,Buyer_0317,email,False,True,101.0
+LED0318,LST0037,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,6,Emirates Hills,Dubai,22000000,Referral,New,2026-06-14,Buyer_0318,whatsapp,False,False,
+LED0319,LST0037,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,6,Emirates Hills,Dubai,22000000,Walk-in,Lost,2026-06-13,Buyer_0319,call,False,False,
+LED0320,LST0038,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Meydan City,Dubai,1700000,PropertyFinder,Converted,2026-06-12,Buyer_0320,email,True,False,
+LED0321,LST0038,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Meydan City,Dubai,1700000,Bayut,Qualified,2026-06-11,Buyer_0321,whatsapp,True,False,
+LED0322,LST0038,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Meydan City,Dubai,1700000,Direct Call,Contacted,2026-06-10,Buyer_0322,call,False,True,52.0
+LED0323,LST0038,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Meydan City,Dubai,1700000,Referral,New,2026-06-09,Buyer_0323,email,False,True,68.0
+LED0324,LST0038,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Meydan City,Dubai,1700000,Walk-in,Lost,2026-06-08,Buyer_0324,whatsapp,False,True,85.0
+LED0325,LST0038,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Meydan City,Dubai,1700000,PropertyFinder,Converted,2026-06-07,Buyer_0325,call,False,True,101.0
+LED0326,LST0038,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Meydan City,Dubai,1700000,Bayut,Qualified,2026-06-06,Buyer_0326,email,False,False,
+LED0327,LST0038,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Meydan City,Dubai,1700000,Direct Call,Contacted,2026-06-05,Buyer_0327,whatsapp,False,False,
+LED0328,LST0039,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Jumeirah Village Circle,Dubai,550000,Referral,New,2026-06-04,Buyer_0328,call,True,False,
+LED0329,LST0039,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Jumeirah Village Circle,Dubai,550000,Walk-in,Lost,2026-06-03,Buyer_0329,email,True,False,
+LED0330,LST0039,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Jumeirah Village Circle,Dubai,550000,PropertyFinder,Converted,2026-07-02,Buyer_0330,whatsapp,False,True,52.0
+LED0331,LST0039,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Jumeirah Village Circle,Dubai,550000,Bayut,Qualified,2026-07-01,Buyer_0331,call,False,True,68.0
+LED0332,LST0039,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Jumeirah Village Circle,Dubai,550000,Direct Call,Contacted,2026-06-30,Buyer_0332,email,False,True,85.0
+LED0333,LST0039,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Jumeirah Village Circle,Dubai,550000,Referral,New,2026-06-29,Buyer_0333,whatsapp,False,True,101.0
+LED0334,LST0039,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Jumeirah Village Circle,Dubai,550000,Walk-in,Lost,2026-06-28,Buyer_0334,call,False,False,
+LED0335,LST0039,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Jumeirah Village Circle,Dubai,550000,PropertyFinder,Converted,2026-06-27,Buyer_0335,email,False,False,
+LED0336,LST0040,AGT004,Raj Patel,Driven Properties,Penthouse,4,Dubai Marina,Dubai,6500000,Bayut,Qualified,2026-06-26,Buyer_0336,whatsapp,True,False,
+LED0337,LST0040,AGT004,Raj Patel,Driven Properties,Penthouse,4,Dubai Marina,Dubai,6500000,Direct Call,Contacted,2026-06-25,Buyer_0337,call,True,False,
+LED0338,LST0040,AGT004,Raj Patel,Driven Properties,Penthouse,4,Dubai Marina,Dubai,6500000,Referral,New,2026-06-24,Buyer_0338,email,False,True,52.0
+LED0339,LST0040,AGT004,Raj Patel,Driven Properties,Penthouse,4,Dubai Marina,Dubai,6500000,Walk-in,Lost,2026-06-23,Buyer_0339,whatsapp,False,True,68.0
+LED0340,LST0040,AGT004,Raj Patel,Driven Properties,Penthouse,4,Dubai Marina,Dubai,6500000,PropertyFinder,Converted,2026-06-22,Buyer_0340,call,False,True,85.0
+LED0341,LST0040,AGT004,Raj Patel,Driven Properties,Penthouse,4,Dubai Marina,Dubai,6500000,Bayut,Qualified,2026-06-21,Buyer_0341,email,False,True,101.0
+LED0342,LST0040,AGT004,Raj Patel,Driven Properties,Penthouse,4,Dubai Marina,Dubai,6500000,Direct Call,Contacted,2026-06-20,Buyer_0342,whatsapp,False,False,
+LED0343,LST0040,AGT004,Raj Patel,Driven Properties,Penthouse,4,Dubai Marina,Dubai,6500000,Referral,New,2026-06-19,Buyer_0343,call,False,False,

@@ -1,0 +1,41 @@
+listing_id,agent_id,property_type,bedrooms,community,emirate,price,listing_date,quality_score,quality_color,weak_factor,opportunity_score,expected_leads,agent_name,agency,lead_value_per_upgrade_cost
+LST0001,AGT001,Apartment,2,Dubai Marina,Dubai,1850000,2026-03-04,92,green,,0.78,14,Sarah Al Mansoori,Betterhomes,26.9
+LST0002,AGT001,Villa,5,Palm Jumeirah,Dubai,12500000,2026-04-03,88,green,,0.65,8,Sarah Al Mansoori,Betterhomes,18.5
+LST0003,AGT001,Apartment,1,JBR,Dubai,950000,2026-05-03,42,red,image_quality,0.82,16,Sarah Al Mansoori,Betterhomes,29.3
+LST0004,AGT001,Townhouse,3,Arabian Ranches,Dubai,3200000,2026-05-18,85,green,,0.71,12,Sarah Al Mansoori,Betterhomes,25.4
+LST0005,AGT001,Studio,0,Jumeirah Village Circle,Dubai,480000,2026-06-02,51,orange,description,0.9,19,Sarah Al Mansoori,Betterhomes,31.7
+LST0006,AGT001,Penthouse,4,Downtown Dubai,Dubai,8700000,2026-04-18,79,orange,price_realism,0.55,7,Sarah Al Mansoori,Betterhomes,19.1
+LST0007,AGT001,Apartment,3,DIFC,Dubai,4100000,2026-03-24,91,green,,0.6,9,Sarah Al Mansoori,Betterhomes,22.5
+LST0008,AGT001,Apartment,2,Emirates Hills,Dubai,2300000,2026-06-12,58,orange,listing_completion,0.75,13,Sarah Al Mansoori,Betterhomes,26.0
+LST0009,AGT001,Villa,4,Dubai Marina,Dubai,5600000,2026-02-02,94,green,,0.5,6,Sarah Al Mansoori,Betterhomes,18.0
+LST0010,AGT001,Apartment,1,Al Reem Island,Abu Dhabi,720000,2026-05-23,65,orange,title,0.68,11,Sarah Al Mansoori,Betterhomes,24.3
+LST0011,AGT001,Townhouse,3,Yas Island,Abu Dhabi,2800000,2026-05-08,73,orange,verified,0.62,10,Sarah Al Mansoori,Betterhomes,24.2
+LST0012,AGT001,Villa,6,Palm Jumeirah,Dubai,18000000,2026-06-22,47,red,description,0.85,15,Sarah Al Mansoori,Betterhomes,26.5
+LST0013,AGT002,Apartment,2,Business Bay,Dubai,1600000,2026-04-13,87,green,,0.92,18,James Mitchell,Espace Real Estate,29.3
+LST0014,AGT003,Apartment,1,Business Bay,Dubai,1100000,2026-04-28,83,green,,0.91,17,Fatima Hassan,Allsopp & Allsopp,28.0
+LST0015,AGT004,Studio,0,Business Bay,Dubai,650000,2026-05-13,79,orange,description,0.93,19,Raj Patel,Driven Properties,30.6
+LST0016,AGT005,Apartment,3,Business Bay,Dubai,2400000,2026-05-28,90,green,,0.9,17,Emma Clarke,Dubizzle Property,28.3
+LST0017,AGT002,Villa,4,Meydan City,Dubai,4500000,2026-04-23,85,green,,0.88,15,James Mitchell,Espace Real Estate,25.6
+LST0018,AGT003,Townhouse,3,Meydan City,Dubai,3100000,2026-05-08,81,green,,0.87,14,Fatima Hassan,Allsopp & Allsopp,24.1
+LST0019,AGT004,Apartment,2,Meydan City,Dubai,1900000,2026-05-23,78,orange,image_quality,0.89,16,Raj Patel,Driven Properties,27.0
+LST0020,AGT005,Villa,5,Saadiyat Island,Abu Dhabi,7200000,2026-04-03,91,green,,0.84,13,Emma Clarke,Dubizzle Property,23.2
+LST0021,AGT002,Penthouse,4,Saadiyat Island,Abu Dhabi,9500000,2026-05-03,88,green,,0.83,12,James Mitchell,Espace Real Estate,21.7
+LST0022,AGT003,Apartment,1,Al Nahda,Sharjah,350000,2026-03-24,72,orange,image_quality,0.35,4,Fatima Hassan,Allsopp & Allsopp,17.1
+LST0023,AGT004,Studio,0,Al Nahda,Sharjah,220000,2026-03-14,68,orange,title,0.3,3,Raj Patel,Driven Properties,15.0
+LST0024,AGT002,Apartment,2,Dubai Marina,Dubai,2100000,2026-04-08,80,green,,0.72,12,James Mitchell,Espace Real Estate,25.0
+LST0025,AGT003,Villa,4,Palm Jumeirah,Dubai,14000000,2026-03-29,86,green,,0.58,7,Fatima Hassan,Allsopp & Allsopp,18.1
+LST0026,AGT004,Apartment,1,JBR,Dubai,1050000,2026-04-23,75,orange,description,0.7,11,Raj Patel,Driven Properties,23.6
+LST0027,AGT005,Townhouse,3,Arabian Ranches,Dubai,2900000,2026-05-13,82,green,,0.67,10,Emma Clarke,Dubizzle Property,22.4
+LST0028,AGT002,Penthouse,3,Downtown Dubai,Dubai,7800000,2026-05-18,89,green,,0.52,6,James Mitchell,Espace Real Estate,17.3
+LST0029,AGT003,Apartment,2,DIFC,Dubai,3800000,2026-06-02,84,green,,0.55,8,Fatima Hassan,Allsopp & Allsopp,21.8
+LST0030,AGT004,Apartment,1,Jumeirah Village Circle,Dubai,520000,2026-06-07,70,orange,verified,0.8,14,Raj Patel,Driven Properties,26.2
+LST0031,AGT005,Studio,0,Al Reem Island,Abu Dhabi,580000,2026-05-23,76,orange,listing_completion,0.63,9,Emma Clarke,Dubizzle Property,21.4
+LST0032,AGT002,Villa,5,Yas Island,Abu Dhabi,3400000,2026-05-03,82,green,,0.6,9,James Mitchell,Espace Real Estate,22.5
+LST0033,AGT003,Apartment,2,Al Majaz,Sharjah,450000,2026-04-13,74,orange,price_realism,0.45,5,Fatima Hassan,Allsopp & Allsopp,16.7
+LST0034,AGT004,Villa,4,Khalifa City,Abu Dhabi,2600000,2026-04-23,80,green,,0.72,11,Raj Patel,Driven Properties,22.9
+LST0035,AGT005,Townhouse,3,Khalifa City,Abu Dhabi,1900000,2026-05-08,77,orange,image_quality,0.7,10,Emma Clarke,Dubizzle Property,21.4
+LST0036,AGT002,Penthouse,3,Business Bay,Dubai,5200000,2026-06-12,86,green,,0.94,20,James Mitchell,Espace Real Estate,31.9
+LST0037,AGT003,Villa,6,Emirates Hills,Dubai,22000000,2026-06-17,93,green,,0.48,5,Fatima Hassan,Allsopp & Allsopp,15.6
+LST0038,AGT005,Apartment,2,Meydan City,Dubai,1700000,2026-06-02,80,green,,0.86,14,Emma Clarke,Dubizzle Property,24.4
+LST0039,AGT003,Apartment,1,Jumeirah Village Circle,Dubai,550000,2026-05-28,71,orange,description,0.78,13,Fatima Hassan,Allsopp & Allsopp,25.0
+LST0040,AGT004,Penthouse,4,Dubai Marina,Dubai,6500000,2026-06-07,90,green,,0.7,11,Raj Patel,Driven Properties,23.6

@@ -30,7 +30,20 @@ model = BedrockModel(
     region_name="us-east-1",
 )
 
-SYSTEM_PROMPT = """You are a real estate data analyst assistant helping agents at a property portal.
+# ---------------------------------------------------------------------------
+# System prompt — the agent knows the user is Sarah Al Mansoori (AGT001).
+# Tools try live MCP/API calls first; if they fail, they silently fall back
+# to demo CSV data so the hackathon demo never breaks.
+# ---------------------------------------------------------------------------
+
+SYSTEM_PROMPT = """You are a real estate data analyst assistant for PropertyFinder.
+
+You are currently assisting **Sarah Al Mansoori** (agent ID: **AGT001**) from
+**Betterhomes**. She is a Dubai-based agent with 12 active listings across
+Dubai, Abu Dhabi, and Sharjah.
+
+When Sarah says "my listings", "my leads", or "my credits", always use
+agent_id="AGT001". Do NOT ask her for her agent ID — you already know it.
 
 You have access to three datasets:
 1. **listings** — one row per listing, including quality_score (with the single

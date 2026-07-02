@@ -1,301 +1,301 @@
-listing_id,agent_id,agent_name,agency,property_type,bedrooms,community,emirate,price,listing_date
-LST0001,AGT005,Emma Clarke,Dubizzle Property,Apartment,1,Al Majaz,Sharjah,819000.0,2026-05-11
-LST0002,AGT002,James Mitchell,Espace Real Estate,Studio,0,Muwailih Commercial,Sharjah,861000.0,2026-06-16
-LST0003,AGT004,Raj Patel,Driven Properties,Villa,4,Downtown Dubai,Dubai,5232000.0,2025-09-18
-LST0004,AGT004,Raj Patel,Driven Properties,Penthouse,3,Emirates Hills,Dubai,8598000.0,2026-06-29
-LST0005,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,DIFC,Dubai,1816000.0,2026-01-11
-LST0006,AGT002,James Mitchell,Espace Real Estate,Penthouse,2,Downtown Dubai,Dubai,11051000.0,2025-08-27
-LST0007,AGT009,Aisha Al Zaabi,CBRE,Penthouse,0,Yas Island,Abu Dhabi,12245000.0,2025-12-21
-LST0008,AGT010,Carlos Mendez,Savills,Townhouse,2,Emirates Hills,Dubai,3055000.0,2025-07-07
-LST0009,AGT005,Emma Clarke,Dubizzle Property,Villa,0,Dubai Marina,Dubai,6675000.0,2026-05-12
-LST0010,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,1,Al Reem Island,Abu Dhabi,6517000.0,2026-03-17
-LST0011,AGT010,Carlos Mendez,Savills,Apartment,5,Al Nahda,Sharjah,740000.0,2026-02-27
-LST0012,AGT005,Emma Clarke,Dubizzle Property,Penthouse,5,JBR,Dubai,9538000.0,2026-03-12
-LST0013,AGT004,Raj Patel,Driven Properties,Apartment,0,Al Nahda,Sharjah,1704000.0,2025-12-09
-LST0014,AGT010,Carlos Mendez,Savills,Villa,5,Yas Island,Abu Dhabi,3594000.0,2025-08-01
-LST0015,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,2,Khalifa City,Abu Dhabi,4326000.0,2025-09-18
-LST0016,AGT007,Priya Nair,Hamptons International,Studio,0,Al Nahda,Sharjah,1153000.0,2025-12-10
-LST0017,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2318000.0,2026-06-08
-LST0018,AGT007,Priya Nair,Hamptons International,Villa,4,Palm Jumeirah,Dubai,2162000.0,2025-12-19
-LST0019,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Nahda,Sharjah,1223000.0,2026-06-27
-LST0020,AGT009,Aisha Al Zaabi,CBRE,Apartment,2,Muwailih Commercial,Sharjah,1648000.0,2026-01-09
-LST0021,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Jumeirah Village Circle,Dubai,3031000.0,2026-02-18
-LST0022,AGT002,James Mitchell,Espace Real Estate,Studio,0,Al Majaz,Sharjah,1127000.0,2026-01-31
-LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Muwailih Commercial,Sharjah,445000.0,2026-04-11
-LST0024,AGT010,Carlos Mendez,Savills,Apartment,2,Muwailih Commercial,Sharjah,1223000.0,2026-05-06
-LST0025,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Al Reem Island,Abu Dhabi,6805000.0,2026-05-23
-LST0026,AGT009,Aisha Al Zaabi,CBRE,Apartment,1,JBR,Dubai,675000.0,2025-11-01
-LST0027,AGT009,Aisha Al Zaabi,CBRE,Townhouse,4,Al Majaz,Sharjah,2527000.0,2026-03-16
-LST0028,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Muwailih Commercial,Sharjah,7472000.0,2025-08-04
-LST0029,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,415000.0,2026-03-09
-LST0030,AGT010,Carlos Mendez,Savills,Apartment,4,Arabian Ranches,Dubai,830000.0,2026-03-12
-LST0031,AGT004,Raj Patel,Driven Properties,Apartment,0,Downtown Dubai,Dubai,1856000.0,2026-01-14
-LST0032,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Emirates Hills,Dubai,4567000.0,2025-09-29
-LST0033,AGT008,Tom Reynolds,Knight Frank,Studio,0,Meydan City,Dubai,531000.0,2025-11-02
-LST0034,AGT002,James Mitchell,Espace Real Estate,Apartment,5,Saadiyat Island,Abu Dhabi,1135000.0,2025-11-28
-LST0035,AGT002,James Mitchell,Espace Real Estate,Apartment,0,Khalifa City,Abu Dhabi,1092000.0,2026-01-10
-LST0036,AGT004,Raj Patel,Driven Properties,Villa,4,Business Bay,Dubai,4357000.0,2025-11-28
-LST0037,AGT004,Raj Patel,Driven Properties,Penthouse,0,Jumeirah Village Circle,Dubai,7210000.0,2025-09-24
-LST0038,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Dubai Marina,Dubai,1221000.0,2026-03-03
-LST0039,AGT008,Tom Reynolds,Knight Frank,Penthouse,1,DIFC,Dubai,11214000.0,2026-06-02
-LST0040,AGT007,Priya Nair,Hamptons International,Apartment,2,DIFC,Dubai,1888000.0,2025-11-12
-LST0041,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,447000.0,2026-02-01
-LST0042,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Dubai Marina,Dubai,358000.0,2026-01-23
-LST0043,AGT008,Tom Reynolds,Knight Frank,Studio,0,Dubai Marina,Dubai,778000.0,2025-10-04
-LST0044,AGT002,James Mitchell,Espace Real Estate,Studio,0,Dubai Marina,Dubai,1109000.0,2026-05-28
-LST0045,AGT007,Priya Nair,Hamptons International,Villa,0,Al Majaz,Sharjah,7167000.0,2025-09-14
-LST0046,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Meydan City,Dubai,888000.0,2025-11-30
-LST0047,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Muwailih Commercial,Sharjah,601000.0,2026-02-19
-LST0048,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Arabian Ranches,Dubai,2546000.0,2025-08-06
-LST0049,AGT002,James Mitchell,Espace Real Estate,Townhouse,0,Khalifa City,Abu Dhabi,2647000.0,2025-09-17
-LST0050,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,781000.0,2026-04-26
-LST0051,AGT006,Mohammed Al Rashid,Provident Estate,Villa,2,Yas Island,Abu Dhabi,2699000.0,2025-09-27
-LST0052,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Nahda,Sharjah,307000.0,2025-09-22
-LST0053,AGT005,Emma Clarke,Dubizzle Property,Villa,0,Yas Island,Abu Dhabi,6871000.0,2025-09-22
-LST0054,AGT010,Carlos Mendez,Savills,Townhouse,1,Jumeirah Village Circle,Dubai,3534000.0,2026-03-20
-LST0055,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Muwailih Commercial,Sharjah,1939000.0,2026-06-06
-LST0056,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,0,DIFC,Dubai,2221000.0,2026-04-27
-LST0057,AGT008,Tom Reynolds,Knight Frank,Villa,4,Al Nahda,Sharjah,5822000.0,2025-09-18
-LST0058,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,4,Downtown Dubai,Dubai,535000.0,2025-12-25
-LST0059,AGT007,Priya Nair,Hamptons International,Villa,1,Muwailih Commercial,Sharjah,2038000.0,2025-12-28
-LST0060,AGT004,Raj Patel,Driven Properties,Villa,5,Arabian Ranches,Dubai,2386000.0,2025-09-19
-LST0061,AGT004,Raj Patel,Driven Properties,Villa,1,Al Maryah Island,Abu Dhabi,7364000.0,2026-04-03
-LST0062,AGT006,Mohammed Al Rashid,Provident Estate,Villa,3,Yas Island,Abu Dhabi,6373000.0,2026-02-25
-LST0063,AGT007,Priya Nair,Hamptons International,Apartment,0,Saadiyat Island,Abu Dhabi,1785000.0,2026-03-11
-LST0064,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,JBR,Dubai,1842000.0,2025-07-30
-LST0065,AGT005,Emma Clarke,Dubizzle Property,Townhouse,0,DIFC,Dubai,4387000.0,2026-02-10
-LST0066,AGT009,Aisha Al Zaabi,CBRE,Penthouse,2,Al Maryah Island,Abu Dhabi,11923000.0,2026-05-04
-LST0067,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Saadiyat Island,Abu Dhabi,336000.0,2025-08-31
-LST0068,AGT007,Priya Nair,Hamptons International,Townhouse,4,Al Reem Island,Abu Dhabi,4446000.0,2026-05-04
-LST0069,AGT005,Emma Clarke,Dubizzle Property,Villa,0,Al Maryah Island,Abu Dhabi,5840000.0,2026-07-02
-LST0070,AGT006,Mohammed Al Rashid,Provident Estate,Villa,3,Muwailih Commercial,Sharjah,2199000.0,2025-07-27
-LST0071,AGT002,James Mitchell,Espace Real Estate,Townhouse,5,Al Maryah Island,Abu Dhabi,4158000.0,2025-10-16
-LST0072,AGT007,Priya Nair,Hamptons International,Townhouse,5,Khalifa City,Abu Dhabi,2091000.0,2026-04-28
-LST0073,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,4,DIFC,Dubai,8406000.0,2025-12-07
-LST0074,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Al Majaz,Sharjah,2550000.0,2025-09-09
-LST0075,AGT008,Tom Reynolds,Knight Frank,Townhouse,3,Muwailih Commercial,Sharjah,2592000.0,2026-03-15
-LST0076,AGT002,James Mitchell,Espace Real Estate,Villa,2,Al Nahda,Sharjah,4738000.0,2025-08-12
-LST0077,AGT004,Raj Patel,Driven Properties,Apartment,5,Al Nahda,Sharjah,952000.0,2026-03-23
-LST0078,AGT004,Raj Patel,Driven Properties,Apartment,3,Dubai Marina,Dubai,1409000.0,2026-05-26
-LST0079,AGT004,Raj Patel,Driven Properties,Studio,0,Khalifa City,Abu Dhabi,982000.0,2025-12-18
-LST0080,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,5,Khalifa City,Abu Dhabi,5719000.0,2026-05-09
-LST0081,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2086000.0,2026-02-25
-LST0082,AGT008,Tom Reynolds,Knight Frank,Villa,5,JBR,Dubai,4827000.0,2025-09-19
-LST0083,AGT010,Carlos Mendez,Savills,Penthouse,5,Al Nahda,Sharjah,11474000.0,2025-11-26
-LST0084,AGT008,Tom Reynolds,Knight Frank,Villa,3,Al Nahda,Sharjah,3277000.0,2026-02-26
-LST0085,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,895000.0,2026-02-12
-LST0086,AGT004,Raj Patel,Driven Properties,Townhouse,2,Yas Island,Abu Dhabi,2229000.0,2025-09-29
-LST0087,AGT004,Raj Patel,Driven Properties,Villa,3,Palm Jumeirah,Dubai,5756000.0,2025-07-06
-LST0088,AGT007,Priya Nair,Hamptons International,Penthouse,2,Downtown Dubai,Dubai,8155000.0,2025-12-02
-LST0089,AGT007,Priya Nair,Hamptons International,Penthouse,4,Business Bay,Dubai,11988000.0,2026-06-22
-LST0090,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,2,Al Nahda,Sharjah,5837000.0,2025-12-15
-LST0091,AGT010,Carlos Mendez,Savills,Studio,0,Al Maryah Island,Abu Dhabi,1153000.0,2025-10-26
-LST0092,AGT008,Tom Reynolds,Knight Frank,Penthouse,0,Jumeirah Village Circle,Dubai,6694000.0,2025-07-25
-LST0093,AGT008,Tom Reynolds,Knight Frank,Villa,1,Al Nahda,Sharjah,7390000.0,2025-10-02
-LST0094,AGT010,Carlos Mendez,Savills,Studio,0,DIFC,Dubai,930000.0,2026-05-21
-LST0095,AGT008,Tom Reynolds,Knight Frank,Villa,1,Al Nahda,Sharjah,2087000.0,2025-12-20
-LST0096,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,2,Saadiyat Island,Abu Dhabi,10232000.0,2025-12-20
-LST0097,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Khalifa City,Abu Dhabi,1146000.0,2025-09-29
-LST0098,AGT002,James Mitchell,Espace Real Estate,Villa,5,Arabian Ranches,Dubai,2029000.0,2026-06-17
-LST0099,AGT010,Carlos Mendez,Savills,Apartment,1,Business Bay,Dubai,843000.0,2025-11-02
-LST0100,AGT004,Raj Patel,Driven Properties,Studio,0,Al Majaz,Sharjah,742000.0,2026-02-21
-LST0101,AGT010,Carlos Mendez,Savills,Studio,0,Saadiyat Island,Abu Dhabi,1216000.0,2026-05-05
-LST0102,AGT010,Carlos Mendez,Savills,Apartment,0,Jumeirah Village Circle,Dubai,1892000.0,2025-09-11
-LST0103,AGT004,Raj Patel,Driven Properties,Penthouse,0,Al Nahda,Sharjah,8625000.0,2025-08-15
-LST0104,AGT010,Carlos Mendez,Savills,Townhouse,0,Downtown Dubai,Dubai,3803000.0,2025-09-16
-LST0105,AGT007,Priya Nair,Hamptons International,Studio,0,Arabian Ranches,Dubai,928000.0,2026-05-28
-LST0106,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Muwailih Commercial,Sharjah,3892000.0,2026-05-09
-LST0107,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Al Reem Island,Abu Dhabi,4673000.0,2025-10-08
-LST0108,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Nahda,Sharjah,1036000.0,2025-11-06
-LST0109,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,1,Al Maryah Island,Abu Dhabi,3921000.0,2026-05-19
-LST0110,AGT008,Tom Reynolds,Knight Frank,Villa,4,Khalifa City,Abu Dhabi,5279000.0,2025-12-20
-LST0111,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,1,Yas Island,Abu Dhabi,7632000.0,2026-01-02
-LST0112,AGT010,Carlos Mendez,Savills,Townhouse,5,Al Reem Island,Abu Dhabi,4090000.0,2025-09-21
-LST0113,AGT002,James Mitchell,Espace Real Estate,Villa,1,Emirates Hills,Dubai,5904000.0,2025-10-25
-LST0114,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Al Majaz,Sharjah,10533000.0,2026-05-16
-LST0115,AGT004,Raj Patel,Driven Properties,Penthouse,2,Saadiyat Island,Abu Dhabi,9308000.0,2025-12-26
-LST0116,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Al Maryah Island,Abu Dhabi,704000.0,2025-09-24
-LST0117,AGT005,Emma Clarke,Dubizzle Property,Penthouse,2,Al Reem Island,Abu Dhabi,5388000.0,2026-05-02
-LST0118,AGT002,James Mitchell,Espace Real Estate,Townhouse,5,Al Majaz,Sharjah,2913000.0,2025-07-14
-LST0119,AGT008,Tom Reynolds,Knight Frank,Villa,2,Business Bay,Dubai,5930000.0,2025-10-07
-LST0120,AGT004,Raj Patel,Driven Properties,Apartment,2,Al Nahda,Sharjah,826000.0,2026-04-02
-LST0121,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Yas Island,Abu Dhabi,561000.0,2026-06-05
-LST0122,AGT008,Tom Reynolds,Knight Frank,Villa,0,Al Nahda,Sharjah,6775000.0,2025-09-12
-LST0123,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,Khalifa City,Abu Dhabi,4751000.0,2026-06-06
-LST0124,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Khalifa City,Abu Dhabi,1227000.0,2025-09-10
-LST0125,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Muwailih Commercial,Sharjah,1713000.0,2026-01-28
-LST0126,AGT009,Aisha Al Zaabi,CBRE,Apartment,3,Business Bay,Dubai,1402000.0,2025-08-20
-LST0127,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Emirates Hills,Dubai,5825000.0,2025-09-04
-LST0128,AGT010,Carlos Mendez,Savills,Studio,0,Al Reem Island,Abu Dhabi,357000.0,2026-05-13
-LST0129,AGT002,James Mitchell,Espace Real Estate,Townhouse,1,Business Bay,Dubai,1900000.0,2025-09-23
-LST0130,AGT007,Priya Nair,Hamptons International,Apartment,3,Palm Jumeirah,Dubai,1528000.0,2025-11-04
-LST0131,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Yas Island,Abu Dhabi,3411000.0,2025-11-12
-LST0132,AGT010,Carlos Mendez,Savills,Townhouse,5,Business Bay,Dubai,3829000.0,2026-03-23
-LST0133,AGT004,Raj Patel,Driven Properties,Studio,0,Yas Island,Abu Dhabi,915000.0,2026-02-16
-LST0134,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Downtown Dubai,Dubai,1384000.0,2025-09-14
-LST0135,AGT008,Tom Reynolds,Knight Frank,Apartment,5,Khalifa City,Abu Dhabi,942000.0,2025-12-08
-LST0136,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Maryah Island,Abu Dhabi,716000.0,2025-08-30
-LST0137,AGT010,Carlos Mendez,Savills,Townhouse,2,DIFC,Dubai,1168000.0,2026-03-07
-LST0138,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,1250000.0,2025-07-23
-LST0139,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,3,Al Maryah Island,Abu Dhabi,1269000.0,2025-11-18
-LST0140,AGT007,Priya Nair,Hamptons International,Studio,0,Saadiyat Island,Abu Dhabi,903000.0,2025-10-24
-LST0141,AGT007,Priya Nair,Hamptons International,Townhouse,2,JBR,Dubai,2178000.0,2026-05-10
-LST0142,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,Arabian Ranches,Dubai,9295000.0,2025-12-09
-LST0143,AGT002,James Mitchell,Espace Real Estate,Penthouse,2,Al Majaz,Sharjah,5398000.0,2026-05-04
-LST0144,AGT009,Aisha Al Zaabi,CBRE,Apartment,3,Al Maryah Island,Abu Dhabi,1108000.0,2026-03-28
-LST0145,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,894000.0,2026-06-06
-LST0146,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Jumeirah Village Circle,Dubai,1181000.0,2025-11-20
-LST0147,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,5,Al Nahda,Sharjah,1405000.0,2026-03-02
-LST0148,AGT009,Aisha Al Zaabi,CBRE,Townhouse,0,Al Majaz,Sharjah,2969000.0,2026-05-16
-LST0149,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,10905000.0,2025-10-20
-LST0150,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Nahda,Sharjah,695000.0,2025-10-28
-LST0151,AGT009,Aisha Al Zaabi,CBRE,Penthouse,1,Saadiyat Island,Abu Dhabi,6644000.0,2025-08-30
-LST0152,AGT002,James Mitchell,Espace Real Estate,Villa,2,Muwailih Commercial,Sharjah,6204000.0,2025-12-02
-LST0153,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,2,Al Maryah Island,Abu Dhabi,3563000.0,2025-09-05
-LST0154,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Muwailih Commercial,Sharjah,8117000.0,2026-01-07
-LST0155,AGT007,Priya Nair,Hamptons International,Studio,0,Al Maryah Island,Abu Dhabi,733000.0,2026-01-19
-LST0156,AGT007,Priya Nair,Hamptons International,Studio,0,Business Bay,Dubai,522000.0,2025-12-04
-LST0157,AGT007,Priya Nair,Hamptons International,Penthouse,3,Arabian Ranches,Dubai,12390000.0,2025-08-03
-LST0158,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,4,JBR,Dubai,1947000.0,2026-01-14
-LST0159,AGT009,Aisha Al Zaabi,CBRE,Apartment,3,JBR,Dubai,503000.0,2026-04-20
-LST0160,AGT008,Tom Reynolds,Knight Frank,Apartment,2,Saadiyat Island,Abu Dhabi,995000.0,2025-07-13
-LST0161,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Yas Island,Abu Dhabi,4343000.0,2025-08-16
-LST0162,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Al Nahda,Sharjah,887000.0,2026-03-04
-LST0163,AGT004,Raj Patel,Driven Properties,Townhouse,5,Muwailih Commercial,Sharjah,1389000.0,2026-05-13
-LST0164,AGT008,Tom Reynolds,Knight Frank,Apartment,1,Muwailih Commercial,Sharjah,1535000.0,2026-06-18
-LST0165,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Arabian Ranches,Dubai,1050000.0,2026-04-19
-LST0166,AGT010,Carlos Mendez,Savills,Penthouse,5,Emirates Hills,Dubai,10529000.0,2026-04-06
-LST0167,AGT007,Priya Nair,Hamptons International,Studio,0,Downtown Dubai,Dubai,889000.0,2026-03-01
-LST0168,AGT004,Raj Patel,Driven Properties,Villa,3,Al Maryah Island,Abu Dhabi,5436000.0,2025-11-09
-LST0169,AGT005,Emma Clarke,Dubizzle Property,Penthouse,5,Yas Island,Abu Dhabi,8193000.0,2026-05-26
-LST0170,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,907000.0,2025-11-27
-LST0171,AGT005,Emma Clarke,Dubizzle Property,Penthouse,1,Al Nahda,Sharjah,12494000.0,2025-10-28
-LST0172,AGT010,Carlos Mendez,Savills,Penthouse,2,Business Bay,Dubai,8461000.0,2025-07-09
-LST0173,AGT005,Emma Clarke,Dubizzle Property,Penthouse,0,Yas Island,Abu Dhabi,8376000.0,2025-07-16
-LST0174,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Majaz,Sharjah,1091000.0,2026-02-06
-LST0175,AGT004,Raj Patel,Driven Properties,Townhouse,5,Meydan City,Dubai,1730000.0,2026-02-24
-LST0176,AGT002,James Mitchell,Espace Real Estate,Villa,5,Muwailih Commercial,Sharjah,5484000.0,2026-01-25
-LST0177,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Yas Island,Abu Dhabi,996000.0,2026-05-17
-LST0178,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,1,Al Reem Island,Abu Dhabi,4256000.0,2025-09-29
-LST0179,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Maryah Island,Abu Dhabi,1089000.0,2026-02-21
-LST0180,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Al Reem Island,Abu Dhabi,4373000.0,2026-04-21
-LST0181,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,DIFC,Dubai,386000.0,2025-12-12
-LST0182,AGT002,James Mitchell,Espace Real Estate,Studio,0,Jumeirah Village Circle,Dubai,732000.0,2025-07-23
-LST0183,AGT010,Carlos Mendez,Savills,Townhouse,3,Muwailih Commercial,Sharjah,3893000.0,2025-12-24
-LST0184,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Business Bay,Dubai,11400000.0,2025-09-18
-LST0185,AGT002,James Mitchell,Espace Real Estate,Villa,5,Al Maryah Island,Abu Dhabi,6496000.0,2025-07-09
-LST0186,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,0,Khalifa City,Abu Dhabi,1918000.0,2026-01-28
-LST0187,AGT004,Raj Patel,Driven Properties,Apartment,4,Yas Island,Abu Dhabi,686000.0,2025-11-12
-LST0188,AGT010,Carlos Mendez,Savills,Penthouse,5,Al Maryah Island,Abu Dhabi,9903000.0,2025-12-02
-LST0189,AGT010,Carlos Mendez,Savills,Penthouse,3,Al Majaz,Sharjah,11921000.0,2026-02-09
-LST0190,AGT008,Tom Reynolds,Knight Frank,Villa,3,Arabian Ranches,Dubai,7218000.0,2025-12-29
-LST0191,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,358000.0,2026-02-11
-LST0192,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,5015000.0,2025-08-09
-LST0193,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,1,Al Majaz,Sharjah,1983000.0,2025-09-16
-LST0194,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,857000.0,2026-03-05
-LST0195,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Saadiyat Island,Abu Dhabi,563000.0,2026-04-19
-LST0196,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,0,Emirates Hills,Dubai,3341000.0,2026-06-19
-LST0197,AGT004,Raj Patel,Driven Properties,Townhouse,4,Dubai Marina,Dubai,2187000.0,2026-04-04
-LST0198,AGT007,Priya Nair,Hamptons International,Villa,4,Yas Island,Abu Dhabi,2448000.0,2026-05-31
-LST0199,AGT009,Aisha Al Zaabi,CBRE,Townhouse,4,Khalifa City,Abu Dhabi,1453000.0,2025-10-18
-LST0200,AGT009,Aisha Al Zaabi,CBRE,Apartment,2,Meydan City,Dubai,1176000.0,2026-06-17
-LST0201,AGT007,Priya Nair,Hamptons International,Penthouse,5,JBR,Dubai,4026000.0,2025-07-03
-LST0202,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,4,Yas Island,Abu Dhabi,705000.0,2026-04-29
-LST0203,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Maryah Island,Abu Dhabi,977000.0,2025-12-19
-LST0204,AGT008,Tom Reynolds,Knight Frank,Townhouse,4,Muwailih Commercial,Sharjah,3151000.0,2026-05-13
-LST0205,AGT004,Raj Patel,Driven Properties,Studio,0,Al Majaz,Sharjah,709000.0,2026-03-08
-LST0206,AGT007,Priya Nair,Hamptons International,Penthouse,3,Al Reem Island,Abu Dhabi,9931000.0,2026-01-23
-LST0207,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,1,Al Reem Island,Abu Dhabi,3429000.0,2025-11-02
-LST0208,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Downtown Dubai,Dubai,627000.0,2025-12-24
-LST0209,AGT010,Carlos Mendez,Savills,Apartment,4,Emirates Hills,Dubai,1334000.0,2025-07-24
-LST0210,AGT007,Priya Nair,Hamptons International,Townhouse,5,DIFC,Dubai,1256000.0,2026-02-05
-LST0211,AGT002,James Mitchell,Espace Real Estate,Townhouse,4,Al Nahda,Sharjah,2815000.0,2026-04-14
-LST0212,AGT002,James Mitchell,Espace Real Estate,Villa,2,Al Nahda,Sharjah,6619000.0,2025-12-26
-LST0213,AGT004,Raj Patel,Driven Properties,Studio,0,Jumeirah Village Circle,Dubai,1067000.0,2025-09-18
-LST0214,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,879000.0,2025-07-31
-LST0215,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Nahda,Sharjah,1548000.0,2026-01-25
-LST0216,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Reem Island,Abu Dhabi,1341000.0,2025-12-09
-LST0217,AGT002,James Mitchell,Espace Real Estate,Apartment,5,Palm Jumeirah,Dubai,1286000.0,2025-12-22
-LST0218,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,2,Khalifa City,Abu Dhabi,2146000.0,2026-01-17
-LST0219,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,Muwailih Commercial,Sharjah,719000.0,2025-08-20
-LST0220,AGT008,Tom Reynolds,Knight Frank,Townhouse,5,Downtown Dubai,Dubai,2530000.0,2025-08-26
-LST0221,AGT004,Raj Patel,Driven Properties,Townhouse,4,Khalifa City,Abu Dhabi,1469000.0,2025-11-24
-LST0222,AGT008,Tom Reynolds,Knight Frank,Studio,0,Jumeirah Village Circle,Dubai,801000.0,2026-01-26
-LST0223,AGT010,Carlos Mendez,Savills,Penthouse,0,Business Bay,Dubai,3073000.0,2026-01-29
-LST0224,AGT005,Emma Clarke,Dubizzle Property,Townhouse,2,Palm Jumeirah,Dubai,1490000.0,2025-10-21
-LST0225,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,3,Al Nahda,Sharjah,4836000.0,2026-03-07
-LST0226,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Muwailih Commercial,Sharjah,4027000.0,2026-06-11
-LST0227,AGT002,James Mitchell,Espace Real Estate,Penthouse,2,Yas Island,Abu Dhabi,8470000.0,2025-09-12
-LST0228,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Khalifa City,Abu Dhabi,1151000.0,2026-01-17
-LST0229,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,0,Meydan City,Dubai,7149000.0,2026-05-09
-LST0230,AGT007,Priya Nair,Hamptons International,Studio,0,DIFC,Dubai,798000.0,2025-12-12
-LST0231,AGT006,Mohammed Al Rashid,Provident Estate,Villa,1,Al Reem Island,Abu Dhabi,2235000.0,2025-08-12
-LST0232,AGT004,Raj Patel,Driven Properties,Studio,0,Emirates Hills,Dubai,1161000.0,2026-01-05
-LST0233,AGT002,James Mitchell,Espace Real Estate,Villa,1,Saadiyat Island,Abu Dhabi,3259000.0,2026-04-05
-LST0234,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,5,Al Majaz,Sharjah,1231000.0,2025-09-17
-LST0235,AGT010,Carlos Mendez,Savills,Studio,0,Al Nahda,Sharjah,607000.0,2025-08-15
-LST0236,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Saadiyat Island,Abu Dhabi,7201000.0,2026-01-28
-LST0237,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,4,Al Maryah Island,Abu Dhabi,593000.0,2025-11-08
-LST0238,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,2,Yas Island,Abu Dhabi,597000.0,2026-05-17
-LST0239,AGT007,Priya Nair,Hamptons International,Studio,0,Muwailih Commercial,Sharjah,740000.0,2025-09-22
-LST0240,AGT010,Carlos Mendez,Savills,Penthouse,5,Al Majaz,Sharjah,4788000.0,2025-08-27
-LST0241,AGT001,Sarah Al Mansoori,Betterhomes,Villa,3,Al Maryah Island,Abu Dhabi,2390000.0,2026-01-08
-LST0242,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Al Majaz,Sharjah,337000.0,2025-07-05
-LST0243,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Khalifa City,Abu Dhabi,879000.0,2025-12-28
-LST0244,AGT007,Priya Nair,Hamptons International,Penthouse,2,Al Reem Island,Abu Dhabi,9450000.0,2026-06-06
-LST0245,AGT002,James Mitchell,Espace Real Estate,Townhouse,2,Muwailih Commercial,Sharjah,1403000.0,2025-07-20
-LST0246,AGT010,Carlos Mendez,Savills,Townhouse,1,Al Reem Island,Abu Dhabi,2220000.0,2025-09-07
-LST0247,AGT005,Emma Clarke,Dubizzle Property,Townhouse,5,Al Majaz,Sharjah,3469000.0,2025-12-14
-LST0248,AGT005,Emma Clarke,Dubizzle Property,Apartment,4,Meydan City,Dubai,1053000.0,2026-01-15
-LST0249,AGT007,Priya Nair,Hamptons International,Apartment,4,Emirates Hills,Dubai,1030000.0,2025-12-29
-LST0250,AGT006,Mohammed Al Rashid,Provident Estate,Villa,3,Saadiyat Island,Abu Dhabi,2894000.0,2026-04-23
-LST0251,AGT002,James Mitchell,Espace Real Estate,Townhouse,4,Downtown Dubai,Dubai,3716000.0,2025-10-06
-LST0252,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Arabian Ranches,Dubai,867000.0,2026-04-15
-LST0253,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Palm Jumeirah,Dubai,985000.0,2026-06-10
-LST0254,AGT008,Tom Reynolds,Knight Frank,Villa,4,Al Reem Island,Abu Dhabi,3424000.0,2025-11-15
-LST0255,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Emirates Hills,Dubai,6953000.0,2026-03-25
-LST0256,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,Al Maryah Island,Abu Dhabi,10392000.0,2025-10-18
-LST0257,AGT004,Raj Patel,Driven Properties,Villa,4,Al Nahda,Sharjah,2589000.0,2026-02-24
-LST0258,AGT009,Aisha Al Zaabi,CBRE,Townhouse,0,JBR,Dubai,3513000.0,2025-10-11
-LST0259,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Jumeirah Village Circle,Dubai,1163000.0,2025-10-13
-LST0260,AGT004,Raj Patel,Driven Properties,Apartment,3,DIFC,Dubai,1825000.0,2026-06-19
-LST0261,AGT009,Aisha Al Zaabi,CBRE,Penthouse,2,Yas Island,Abu Dhabi,5240000.0,2026-05-22
-LST0262,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,0,Saadiyat Island,Abu Dhabi,1756000.0,2025-08-04
-LST0263,AGT001,Sarah Al Mansoori,Betterhomes,Villa,2,Saadiyat Island,Abu Dhabi,7029000.0,2025-11-03
-LST0264,AGT008,Tom Reynolds,Knight Frank,Penthouse,4,Al Majaz,Sharjah,3050000.0,2026-05-23
-LST0265,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Jumeirah Village Circle,Dubai,7159000.0,2025-08-25
-LST0266,AGT005,Emma Clarke,Dubizzle Property,Apartment,1,Al Nahda,Sharjah,938000.0,2026-06-08
-LST0267,AGT008,Tom Reynolds,Knight Frank,Studio,0,DIFC,Dubai,360000.0,2025-10-20
-LST0268,AGT009,Aisha Al Zaabi,CBRE,Apartment,4,Muwailih Commercial,Sharjah,848000.0,2026-04-20
-LST0269,AGT010,Carlos Mendez,Savills,Apartment,2,Khalifa City,Abu Dhabi,846000.0,2025-12-01
-LST0270,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Downtown Dubai,Dubai,364000.0,2025-10-06
-LST0271,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Muwailih Commercial,Sharjah,319000.0,2025-11-04
-LST0272,AGT005,Emma Clarke,Dubizzle Property,Townhouse,5,DIFC,Dubai,1136000.0,2026-05-29
-LST0273,AGT010,Carlos Mendez,Savills,Apartment,5,Saadiyat Island,Abu Dhabi,1630000.0,2026-04-25
-LST0274,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,1073000.0,2026-04-04
-LST0275,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,1,Al Nahda,Sharjah,3599000.0,2025-11-10
-LST0276,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Jumeirah Village Circle,Dubai,6849000.0,2026-01-22
-LST0277,AGT009,Aisha Al Zaabi,CBRE,Penthouse,3,Al Maryah Island,Abu Dhabi,5406000.0,2025-08-05
-LST0278,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,5,Jumeirah Village Circle,Dubai,2215000.0,2026-04-30
-LST0279,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Khalifa City,Abu Dhabi,6221000.0,2026-03-29
-LST0280,AGT009,Aisha Al Zaabi,CBRE,Townhouse,2,Khalifa City,Abu Dhabi,3820000.0,2025-11-27
-LST0281,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,DIFC,Dubai,818000.0,2026-01-19
-LST0282,AGT005,Emma Clarke,Dubizzle Property,Townhouse,2,Downtown Dubai,Dubai,2605000.0,2025-11-26
-LST0283,AGT008,Tom Reynolds,Knight Frank,Townhouse,0,JBR,Dubai,3566000.0,2026-01-03
-LST0284,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,0,Al Nahda,Sharjah,3375000.0,2025-12-07
-LST0285,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Al Maryah Island,Abu Dhabi,6637000.0,2025-07-20
-LST0286,AGT002,James Mitchell,Espace Real Estate,Villa,1,Yas Island,Abu Dhabi,6238000.0,2025-12-27
-LST0287,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Khalifa City,Abu Dhabi,875000.0,2025-07-20
-LST0288,AGT008,Tom Reynolds,Knight Frank,Townhouse,0,Al Reem Island,Abu Dhabi,3043000.0,2025-10-04
-LST0289,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Khalifa City,Abu Dhabi,4365000.0,2026-06-19
-LST0290,AGT009,Aisha Al Zaabi,CBRE,Penthouse,3,Al Majaz,Sharjah,11679000.0,2026-05-03
-LST0291,AGT004,Raj Patel,Driven Properties,Penthouse,4,Al Reem Island,Abu Dhabi,5713000.0,2025-10-24
-LST0292,AGT002,James Mitchell,Espace Real Estate,Villa,3,Downtown Dubai,Dubai,2784000.0,2025-07-02
-LST0293,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,5,Yas Island,Abu Dhabi,1302000.0,2025-09-28
-LST0294,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,2,Al Reem Island,Abu Dhabi,4700000.0,2026-05-01
-LST0295,AGT008,Tom Reynolds,Knight Frank,Villa,0,Palm Jumeirah,Dubai,3857000.0,2025-09-12
-LST0296,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Khalifa City,Abu Dhabi,881000.0,2026-05-19
-LST0297,AGT008,Tom Reynolds,Knight Frank,Penthouse,4,Jumeirah Village Circle,Dubai,6903000.0,2025-12-05
-LST0298,AGT006,Mohammed Al Rashid,Provident Estate,Villa,5,Al Majaz,Sharjah,2223000.0,2025-11-06
-LST0299,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,4,Muwailih Commercial,Sharjah,3268000.0,2026-03-31
-LST0300,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,DIFC,Dubai,1090000.0,2025-10-10
+listing_id,agent_id,agent_name,agency,property_type,bedrooms,community,emirate,price,listing_date,quality_score,quality_color,weak_factor,opportunity_score,expected_leads,lead_value_per_upgrade_cost
+LST0001,AGT005,Emma Clarke,Dubizzle Property,Apartment,1,Al Majaz,Sharjah,819000.0,2026-06-16,48,red,verified,0.72,10,15.6
+LST0002,AGT004,Raj Patel,Driven Properties,Villa,4,Downtown Dubai,Dubai,5232000.0,2025-09-04,60,orange,verified,0.63,9,7.1
+LST0003,AGT007,Priya Nair,Hamptons International,Villa,2,Yas Island,Abu Dhabi,3384000.0,2026-01-07,62,orange,listing_completion,0.35,3,4.2
+LST0004,AGT008,Tom Reynolds,Knight Frank,Apartment,4,Al Nahda,Sharjah,670000.0,2025-12-29,83,green,image_quality,0.55,10,16.2
+LST0005,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,5,Al Majaz,Sharjah,826000.0,2025-11-12,72,orange,image_quality,0.82,15,10.7
+LST0006,AGT006,Mohammed Al Rashid,Provident Estate,Villa,2,Al Nahda,Sharjah,2994000.0,2026-04-06,69,orange,verified,0.89,14,16.0
+LST0007,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,3,Muwailih Commercial,Sharjah,3963000.0,2026-06-16,63,orange,verified,0.34,6,3.3
+LST0008,AGT002,James Mitchell,Espace Real Estate,Townhouse,1,Khalifa City,Abu Dhabi,4203000.0,2025-11-10,75,orange,description,0.64,8,23.0
+LST0009,AGT004,Raj Patel,Driven Properties,Villa,5,Jumeirah Village Circle,Dubai,5000000.0,2026-03-12,68,orange,verified,0.58,11,11.2
+LST0010,AGT002,James Mitchell,Espace Real Estate,Penthouse,0,Emirates Hills,Dubai,11180000.0,2025-12-17,54,red,verified,0.19,3,15.7
+LST0011,AGT009,Aisha Al Zaabi,CBRE,Penthouse,2,Al Maryah Island,Abu Dhabi,12225000.0,2026-02-16,36,red,verified,0.7,11,14.4
+LST0012,AGT005,Emma Clarke,Dubizzle Property,Apartment,3,Al Nahda,Sharjah,720000.0,2026-04-02,35,red,verified,0.84,9,13.5
+LST0013,AGT009,Aisha Al Zaabi,CBRE,Townhouse,4,Al Majaz,Sharjah,1760000.0,2026-07-02,82,green,listing_completion,0.2,4,23.2
+LST0014,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,0,Al Nahda,Sharjah,11826000.0,2026-05-20,74,orange,description,0.1,2,23.8
+LST0015,AGT009,Aisha Al Zaabi,CBRE,Apartment,1,Al Nahda,Sharjah,675000.0,2025-08-26,95,green,,0.9,9,14.1
+LST0016,AGT004,Raj Patel,Driven Properties,Studio,0,Saadiyat Island,Abu Dhabi,977000.0,2026-05-02,86,green,verified,0.63,8,13.9
+LST0017,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,0,Business Bay,Dubai,1374000.0,2026-03-07,64,orange,location_specificity,0.25,2,16.5
+LST0018,AGT002,James Mitchell,Espace Real Estate,Townhouse,4,Dubai Marina,Dubai,1894000.0,2025-09-13,97,green,,0.24,2,23.5
+LST0019,AGT008,Tom Reynolds,Knight Frank,Villa,3,Al Nahda,Sharjah,2885000.0,2026-06-05,47,red,verified,0.44,6,12.7
+LST0020,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,3,Muwailih Commercial,Sharjah,1587000.0,2026-03-31,48,red,description,0.22,3,5.2
+LST0021,AGT002,James Mitchell,Espace Real Estate,Villa,3,Khalifa City,Abu Dhabi,6406000.0,2026-05-16,47,red,image_quality,0.64,9,2.3
+LST0022,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Palm Jumeirah,Dubai,5031000.0,2025-11-12,86,green,image_quality,0.2,2,11.0
+LST0023,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,447000.0,2026-01-23,72,orange,description,0.92,14,14.5
+LST0024,AGT008,Tom Reynolds,Knight Frank,Studio,0,Dubai Marina,Dubai,778000.0,2025-09-01,55,red,image_quality,0.91,8,6.3
+LST0025,AGT002,James Mitchell,Espace Real Estate,Penthouse,4,Business Bay,Dubai,5339000.0,2026-01-22,40,red,location_specificity,0.12,2,15.0
+LST0026,AGT004,Raj Patel,Driven Properties,Townhouse,2,Saadiyat Island,Abu Dhabi,2434000.0,2025-11-10,73,orange,price_realism,0.33,6,3.7
+LST0027,AGT002,James Mitchell,Espace Real Estate,Apartment,4,Muwailih Commercial,Sharjah,804000.0,2025-12-25,68,orange,description,0.89,17,22.2
+LST0028,AGT009,Aisha Al Zaabi,CBRE,Penthouse,5,Saadiyat Island,Abu Dhabi,5874000.0,2026-04-25,36,red,verified,0.79,9,17.3
+LST0029,AGT009,Aisha Al Zaabi,CBRE,Apartment,1,Yas Island,Abu Dhabi,894000.0,2025-10-17,61,orange,verified,0.36,6,21.6
+LST0030,AGT002,James Mitchell,Espace Real Estate,Apartment,5,Al Reem Island,Abu Dhabi,1124000.0,2026-02-18,70,orange,image_quality,0.05,1,16.7
+LST0031,AGT007,Priya Nair,Hamptons International,Studio,0,JBR,Dubai,833000.0,2026-06-14,49,red,image_quality,0.9,15,5.4
+LST0032,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Al Maryah Island,Abu Dhabi,708000.0,2026-06-12,40,red,title,0.38,7,24.4
+LST0033,AGT002,James Mitchell,Espace Real Estate,Villa,2,Saadiyat Island,Abu Dhabi,6247000.0,2026-04-10,87,green,location_specificity,0.72,14,7.4
+LST0034,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,5,DIFC,Dubai,1885000.0,2026-04-12,87,green,listing_completion,0.65,11,7.7
+LST0035,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,3,Al Majaz,Sharjah,5113000.0,2026-03-10,93,green,,0.36,6,22.0
+LST0036,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,2,Business Bay,Dubai,11211000.0,2025-10-01,70,orange,title,0.63,8,24.6
+LST0037,AGT005,Emma Clarke,Dubizzle Property,Apartment,1,Yas Island,Abu Dhabi,1362000.0,2026-01-23,68,orange,image_quality,0.15,2,18.8
+LST0038,AGT002,James Mitchell,Espace Real Estate,Studio,0,Al Maryah Island,Abu Dhabi,666000.0,2025-09-30,59,red,title,0.09,1,14.0
+LST0039,AGT006,Mohammed Al Rashid,Provident Estate,Villa,3,Muwailih Commercial,Sharjah,2199000.0,2026-01-30,77,orange,location_specificity,0.33,6,18.6
+LST0040,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,3,Al Nahda,Sharjah,9623000.0,2026-04-04,51,red,description,0.43,8,17.6
+LST0041,AGT007,Priya Nair,Hamptons International,Townhouse,4,Muwailih Commercial,Sharjah,3931000.0,2026-01-19,73,orange,title,0.24,4,16.0
+LST0042,AGT004,Raj Patel,Driven Properties,Penthouse,4,Khalifa City,Abu Dhabi,7495000.0,2026-01-12,56,red,verified,0.13,2,16.6
+LST0043,AGT004,Raj Patel,Driven Properties,Townhouse,1,Business Bay,Dubai,1584000.0,2025-11-11,40,red,description,0.94,14,19.7
+LST0044,AGT007,Priya Nair,Hamptons International,Villa,3,Al Maryah Island,Abu Dhabi,4078000.0,2026-05-09,53,red,verified,0.67,13,21.8
+LST0045,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2086000.0,2025-10-04,66,orange,listing_completion,0.16,2,12.7
+LST0046,AGT008,Tom Reynolds,Knight Frank,Townhouse,4,Muwailih Commercial,Sharjah,3867000.0,2025-11-01,89,green,listing_completion,0.87,12,5.7
+LST0047,AGT005,Emma Clarke,Dubizzle Property,Villa,4,Al Reem Island,Abu Dhabi,4562000.0,2026-01-12,65,orange,title,0.45,7,7.4
+LST0048,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Maryah Island,Abu Dhabi,832000.0,2025-11-06,54,red,verified,0.24,3,9.6
+LST0049,AGT007,Priya Nair,Hamptons International,Villa,3,Yas Island,Abu Dhabi,6958000.0,2026-01-03,37,red,listing_completion,0.84,13,13.0
+LST0050,AGT009,Aisha Al Zaabi,CBRE,Penthouse,5,Khalifa City,Abu Dhabi,9979000.0,2026-01-11,63,orange,price_realism,0.25,3,2.7
+LST0051,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Muwailih Commercial,Sharjah,11736000.0,2025-11-25,38,red,price_realism,0.58,9,3.9
+LST0052,AGT001,Sarah Al Mansoori,Betterhomes,Villa,2,JBR,Dubai,3961000.0,2025-11-29,62,orange,price_realism,0.34,6,10.7
+LST0053,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,5,Yas Island,Abu Dhabi,8124000.0,2026-06-17,79,orange,description,0.64,11,17.0
+LST0054,AGT010,Carlos Mendez,Savills,Apartment,1,Business Bay,Dubai,843000.0,2025-07-09,95,green,,0.65,10,7.0
+LST0055,AGT010,Carlos Mendez,Savills,Villa,4,Al Reem Island,Abu Dhabi,7293000.0,2026-06-19,49,red,listing_completion,0.79,15,4.5
+LST0056,AGT007,Priya Nair,Hamptons International,Penthouse,5,Al Maryah Island,Abu Dhabi,4884000.0,2026-05-02,66,orange,image_quality,0.68,8,17.7
+LST0057,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Al Majaz,Sharjah,3342000.0,2025-10-25,43,red,location_specificity,0.63,5,11.7
+LST0058,AGT008,Tom Reynolds,Knight Frank,Townhouse,5,DIFC,Dubai,1603000.0,2025-09-30,57,red,verified,0.52,8,16.2
+LST0059,AGT010,Carlos Mendez,Savills,Penthouse,2,Khalifa City,Abu Dhabi,6062000.0,2025-11-07,66,orange,listing_completion,0.89,10,12.4
+LST0060,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,0,Muwailih Commercial,Sharjah,7696000.0,2026-02-09,76,orange,description,0.49,6,7.9
+LST0061,AGT009,Aisha Al Zaabi,CBRE,Townhouse,0,Muwailih Commercial,Sharjah,2847000.0,2026-03-01,59,red,image_quality,0.27,3,14.8
+LST0062,AGT008,Tom Reynolds,Knight Frank,Penthouse,0,Al Nahda,Sharjah,3884000.0,2025-11-02,63,orange,price_realism,0.67,8,15.4
+LST0063,AGT007,Priya Nair,Hamptons International,Townhouse,5,Muwailih Commercial,Sharjah,2962000.0,2026-03-26,80,green,verified,0.46,5,7.3
+LST0064,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Yas Island,Abu Dhabi,482000.0,2025-08-31,96,green,,0.3,5,19.5
+LST0065,AGT005,Emma Clarke,Dubizzle Property,Villa,1,Yas Island,Abu Dhabi,3857000.0,2026-06-05,73,orange,image_quality,0.69,7,3.0
+LST0066,AGT008,Tom Reynolds,Knight Frank,Villa,0,Al Nahda,Sharjah,6775000.0,2026-02-23,71,orange,price_realism,0.48,6,24.2
+LST0067,AGT007,Priya Nair,Hamptons International,Apartment,3,Yas Island,Abu Dhabi,593000.0,2026-02-25,41,red,description,0.18,3,9.0
+LST0068,AGT010,Carlos Mendez,Savills,Penthouse,4,Emirates Hills,Dubai,10512000.0,2025-09-04,63,orange,listing_completion,0.52,7,12.2
+LST0069,AGT010,Carlos Mendez,Savills,Studio,0,Al Reem Island,Abu Dhabi,357000.0,2026-04-13,47,red,listing_completion,0.24,3,17.2
+LST0070,AGT002,James Mitchell,Espace Real Estate,Studio,0,Palm Jumeirah,Dubai,449000.0,2026-02-05,87,green,price_realism,0.67,9,2.8
+LST0071,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Al Nahda,Sharjah,5218000.0,2026-03-23,68,orange,listing_completion,0.76,11,20.5
+LST0072,AGT004,Raj Patel,Driven Properties,Studio,0,Yas Island,Abu Dhabi,915000.0,2025-09-01,69,orange,listing_completion,0.18,2,20.2
+LST0073,AGT008,Tom Reynolds,Knight Frank,Townhouse,0,Muwailih Commercial,Sharjah,2683000.0,2025-11-20,73,orange,verified,0.41,5,14.4
+LST0074,AGT007,Priya Nair,Hamptons International,Apartment,5,Meydan City,Dubai,970000.0,2025-09-11,67,orange,image_quality,0.13,3,21.2
+LST0075,AGT010,Carlos Mendez,Savills,Townhouse,0,Al Majaz,Sharjah,3690000.0,2025-09-06,57,red,price_realism,0.52,7,8.4
+LST0076,AGT008,Tom Reynolds,Knight Frank,Apartment,2,Khalifa City,Abu Dhabi,1101000.0,2025-10-22,76,orange,verified,0.14,1,11.5
+LST0077,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Khalifa City,Abu Dhabi,732000.0,2025-10-12,75,orange,title,0.34,7,11.3
+LST0078,AGT007,Priya Nair,Hamptons International,Penthouse,0,Emirates Hills,Dubai,4782000.0,2026-03-20,81,green,location_specificity,0.73,11,19.5
+LST0079,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Al Maryah Island,Abu Dhabi,6821000.0,2026-03-02,97,green,,0.16,3,16.0
+LST0080,AGT009,Aisha Al Zaabi,CBRE,Townhouse,0,Al Majaz,Sharjah,2969000.0,2026-05-03,46,red,description,0.94,18,12.6
+LST0081,AGT005,Emma Clarke,Dubizzle Property,Penthouse,4,Al Majaz,Sharjah,9701000.0,2026-04-19,88,green,listing_completion,0.48,7,12.5
+LST0082,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Saadiyat Island,Abu Dhabi,1009000.0,2026-01-09,52,red,listing_completion,0.11,2,21.7
+LST0083,AGT005,Emma Clarke,Dubizzle Property,Apartment,5,Al Nahda,Sharjah,934000.0,2026-01-13,97,green,,0.83,11,13.1
+LST0084,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,Muwailih Commercial,Sharjah,11261000.0,2026-01-21,65,orange,location_specificity,0.39,7,11.4
+LST0085,AGT007,Priya Nair,Hamptons International,Penthouse,5,Al Nahda,Sharjah,10528000.0,2026-01-14,54,red,price_realism,0.92,9,24.2
+LST0086,AGT009,Aisha Al Zaabi,CBRE,Apartment,3,JBR,Dubai,503000.0,2026-02-17,53,red,price_realism,0.83,16,3.7
+LST0087,AGT002,James Mitchell,Espace Real Estate,Penthouse,2,Al Maryah Island,Abu Dhabi,11097000.0,2025-09-28,83,green,title,0.61,11,13.2
+LST0088,AGT004,Raj Patel,Driven Properties,Apartment,5,Meydan City,Dubai,1520000.0,2025-08-12,71,orange,description,0.72,10,4.3
+LST0089,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,5,Al Majaz,Sharjah,5845000.0,2025-11-24,38,red,image_quality,0.34,3,10.2
+LST0090,AGT007,Priya Nair,Hamptons International,Studio,0,Business Bay,Dubai,838000.0,2025-07-18,58,red,description,0.21,3,10.8
+LST0091,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,JBR,Dubai,521000.0,2026-02-05,67,orange,price_realism,0.28,2,20.5
+LST0092,AGT002,James Mitchell,Espace Real Estate,Villa,3,Muwailih Commercial,Sharjah,7188000.0,2026-01-29,73,orange,verified,0.92,15,12.5
+LST0093,AGT002,James Mitchell,Espace Real Estate,Penthouse,1,DIFC,Dubai,6623000.0,2025-07-30,80,green,location_specificity,0.32,5,2.5
+LST0094,AGT010,Carlos Mendez,Savills,Apartment,5,Al Reem Island,Abu Dhabi,1663000.0,2026-03-07,41,red,location_specificity,0.72,13,22.8
+LST0095,AGT004,Raj Patel,Driven Properties,Villa,4,Al Nahda,Sharjah,3229000.0,2025-11-19,52,red,verified,0.14,2,2.9
+LST0096,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,0,Meydan City,Dubai,4191000.0,2025-12-27,76,orange,verified,0.42,4,20.1
+LST0097,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,2,Muwailih Commercial,Sharjah,4206000.0,2026-05-05,96,green,,0.92,11,22.0
+LST0098,AGT004,Raj Patel,Driven Properties,Villa,5,Yas Island,Abu Dhabi,5928000.0,2026-06-25,85,green,listing_completion,0.77,10,20.2
+LST0099,AGT008,Tom Reynolds,Knight Frank,Apartment,2,Al Maryah Island,Abu Dhabi,1503000.0,2025-07-22,68,orange,location_specificity,0.39,6,10.5
+LST0100,AGT010,Carlos Mendez,Savills,Apartment,4,JBR,Dubai,979000.0,2026-01-29,63,orange,verified,0.11,2,22.9
+LST0101,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,0,Al Nahda,Sharjah,1918000.0,2025-12-16,73,orange,price_realism,0.15,2,14.4
+LST0102,AGT007,Priya Nair,Hamptons International,Studio,0,Al Reem Island,Abu Dhabi,858000.0,2026-02-09,54,red,price_realism,0.64,12,16.2
+LST0103,AGT008,Tom Reynolds,Knight Frank,Villa,3,Arabian Ranches,Dubai,7218000.0,2025-08-06,81,green,image_quality,0.93,12,22.7
+LST0104,AGT005,Emma Clarke,Dubizzle Property,Penthouse,1,Yas Island,Abu Dhabi,12198000.0,2026-06-22,93,green,,0.13,1,16.7
+LST0105,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Arabian Ranches,Dubai,2970000.0,2026-04-18,61,orange,location_specificity,0.24,4,9.6
+LST0106,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,1,Al Majaz,Sharjah,2928000.0,2026-03-03,57,red,image_quality,0.64,5,2.3
+LST0107,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Nahda,Sharjah,560000.0,2025-12-29,88,green,location_specificity,0.15,1,12.3
+LST0108,AGT008,Tom Reynolds,Knight Frank,Apartment,4,Muwailih Commercial,Sharjah,817000.0,2025-11-10,40,red,verified,0.75,14,14.0
+LST0109,AGT008,Tom Reynolds,Knight Frank,Apartment,3,Al Majaz,Sharjah,1128000.0,2026-01-19,48,red,price_realism,0.69,9,22.7
+LST0110,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Majaz,Sharjah,1429000.0,2025-08-27,76,orange,price_realism,0.95,14,12.4
+LST0111,AGT009,Aisha Al Zaabi,CBRE,Apartment,5,Yas Island,Abu Dhabi,1796000.0,2025-11-12,90,green,,0.46,5,9.8
+LST0112,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,3,Khalifa City,Abu Dhabi,955000.0,2026-05-17,67,orange,title,0.91,15,12.9
+LST0113,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,10019000.0,2025-07-24,51,red,location_specificity,0.1,2,14.9
+LST0114,AGT007,Priya Nair,Hamptons International,Townhouse,5,DIFC,Dubai,1256000.0,2026-04-14,71,orange,location_specificity,0.33,3,13.7
+LST0115,AGT002,James Mitchell,Espace Real Estate,Villa,2,Al Nahda,Sharjah,6619000.0,2025-09-18,82,green,image_quality,0.74,11,20.6
+LST0116,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,879000.0,2026-01-10,69,orange,image_quality,0.21,3,9.1
+LST0117,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,4,Yas Island,Abu Dhabi,5547000.0,2025-10-04,43,red,description,0.72,14,4.1
+LST0118,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,DIFC,Dubai,4495000.0,2026-06-06,74,orange,verified,0.34,7,15.7
+LST0119,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Palm Jumeirah,Dubai,940000.0,2026-02-13,69,orange,price_realism,0.65,9,12.2
+LST0120,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,3,Emirates Hills,Dubai,649000.0,2025-08-30,97,green,,0.52,6,7.1
+LST0121,AGT005,Emma Clarke,Dubizzle Property,Villa,1,Dubai Marina,Dubai,6174000.0,2026-04-04,67,orange,title,0.35,3,19.2
+LST0122,AGT004,Raj Patel,Driven Properties,Studio,0,DIFC,Dubai,775000.0,2025-11-09,80,green,image_quality,0.41,7,12.0
+LST0123,AGT007,Priya Nair,Hamptons International,Studio,0,Arabian Ranches,Dubai,845000.0,2025-08-20,88,green,title,0.15,1,9.5
+LST0124,AGT007,Priya Nair,Hamptons International,Apartment,0,Al Reem Island,Abu Dhabi,850000.0,2026-03-11,86,green,location_specificity,0.12,2,19.2
+LST0125,AGT009,Aisha Al Zaabi,CBRE,Apartment,5,Saadiyat Island,Abu Dhabi,653000.0,2026-04-18,59,red,listing_completion,0.36,6,20.8
+LST0126,AGT005,Emma Clarke,Dubizzle Property,Villa,1,Downtown Dubai,Dubai,2789000.0,2025-08-15,54,red,listing_completion,0.73,7,23.9
+LST0127,AGT010,Carlos Mendez,Savills,Studio,0,Khalifa City,Abu Dhabi,726000.0,2025-11-04,76,orange,listing_completion,0.92,11,12.1
+LST0128,AGT010,Carlos Mendez,Savills,Townhouse,0,Al Reem Island,Abu Dhabi,2284000.0,2026-02-06,44,red,title,0.47,4,10.5
+LST0129,AGT010,Carlos Mendez,Savills,Studio,0,Downtown Dubai,Dubai,782000.0,2026-06-11,94,green,,0.57,11,19.0
+LST0130,AGT006,Mohammed Al Rashid,Provident Estate,Villa,4,Al Maryah Island,Abu Dhabi,4511000.0,2025-07-02,54,red,image_quality,0.46,8,21.3
+LST0131,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Emirates Hills,Dubai,5833000.0,2026-02-08,91,green,,0.52,8,10.4
+LST0132,AGT010,Carlos Mendez,Savills,Townhouse,0,Khalifa City,Abu Dhabi,3779000.0,2026-02-23,77,orange,image_quality,0.35,5,10.9
+LST0133,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Muwailih Commercial,Sharjah,617000.0,2026-04-27,53,red,title,0.33,5,17.2
+LST0134,AGT005,Emma Clarke,Dubizzle Property,Apartment,4,Muwailih Commercial,Sharjah,1053000.0,2025-07-17,77,orange,listing_completion,0.17,3,23.8
+LST0135,AGT009,Aisha Al Zaabi,CBRE,Penthouse,2,Al Majaz,Sharjah,3173000.0,2026-03-26,74,orange,description,0.91,11,19.6
+LST0136,AGT002,James Mitchell,Espace Real Estate,Villa,2,Palm Jumeirah,Dubai,6613000.0,2026-06-13,47,red,location_specificity,0.74,13,22.3
+LST0137,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Al Nahda,Sharjah,867000.0,2026-04-09,54,red,description,0.21,3,16.4
+LST0138,AGT007,Priya Nair,Hamptons International,Apartment,2,Al Nahda,Sharjah,1508000.0,2026-03-05,65,orange,price_realism,0.6,10,20.0
+LST0139,AGT008,Tom Reynolds,Knight Frank,Townhouse,1,Al Majaz,Sharjah,2338000.0,2025-10-05,91,green,,0.47,5,10.8
+LST0140,AGT010,Carlos Mendez,Savills,Villa,1,Saadiyat Island,Abu Dhabi,6776000.0,2025-07-03,41,red,verified,0.48,6,23.5
+LST0141,AGT002,James Mitchell,Espace Real Estate,Townhouse,1,Al Majaz,Sharjah,2013000.0,2025-11-14,53,red,listing_completion,0.44,9,7.1
+LST0142,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,3,Yas Island,Abu Dhabi,7769000.0,2026-05-13,65,orange,price_realism,0.95,12,2.6
+LST0143,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,1,Muwailih Commercial,Sharjah,1211000.0,2025-11-15,95,green,,0.68,7,18.2
+LST0144,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,2,Al Majaz,Sharjah,808000.0,2026-02-05,54,red,location_specificity,0.9,14,11.7
+LST0145,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,Jumeirah Village Circle,Dubai,1118000.0,2025-10-01,93,green,,0.11,2,13.5
+LST0146,AGT004,Raj Patel,Driven Properties,Studio,0,Emirates Hills,Dubai,983000.0,2026-03-29,72,orange,price_realism,0.05,1,15.1
+LST0147,AGT009,Aisha Al Zaabi,CBRE,Apartment,2,Muwailih Commercial,Sharjah,583000.0,2025-12-23,37,red,price_realism,0.84,7,10.9
+LST0148,AGT002,James Mitchell,Espace Real Estate,Townhouse,2,Yas Island,Abu Dhabi,1905000.0,2026-01-03,48,red,listing_completion,0.57,10,5.1
+LST0149,AGT008,Tom Reynolds,Knight Frank,Villa,5,Al Nahda,Sharjah,4528000.0,2026-06-14,58,red,listing_completion,0.17,3,23.7
+LST0150,AGT004,Raj Patel,Driven Properties,Apartment,0,Saadiyat Island,Abu Dhabi,960000.0,2026-06-14,74,orange,location_specificity,0.41,7,12.9
+LST0151,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,0,Al Majaz,Sharjah,4041000.0,2025-11-19,77,orange,title,0.16,2,22.5
+LST0152,AGT008,Tom Reynolds,Knight Frank,Villa,5,Al Reem Island,Abu Dhabi,4636000.0,2026-04-01,69,orange,listing_completion,0.12,2,11.9
+LST0153,AGT002,James Mitchell,Espace Real Estate,Townhouse,0,Al Nahda,Sharjah,2201000.0,2025-11-17,72,orange,title,0.45,7,5.8
+LST0154,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,4,Khalifa City,Abu Dhabi,1997000.0,2025-08-10,70,orange,verified,0.93,18,3.7
+LST0155,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Al Reem Island,Abu Dhabi,1205000.0,2026-05-29,53,red,listing_completion,0.6,10,2.8
+LST0156,AGT007,Priya Nair,Hamptons International,Townhouse,4,Arabian Ranches,Dubai,1191000.0,2026-05-24,54,red,verified,0.45,6,12.2
+LST0157,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Al Majaz,Sharjah,678000.0,2025-10-10,70,orange,description,0.91,8,6.3
+LST0158,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Al Maryah Island,Abu Dhabi,1550000.0,2026-05-01,62,orange,location_specificity,0.31,6,13.3
+LST0159,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,5,Downtown Dubai,Dubai,7229000.0,2026-01-06,46,red,listing_completion,0.66,12,9.4
+LST0160,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Majaz,Sharjah,576000.0,2026-04-04,73,orange,listing_completion,0.19,3,18.1
+LST0161,AGT002,James Mitchell,Espace Real Estate,Villa,1,Al Maryah Island,Abu Dhabi,6315000.0,2025-11-05,65,orange,listing_completion,0.49,6,15.2
+LST0162,AGT002,James Mitchell,Espace Real Estate,Studio,0,Al Majaz,Sharjah,362000.0,2025-09-11,85,green,verified,0.7,10,19.7
+LST0163,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Palm Jumeirah,Dubai,2673000.0,2026-03-31,79,orange,description,0.84,15,16.7
+LST0164,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,DIFC,Dubai,1090000.0,2026-01-06,54,red,title,0.2,2,18.3
+LST0165,AGT005,Emma Clarke,Dubizzle Property,Apartment,1,Al Nahda,Sharjah,1445000.0,2025-08-08,70,orange,description,0.61,9,4.1
+LST0166,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Meydan City,Dubai,463000.0,2026-05-22,78,orange,listing_completion,0.88,7,21.9
+LST0167,AGT004,Raj Patel,Driven Properties,Townhouse,4,Meydan City,Dubai,2505000.0,2026-01-29,38,red,price_realism,0.85,12,16.8
+LST0168,AGT005,Emma Clarke,Dubizzle Property,Penthouse,3,Saadiyat Island,Abu Dhabi,3693000.0,2025-08-26,42,red,description,0.45,6,6.7
+LST0169,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,3,Arabian Ranches,Dubai,1527000.0,2026-02-16,82,green,location_specificity,0.56,7,12.7
+LST0170,AGT002,James Mitchell,Espace Real Estate,Villa,0,Saadiyat Island,Abu Dhabi,3454000.0,2026-04-12,84,green,listing_completion,0.6,7,21.9
+LST0171,AGT004,Raj Patel,Driven Properties,Townhouse,1,Al Maryah Island,Abu Dhabi,2784000.0,2025-12-13,94,green,,0.5,6,2.5
+LST0172,AGT004,Raj Patel,Driven Properties,Villa,4,Al Nahda,Sharjah,3812000.0,2025-11-04,41,red,title,0.5,9,17.0
+LST0173,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Al Maryah Island,Abu Dhabi,684000.0,2026-06-06,68,orange,verified,0.38,5,3.0
+LST0174,AGT006,Mohammed Al Rashid,Provident Estate,Villa,4,Muwailih Commercial,Sharjah,3445000.0,2025-08-17,84,green,location_specificity,0.46,7,21.0
+LST0175,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,0,Muwailih Commercial,Sharjah,1079000.0,2025-10-15,78,orange,location_specificity,0.9,15,6.6
+LST0176,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,0,Al Maryah Island,Abu Dhabi,688000.0,2025-10-12,77,orange,listing_completion,0.48,6,15.9
+LST0177,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,454000.0,2025-07-05,73,orange,location_specificity,0.35,6,14.2
+LST0178,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,2,Al Nahda,Sharjah,6147000.0,2025-07-15,49,red,price_realism,0.58,10,18.7
+LST0179,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Majaz,Sharjah,552000.0,2025-08-19,64,orange,verified,0.1,1,14.1
+LST0180,AGT001,Sarah Al Mansoori,Betterhomes,Villa,4,Saadiyat Island,Abu Dhabi,7205000.0,2025-07-14,49,red,description,0.07,1,5.5
+LST0181,AGT010,Carlos Mendez,Savills,Studio,0,DIFC,Dubai,1174000.0,2025-07-28,42,red,verified,0.17,2,9.5
+LST0182,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,1,Al Maryah Island,Abu Dhabi,7367000.0,2025-08-07,78,orange,location_specificity,0.37,6,18.6
+LST0183,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,483000.0,2026-01-31,66,orange,title,0.55,6,24.4
+LST0184,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,3,Saadiyat Island,Abu Dhabi,6314000.0,2025-12-12,70,orange,title,0.16,3,10.7
+LST0185,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,2,Saadiyat Island,Abu Dhabi,4347000.0,2026-03-15,45,red,title,0.88,14,19.2
+LST0186,AGT009,Aisha Al Zaabi,CBRE,Townhouse,5,Emirates Hills,Dubai,2009000.0,2025-10-04,48,red,location_specificity,0.72,8,3.2
+LST0187,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Business Bay,Dubai,982000.0,2025-09-24,95,green,,0.14,2,2.1
+LST0188,AGT008,Tom Reynolds,Knight Frank,Penthouse,5,DIFC,Dubai,4895000.0,2025-08-03,71,orange,title,0.31,3,19.7
+LST0189,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Al Majaz,Sharjah,1168000.0,2025-12-11,57,red,price_realism,0.84,8,23.2
+LST0190,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,0,Saadiyat Island,Abu Dhabi,2101000.0,2025-10-23,48,red,title,0.31,6,14.5
+LST0191,AGT005,Emma Clarke,Dubizzle Property,Penthouse,1,Emirates Hills,Dubai,10684000.0,2026-06-25,77,orange,description,0.71,11,18.5
+LST0192,AGT010,Carlos Mendez,Savills,Townhouse,5,Al Nahda,Sharjah,3670000.0,2025-10-12,57,red,location_specificity,0.82,15,21.0
+LST0193,AGT002,James Mitchell,Espace Real Estate,Penthouse,1,Yas Island,Abu Dhabi,12326000.0,2026-03-04,96,green,,0.34,4,8.0
+LST0194,AGT005,Emma Clarke,Dubizzle Property,Townhouse,4,Al Reem Island,Abu Dhabi,3552000.0,2026-05-03,36,red,title,0.64,10,3.4
+LST0195,AGT007,Priya Nair,Hamptons International,Villa,5,Al Reem Island,Abu Dhabi,4664000.0,2025-08-22,74,orange,verified,0.16,3,8.8
+LST0196,AGT008,Tom Reynolds,Knight Frank,Villa,1,Business Bay,Dubai,4393000.0,2025-07-27,82,green,price_realism,0.68,13,19.4
+LST0197,AGT002,James Mitchell,Espace Real Estate,Studio,0,Business Bay,Dubai,799000.0,2025-10-17,81,green,image_quality,0.88,8,21.1
+LST0198,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Meydan City,Dubai,456000.0,2026-05-17,91,green,,0.15,2,15.4
+LST0199,AGT008,Tom Reynolds,Knight Frank,Apartment,1,Al Nahda,Sharjah,1260000.0,2026-01-26,93,green,,0.56,8,17.5
+LST0200,AGT005,Emma Clarke,Dubizzle Property,Penthouse,0,Al Majaz,Sharjah,10085000.0,2026-06-02,44,red,image_quality,0.43,7,14.4
+LST0201,AGT005,Emma Clarke,Dubizzle Property,Apartment,3,JBR,Dubai,754000.0,2025-12-23,52,red,listing_completion,0.63,11,24.2
+LST0202,AGT007,Priya Nair,Hamptons International,Penthouse,0,Khalifa City,Abu Dhabi,9486000.0,2025-12-13,52,red,verified,0.82,8,24.8
+LST0203,AGT001,Sarah Al Mansoori,Betterhomes,Villa,0,Al Majaz,Sharjah,7377000.0,2026-03-07,94,green,,0.66,10,14.2
+LST0204,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,2,JBR,Dubai,1725000.0,2026-06-24,49,red,image_quality,0.78,10,19.6
+LST0205,AGT002,James Mitchell,Espace Real Estate,Apartment,4,Business Bay,Dubai,531000.0,2026-03-13,41,red,description,0.72,9,7.4
+LST0206,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Palm Jumeirah,Dubai,522000.0,2026-01-29,75,orange,location_specificity,0.59,9,9.4
+LST0207,AGT007,Priya Nair,Hamptons International,Villa,2,Emirates Hills,Dubai,3368000.0,2026-01-07,57,red,verified,0.66,10,3.1
+LST0208,AGT009,Aisha Al Zaabi,CBRE,Penthouse,2,Muwailih Commercial,Sharjah,9615000.0,2026-03-01,87,green,description,0.32,3,14.4
+LST0209,AGT008,Tom Reynolds,Knight Frank,Villa,0,Jumeirah Village Circle,Dubai,5006000.0,2026-01-14,88,green,location_specificity,0.53,7,7.9
+LST0210,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,0,Al Majaz,Sharjah,8089000.0,2026-05-26,59,red,image_quality,0.29,5,15.9
+LST0211,AGT004,Raj Patel,Driven Properties,Studio,0,Meydan City,Dubai,755000.0,2026-05-03,77,orange,title,0.91,7,23.6
+LST0212,AGT010,Carlos Mendez,Savills,Villa,5,Al Nahda,Sharjah,2966000.0,2025-08-04,65,orange,location_specificity,0.34,4,12.7
+LST0213,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,4,Al Reem Island,Abu Dhabi,4099000.0,2026-01-20,94,green,,0.14,3,12.8
+LST0214,AGT007,Priya Nair,Hamptons International,Townhouse,0,Arabian Ranches,Dubai,3004000.0,2025-09-09,63,orange,verified,0.18,2,23.5
+LST0215,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,1,Al Nahda,Sharjah,2208000.0,2025-07-17,83,green,location_specificity,0.8,11,17.1
+LST0216,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Al Reem Island,Abu Dhabi,4598000.0,2025-09-28,80,green,description,0.18,3,6.2
+LST0217,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Al Majaz,Sharjah,1097000.0,2025-08-14,44,red,listing_completion,0.65,11,11.5
+LST0218,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Downtown Dubai,Dubai,4683000.0,2025-10-28,82,green,image_quality,0.61,10,16.2
+LST0219,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,4,Al Nahda,Sharjah,1318000.0,2026-06-24,36,red,image_quality,0.53,6,24.5
+LST0220,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,0,Muwailih Commercial,Sharjah,11721000.0,2026-02-16,54,red,description,0.22,3,20.7
+LST0221,AGT007,Priya Nair,Hamptons International,Townhouse,3,Yas Island,Abu Dhabi,3012000.0,2025-08-04,63,orange,title,0.67,12,17.0
+LST0222,AGT007,Priya Nair,Hamptons International,Penthouse,3,Downtown Dubai,Dubai,8251000.0,2025-11-22,42,red,verified,0.06,1,13.5
+LST0223,AGT002,James Mitchell,Espace Real Estate,Studio,0,Al Nahda,Sharjah,1150000.0,2025-11-01,40,red,description,0.24,4,22.4
+LST0224,AGT005,Emma Clarke,Dubizzle Property,Apartment,4,Yas Island,Abu Dhabi,1337000.0,2025-09-05,39,red,description,0.89,10,24.1
+LST0225,AGT005,Emma Clarke,Dubizzle Property,Apartment,1,DIFC,Dubai,1337000.0,2026-04-22,84,green,verified,0.86,10,19.4
+LST0226,AGT009,Aisha Al Zaabi,CBRE,Apartment,5,Muwailih Commercial,Sharjah,1961000.0,2025-08-22,41,red,image_quality,0.44,8,9.8
+LST0227,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,5,Al Nahda,Sharjah,2015000.0,2025-11-23,92,green,,0.49,6,23.6
+LST0228,AGT002,James Mitchell,Espace Real Estate,Penthouse,4,Meydan City,Dubai,5806000.0,2025-08-12,66,orange,verified,0.12,1,10.7
+LST0229,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,0,DIFC,Dubai,1393000.0,2026-03-29,74,orange,price_realism,0.37,4,5.0
+LST0230,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Khalifa City,Abu Dhabi,787000.0,2026-01-17,48,red,image_quality,0.13,2,15.7
+LST0231,AGT007,Priya Nair,Hamptons International,Townhouse,3,Yas Island,Abu Dhabi,3745000.0,2026-02-15,66,orange,location_specificity,0.52,8,5.9
+LST0232,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,0,Al Reem Island,Abu Dhabi,4588000.0,2026-02-26,70,orange,price_realism,0.32,6,10.3
+LST0233,AGT010,Carlos Mendez,Savills,Penthouse,4,Muwailih Commercial,Sharjah,4858000.0,2025-08-19,48,red,description,0.32,6,9.6
+LST0234,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,3,Al Reem Island,Abu Dhabi,10747000.0,2026-01-23,52,red,title,0.34,7,6.6
+LST0235,AGT005,Emma Clarke,Dubizzle Property,Townhouse,5,DIFC,Dubai,3457000.0,2026-02-09,97,green,,0.92,16,9.5
+LST0236,AGT010,Carlos Mendez,Savills,Apartment,1,Al Reem Island,Abu Dhabi,1380000.0,2025-07-05,58,red,verified,0.74,6,18.7
+LST0237,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,JBR,Dubai,3382000.0,2025-11-28,52,red,verified,0.32,4,5.5
+LST0238,AGT010,Carlos Mendez,Savills,Penthouse,3,Yas Island,Abu Dhabi,8531000.0,2025-10-01,88,green,location_specificity,0.08,2,18.1
+LST0239,AGT002,James Mitchell,Espace Real Estate,Apartment,1,Muwailih Commercial,Sharjah,1480000.0,2025-07-21,80,green,description,0.63,5,24.6
+LST0240,AGT007,Priya Nair,Hamptons International,Townhouse,0,Al Nahda,Sharjah,1116000.0,2025-09-11,68,orange,description,0.51,7,15.4
+LST0241,AGT007,Priya Nair,Hamptons International,Townhouse,3,JBR,Dubai,3721000.0,2026-05-20,54,red,title,0.95,13,8.8
+LST0242,AGT005,Emma Clarke,Dubizzle Property,Townhouse,2,Palm Jumeirah,Dubai,2637000.0,2025-07-11,61,orange,location_specificity,0.48,7,12.1
+LST0243,AGT005,Emma Clarke,Dubizzle Property,Apartment,0,Al Reem Island,Abu Dhabi,1711000.0,2026-04-09,49,red,image_quality,0.81,13,17.6
+LST0244,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Al Majaz,Sharjah,824000.0,2025-08-14,77,orange,location_specificity,0.43,6,20.3
+LST0245,AGT007,Priya Nair,Hamptons International,Penthouse,0,Palm Jumeirah,Dubai,10005000.0,2026-03-19,60,orange,price_realism,0.58,7,18.2
+LST0246,AGT002,James Mitchell,Espace Real Estate,Studio,0,Yas Island,Abu Dhabi,1060000.0,2025-10-25,58,red,title,0.34,5,8.0
+LST0247,AGT010,Carlos Mendez,Savills,Townhouse,3,Muwailih Commercial,Sharjah,3171000.0,2025-07-23,49,red,title,0.37,5,6.0
+LST0248,AGT010,Carlos Mendez,Savills,Studio,0,Al Nahda,Sharjah,381000.0,2025-07-12,52,red,title,0.16,2,6.2
+LST0249,AGT007,Priya Nair,Hamptons International,Penthouse,4,Emirates Hills,Dubai,4310000.0,2025-08-06,84,green,price_realism,0.22,3,17.9
+LST0250,AGT008,Tom Reynolds,Knight Frank,Villa,2,Emirates Hills,Dubai,2600000.0,2026-06-28,75,orange,listing_completion,0.46,4,10.3
+LST0251,AGT007,Priya Nair,Hamptons International,Villa,4,Saadiyat Island,Abu Dhabi,4681000.0,2025-11-17,98,green,,0.42,6,18.3
+LST0252,AGT010,Carlos Mendez,Savills,Apartment,0,Saadiyat Island,Abu Dhabi,1690000.0,2025-11-10,63,orange,title,0.08,1,8.6
+LST0253,AGT009,Aisha Al Zaabi,CBRE,Penthouse,4,Muwailih Commercial,Sharjah,4076000.0,2026-06-11,49,red,title,0.75,13,10.4
+LST0254,AGT004,Raj Patel,Driven Properties,Studio,0,Al Nahda,Sharjah,1240000.0,2026-06-16,48,red,verified,0.8,14,8.8
+LST0255,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Al Reem Island,Abu Dhabi,4039000.0,2025-07-15,50,red,listing_completion,0.78,8,19.0
+LST0256,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,4,Al Maryah Island,Abu Dhabi,4323000.0,2026-02-09,61,orange,listing_completion,0.24,2,10.1
+LST0257,AGT006,Mohammed Al Rashid,Provident Estate,Villa,5,Muwailih Commercial,Sharjah,3468000.0,2026-04-24,69,orange,listing_completion,0.51,10,20.7
+LST0258,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,5,Yas Island,Abu Dhabi,4042000.0,2025-07-21,66,orange,description,0.69,12,19.5
+LST0259,AGT010,Carlos Mendez,Savills,Villa,5,Khalifa City,Abu Dhabi,3332000.0,2026-05-16,88,green,price_realism,0.46,7,22.2
+LST0260,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,3,Al Maryah Island,Abu Dhabi,4330000.0,2025-11-10,76,orange,location_specificity,0.05,1,18.9
+LST0261,AGT002,James Mitchell,Espace Real Estate,Townhouse,4,Muwailih Commercial,Sharjah,2440000.0,2026-01-11,89,green,listing_completion,0.24,3,21.1
+LST0262,AGT010,Carlos Mendez,Savills,Villa,3,Muwailih Commercial,Sharjah,6293000.0,2026-04-30,41,red,image_quality,0.14,2,12.6
+LST0263,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,3,JBR,Dubai,4922000.0,2026-05-16,51,red,verified,0.32,6,22.2
+LST0264,AGT002,James Mitchell,Espace Real Estate,Townhouse,2,Al Nahda,Sharjah,3353000.0,2026-03-05,56,red,image_quality,0.41,5,18.1
+LST0265,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,Yas Island,Abu Dhabi,1205000.0,2025-07-11,51,red,location_specificity,0.25,4,2.2
+LST0266,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Yas Island,Abu Dhabi,3673000.0,2026-01-30,84,green,image_quality,0.71,7,9.2
+LST0267,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,0,DIFC,Dubai,4824000.0,2025-08-15,36,red,location_specificity,0.64,8,18.6
+LST0268,AGT010,Carlos Mendez,Savills,Penthouse,5,Al Majaz,Sharjah,7203000.0,2025-12-18,62,orange,image_quality,0.86,8,4.8
+LST0269,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,1,Khalifa City,Abu Dhabi,2027000.0,2025-07-14,45,red,description,0.55,8,16.0
+LST0270,AGT009,Aisha Al Zaabi,CBRE,Villa,4,Jumeirah Village Circle,Dubai,4704000.0,2026-03-02,85,green,title,0.63,11,20.3
+LST0271,AGT004,Raj Patel,Driven Properties,Apartment,3,Khalifa City,Abu Dhabi,1450000.0,2026-01-21,44,red,location_specificity,0.85,7,10.3
+LST0272,AGT007,Priya Nair,Hamptons International,Studio,0,DIFC,Dubai,647000.0,2025-09-05,57,red,listing_completion,0.47,9,3.7
+LST0273,AGT004,Raj Patel,Driven Properties,Townhouse,0,Dubai Marina,Dubai,4235000.0,2025-11-28,85,green,location_specificity,0.31,5,19.6
+LST0274,AGT009,Aisha Al Zaabi,CBRE,Apartment,4,Al Nahda,Sharjah,1416000.0,2026-04-14,70,orange,image_quality,0.33,5,6.7
+LST0275,AGT010,Carlos Mendez,Savills,Penthouse,5,Al Nahda,Sharjah,10251000.0,2026-06-03,43,red,title,0.68,11,21.5
+LST0276,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Downtown Dubai,Dubai,8817000.0,2026-06-26,42,red,title,0.65,10,6.0
+LST0277,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,3,Al Majaz,Sharjah,1929000.0,2026-05-03,68,orange,description,0.38,6,22.1
+LST0278,AGT005,Emma Clarke,Dubizzle Property,Penthouse,4,Arabian Ranches,Dubai,3607000.0,2025-09-15,44,red,price_realism,0.46,6,13.5
+LST0279,AGT005,Emma Clarke,Dubizzle Property,Villa,0,Arabian Ranches,Dubai,6897000.0,2026-06-26,49,red,description,0.72,6,21.7
+LST0280,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,3,Dubai Marina,Dubai,11742000.0,2025-08-01,57,red,listing_completion,0.08,1,18.4
+LST0281,AGT004,Raj Patel,Driven Properties,Townhouse,3,Saadiyat Island,Abu Dhabi,4212000.0,2025-07-23,75,orange,title,0.79,12,4.7
+LST0282,AGT009,Aisha Al Zaabi,CBRE,Villa,0,Palm Jumeirah,Dubai,7238000.0,2026-05-19,43,red,price_realism,0.83,14,9.1
+LST0283,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,1,Al Nahda,Sharjah,923000.0,2025-10-23,73,orange,verified,0.61,8,15.6
+LST0284,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,0,Emirates Hills,Dubai,7115000.0,2026-06-28,38,red,description,0.54,8,17.9
+LST0285,AGT005,Emma Clarke,Dubizzle Property,Penthouse,0,Yas Island,Abu Dhabi,4949000.0,2025-07-03,65,orange,price_realism,0.49,4,24.9
+LST0286,AGT004,Raj Patel,Driven Properties,Apartment,4,Yas Island,Abu Dhabi,1108000.0,2026-04-25,82,green,price_realism,0.93,8,4.2
+LST0287,AGT010,Carlos Mendez,Savills,Apartment,4,Al Nahda,Sharjah,575000.0,2025-12-13,51,red,description,0.31,6,23.3
+LST0288,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,3,Muwailih Commercial,Sharjah,2010000.0,2026-05-09,44,red,description,0.17,3,4.5
+LST0289,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,3,JBR,Dubai,4147000.0,2026-05-02,80,green,listing_completion,0.24,3,8.1
+LST0290,AGT010,Carlos Mendez,Savills,Townhouse,0,Palm Jumeirah,Dubai,1815000.0,2025-10-13,76,orange,description,0.13,1,10.2
+LST0291,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,0,Jumeirah Village Circle,Dubai,4336000.0,2026-05-11,92,green,,0.55,8,4.2
+LST0292,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,Downtown Dubai,Dubai,679000.0,2025-09-05,86,green,title,0.67,13,3.9
+LST0293,AGT002,James Mitchell,Espace Real Estate,Apartment,1,Yas Island,Abu Dhabi,1852000.0,2026-01-14,91,green,,0.78,7,21.5
+LST0294,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,1,Dubai Marina,Dubai,11779000.0,2025-07-18,90,green,,0.79,10,2.7
+LST0295,AGT004,Raj Patel,Driven Properties,Townhouse,1,Saadiyat Island,Abu Dhabi,2020000.0,2026-02-27,92,green,,0.85,7,16.2
+LST0296,AGT007,Priya Nair,Hamptons International,Penthouse,4,Al Nahda,Sharjah,7551000.0,2025-10-06,46,red,title,0.39,5,16.8
+LST0297,AGT007,Priya Nair,Hamptons International,Apartment,5,Emirates Hills,Dubai,1026000.0,2026-02-14,97,green,,0.36,5,9.4
+LST0298,AGT010,Carlos Mendez,Savills,Townhouse,1,Dubai Marina,Dubai,1180000.0,2025-09-06,70,orange,image_quality,0.78,11,10.2
+LST0299,AGT004,Raj Patel,Driven Properties,Apartment,5,Palm Jumeirah,Dubai,847000.0,2025-12-16,42,red,listing_completion,0.95,10,21.5
+LST0300,AGT004,Raj Patel,Driven Properties,Villa,4,Saadiyat Island,Abu Dhabi,3613000.0,2025-09-17,80,green,location_specificity,0.08,1,23.8

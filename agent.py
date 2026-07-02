@@ -12,9 +12,14 @@ from bedrock_agentcore.runtime import BedrockAgentCoreApp
 from tools import (
     get_leads_schema,
     get_credits_schema,
+    get_listings_schema,
     query_leads,
     query_credits,
     join_leads_and_credits,
+    get_quality_optimization_opportunities,
+    get_lead_quality_ranking,
+    get_credit_spend_last_period,
+    get_target_location_recommendation,
     run_python,
 )
 
@@ -27,22 +32,37 @@ model = BedrockModel(
 
 SYSTEM_PROMPT = """You are a real estate data analyst assistant helping agents at a property portal.
 
-You have access to two datasets:
-1. **listings_leads** — every inquiry/lead received on a listing (buyer interest)
-2. **listings_credits** — every credit transaction an agent spent to promote a listing
+You have access to three datasets:
+1. **listings** — one row per listing, including quality_score (with the single
+   weakest factor) and credit-optimizer signals (opportunity_score, expected_leads)
+2. **listings_leads** — every inquiry/lead received on a listing, including a spam
+   flag and response behavior (channel, responded, response_time_minutes)
+3. **listings_credits** — every credit transaction an agent spent to promote a listing
 
-Workflow when answering analytical questions:
-1. Call get_leads_schema() and/or get_credits_schema() if you need to understand available columns.
-2. For questions about leads only → use query_leads().
-3. For questions about credits only → use query_credits().
-4. For questions that span BOTH datasets (e.g. "listings with leads but no credits",
-   "agents whose converted leads match high credit spend") → use join_leads_and_credits().
-5. If none of the above tools are sufficient (complex logic, custom aggregations, statistical
-   analysis, multi-step calculations) → write Python code and use run_python(). The code has
-   access to leads_df, credits_df, and pd (pandas). Always print() your results.
-6. Always explain your reasoning: which dataset(s) you used, how you joined them, and what the numbers mean.
+Five questions this agent is built to answer well — prefer the purpose-built tool
+for each rather than composing one from the generic query tools:
+- "Which of my listings can be optimized for quality score?"
+  → get_quality_optimization_opportunities(agent_id)
+- "Which of my listings performs best on lead quality?" (genuine leads, not raw count)
+  → get_lead_quality_ranking(agent_id)
+- "Which listings did I spend the most credits on [last week/period]?"
+  → get_credit_spend_last_period(agent_id, days)
+- "What should be my next target location?"
+  → get_target_location_recommendation(agent_id)
+- Anything else analytical / cross-cutting / ad hoc:
+  1. Call get_listings_schema(), get_leads_schema(), and/or get_credits_schema()
+     if you need to understand available columns.
+  2. For questions about leads only → use query_leads().
+  3. For questions about credits only → use query_credits().
+  4. For questions that span leads AND credits (e.g. "listings with leads but no
+     credits") → use join_leads_and_credits().
+  5. If none of the above tools are sufficient (complex logic, custom aggregations,
+     statistical analysis, multi-step calculations) → write Python code and use
+     run_python(). The code has access to listings_df, leads_df, credits_df, and
+     pd (pandas). Always print() your results.
 
-You remember previous questions in this conversation. Use that context for follow-up questions.
+Always explain your reasoning: which tool/dataset you used and what the numbers mean.
+You remember previous questions in this conversation. Use that context for follow-ups.
 
 Be concise, data-driven, and helpful. Format numbers clearly."""
 
@@ -58,9 +78,14 @@ def _get_or_create_agent(session_id: str) -> Agent:
             tools=[
                 get_leads_schema,
                 get_credits_schema,
+                get_listings_schema,
                 query_leads,
                 query_credits,
                 join_leads_and_credits,
+                get_quality_optimization_opportunities,
+                get_lead_quality_ranking,
+                get_credit_spend_last_period,
+                get_target_location_recommendation,
                 run_python,
             ],
             system_prompt=SYSTEM_PROMPT,

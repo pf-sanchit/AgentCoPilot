@@ -41,6 +41,14 @@ LEAD_SOURCES = ["PropertyFinder", "Bayut", "Direct Call", "Referral", "Walk-in"]
 LEAD_STATUSES = ["New", "Contacted", "Qualified", "Converted", "Lost"]
 CREDIT_TYPES = ["Featured", "Premium Listing", "Refresh", "Hot Property", "Boost"]
 
+# Quality factors — mirrors pf-ranking's quality_score breakdown (image, title,
+# description, price_realism, location, verified, listing_completion)
+QUALITY_FACTORS = [
+    "image_quality", "description", "title", "price_realism",
+    "location_specificity", "verified", "listing_completion",
+]
+LEAD_CHANNELS = ["whatsapp", "call", "email"]
+
 
 def random_date(start_days_ago=180):
     return (datetime.now() - timedelta(days=random.randint(0, start_days_ago))).strftime("%Y-%m-%d")
@@ -57,6 +65,20 @@ def build_listings(n=300):
         base_price = {"Apartment": 800_000, "Villa": 3_000_000, "Townhouse": 1_800_000,
                       "Penthouse": 5_000_000, "Studio": 500_000}[prop_type]
         price = round(base_price * random.uniform(0.6, 2.5), -3)
+
+        # Quality score — mirrors pf-ranking's quality_score.details.breakdown.
+        # weak_factor is whichever factor pulled the score down the most.
+        quality_score = random.randint(35, 98)
+        quality_color = "green" if quality_score >= 80 else "orange" if quality_score >= 60 else "red"
+        weak_factor = random.choice(QUALITY_FACTORS) if quality_score < 90 else ""
+
+        # Credit-optimizer signal — mirrors pf-listings-search's
+        # credit_optimizer_results (opportunity_score, expected_leads,
+        # lead_value_per_upgrade_cost).
+        opportunity_score = round(random.uniform(0.05, 0.95), 2)
+        expected_leads = round(opportunity_score * random.uniform(8, 20))
+        lead_value_per_upgrade_cost = round(random.uniform(2, 25), 1)
+
         listings.append({
             "listing_id": f"LST{i:04d}",
             "agent_id": agent[0],
@@ -68,6 +90,12 @@ def build_listings(n=300):
             "emirate": emirate,
             "price": price,
             "listing_date": random_date(365),
+            "quality_score": quality_score,
+            "quality_color": quality_color,
+            "weak_factor": weak_factor,
+            "opportunity_score": opportunity_score,
+            "expected_leads": expected_leads,
+            "lead_value_per_upgrade_cost": lead_value_per_upgrade_cost,
         })
     return listings
 
@@ -76,6 +104,14 @@ def build_leads(listings, n=800):
     leads = []
     for i in range(1, n + 1):
         listing = random.choice(listings)
+
+        # Lead-quality signal — mirrors pf-broker/pf-partner-gateway: a spam
+        # flag per lead (the genuine-lead ratio) plus per-channel response
+        # behavior (agent-stats/*-insights).
+        is_spam = random.random() < 0.15
+        responded = (not is_spam) and random.random() < 0.72
+        response_time_minutes = random.randint(2, 1440) if responded else None
+
         leads.append({
             "lead_id": f"LED{i:04d}",
             "listing_id": listing["listing_id"],
@@ -91,6 +127,10 @@ def build_leads(listings, n=800):
             "lead_status": random.choice(LEAD_STATUSES),
             "lead_date": random_date(180),
             "buyer_name": f"Buyer_{i:04d}",
+            "channel": random.choice(LEAD_CHANNELS),
+            "is_spam": is_spam,
+            "responded": responded,
+            "response_time_minutes": response_time_minutes,
         })
     return leads
 

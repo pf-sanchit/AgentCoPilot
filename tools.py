@@ -3,8 +3,18 @@ Tool definitions for the real estate agent. Each tool is decorated with @tool
 so Strands can expose them to the LLM automatically.
 
 Datasets (loaded once at import):
+  - listings.csv         : one row per listing, incl. quality_score and
+                            credit-optimizer fields
   - listings_leads.csv   : one row per lead inquiry on a listing
   - listings_credits.csv : one row per credit transaction against a listing
+
+Each purpose-built tool below is scaffolded from a real internal endpoint
+found while scoping this project. Swapping the pandas logic for an HTTP call
+to that endpoint is the intended upgrade path once real access is wired up:
+  - get_quality_optimization_opportunities → pf-ranking GET /v1/quality-score/details
+  - get_lead_quality_ranking               → pf-broker GET /pf-partner-gateway/leads
+  - get_credit_spend_last_period           → pf-product GET /rich-transactions
+  - get_target_location_recommendation     → pf-listings-search (proposed) GET /v2/aggregate
 """
 import io
 import json
@@ -13,12 +23,15 @@ import traceback
 import pandas as pd
 from strands import tool
 
+_listings_df: pd.DataFrame = None
 _leads_df: pd.DataFrame = None
 _credits_df: pd.DataFrame = None
 
 
 def _load():
-    global _leads_df, _credits_df
+    global _listings_df, _leads_df, _credits_df
+    if _listings_df is None:
+        _listings_df = pd.read_csv("listings.csv")
     if _leads_df is None:
         _leads_df = pd.read_csv("listings_leads.csv")
     if _credits_df is None:
@@ -49,6 +62,19 @@ def get_credits_schema() -> str:
         "columns": list(_credits_df.dtypes.astype(str).to_dict().items()),
         "row_count": len(_credits_df),
         "sample": _credits_df.head(3).to_dict(orient="records"),
+    }
+    return json.dumps(info, default=str)
+
+
+@tool
+def get_listings_schema() -> str:
+    """Return column names, dtypes, and 3 sample rows from the listings dataset
+    (includes quality_score and credit-optimizer fields)."""
+    _load()
+    info = {
+        "columns": list(_listings_df.dtypes.astype(str).to_dict().items()),
+        "row_count": len(_listings_df),
+        "sample": _listings_df.head(3).to_dict(orient="records"),
     }
     return json.dumps(info, default=str)
 
@@ -234,6 +260,161 @@ def join_leads_and_credits(
 
 
 # ---------------------------------------------------------------------------
+# Purpose-built tools — one per target question
+# ---------------------------------------------------------------------------
+
+@tool
+def get_quality_optimization_opportunities(agent_id: str = "", limit: int = 10) -> str:
+    """
+    Which listings can be optimized for quality score, and what's the single
+    weakest factor dragging each one down (image quality, description, title,
+    price realism, location specificity, verification, listing completion).
+
+    Args:
+        agent_id: Restrict to one agent's listings. Leave empty for all agents.
+        limit:    Max listings to return, worst quality_score first.
+
+    Returns:
+        JSON list of {listing_id, community, emirate, quality_score,
+        quality_color, weak_factor, opportunity_score, expected_leads}.
+    """
+    _load()
+    df = _listings_df.copy()
+    if agent_id:
+        df = df[df["agent_id"].astype(str).str.lower() == str(agent_id).lower()]
+
+    df = df.sort_values("quality_score", ascending=True).head(limit)
+    cols = ["listing_id", "agent_id", "agent_name", "community", "emirate",
+            "quality_score", "quality_color", "weak_factor",
+            "opportunity_score", "expected_leads"]
+    return json.dumps(df[cols].to_dict(orient="records"), default=str)
+
+
+@tool
+def get_lead_quality_ranking(agent_id: str = "", limit: int = 10) -> str:
+    """
+    Which listings perform best on lead QUALITY — not raw lead count. Ranks by
+    the genuine-lead ratio (leads not flagged spam) and response rate, since a
+    listing that gets many leads that are mostly spam is not "performing well."
+
+    Args:
+        agent_id: Restrict to one agent's listings. Leave empty for all agents.
+        limit:    Max listings to return, best genuine-lead ratio first.
+
+    Returns:
+        JSON list of {listing_id, community, emirate, total_leads,
+        genuine_leads, genuine_ratio, response_rate, avg_response_time_minutes}.
+    """
+    _load()
+    df = _leads_df.copy()
+    if agent_id:
+        df = df[df["agent_id"].astype(str).str.lower() == str(agent_id).lower()]
+
+    grouped = df.groupby(["listing_id", "community", "emirate"]).agg(
+        total_leads=("lead_id", "count"),
+        genuine_leads=("is_spam", lambda s: int((~s).sum())),
+        responded_count=("responded", "sum"),
+        avg_response_time_minutes=("response_time_minutes", "mean"),
+    ).reset_index()
+
+    grouped["genuine_ratio"] = (grouped["genuine_leads"] / grouped["total_leads"]).round(3)
+    grouped["response_rate"] = (grouped["responded_count"] / grouped["total_leads"]).round(3)
+    grouped["avg_response_time_minutes"] = grouped["avg_response_time_minutes"].round(0)
+
+    grouped = grouped[grouped["total_leads"] >= 2]  # drop single-lead noise
+    grouped = grouped.sort_values(
+        ["genuine_ratio", "response_rate"], ascending=False
+    ).head(limit)
+
+    cols = ["listing_id", "community", "emirate", "total_leads", "genuine_leads",
+            "genuine_ratio", "response_rate", "avg_response_time_minutes"]
+    return json.dumps(grouped[cols].to_dict(orient="records"), default=str)
+
+
+@tool
+def get_credit_spend_last_period(agent_id: str = "", days: int = 7, limit: int = 10) -> str:
+    """
+    Which listings had the most credits spent on them in the most recent
+    period (default: last 7 days of activity in the dataset).
+
+    Args:
+        agent_id: Restrict to one agent's transactions. Leave empty for all agents.
+        days:     Size of the trailing window, in days.
+        limit:    Max listings to return, highest spend first.
+
+    Returns:
+        JSON list of {listing_id, community, emirate, total_credits, transaction_count}.
+    """
+    _load()
+    df = _credits_df.copy()
+    df["transaction_date"] = pd.to_datetime(df["transaction_date"])
+
+    # Anchor "last N days" to the most recent transaction in the dataset,
+    # not wall-clock time, so this stays meaningful however old the demo data is.
+    reference_date = df["transaction_date"].max()
+    window_start = reference_date - pd.Timedelta(days=days)
+    df = df[df["transaction_date"] > window_start]
+
+    if agent_id:
+        df = df[df["agent_id"].astype(str).str.lower() == str(agent_id).lower()]
+
+    grouped = df.groupby(["listing_id", "community", "emirate"]).agg(
+        total_credits=("credits_used", "sum"),
+        transaction_count=("credit_id", "count"),
+    ).reset_index()
+    grouped = grouped.sort_values("total_credits", ascending=False).head(limit)
+
+    return json.dumps({
+        "window": f"{window_start.date()} to {reference_date.date()}",
+        "results": grouped.to_dict(orient="records"),
+    }, default=str)
+
+
+@tool
+def get_target_location_recommendation(agent_id: str, top_n: int = 5) -> str:
+    """
+    Recommend which community/location an agent should target next to maximize
+    expected return, by comparing market-wide opportunity signal against where
+    the agent already has listings. Surfaces high-opportunity communities the
+    agent is under-represented in — not just "the biggest market."
+
+    Args:
+        agent_id: The agent to recommend a target location for.
+        top_n:    Number of recommended communities to return.
+
+    Returns:
+        JSON with the agent's current community coverage and the top
+        recommended communities by avg_opportunity_score / avg_expected_leads.
+    """
+    _load()
+    df = _listings_df.copy()
+
+    market = df.groupby(["community", "emirate"]).agg(
+        avg_opportunity_score=("opportunity_score", "mean"),
+        avg_expected_leads=("expected_leads", "mean"),
+        listing_count=("listing_id", "count"),
+    ).reset_index()
+    market["avg_opportunity_score"] = market["avg_opportunity_score"].round(3)
+    market["avg_expected_leads"] = market["avg_expected_leads"].round(1)
+
+    agent_listings = df[df["agent_id"].astype(str).str.lower() == str(agent_id).lower()]
+    agent_communities = set(agent_listings["community"])
+    agent_coverage = agent_listings.groupby("community").size().reset_index(name="agent_listing_count")
+
+    # Recommend communities the agent is NOT already active in, ranked by
+    # market-wide opportunity — this is the "next target location" answer.
+    candidates = market[~market["community"].isin(agent_communities)]
+    candidates = candidates.sort_values(
+        ["avg_opportunity_score", "avg_expected_leads"], ascending=False
+    ).head(top_n)
+
+    return json.dumps({
+        "agent_current_coverage": agent_coverage.to_dict(orient="records"),
+        "recommended_target_locations": candidates.to_dict(orient="records"),
+    }, default=str)
+
+
+# ---------------------------------------------------------------------------
 # Python code execution — fallback for analysis not covered by other tools
 # ---------------------------------------------------------------------------
 
@@ -245,9 +426,11 @@ def run_python(code: str) -> str:
     aggregations, statistical operations, or any logic that requires real code.
 
     Pre-loaded variables available in the execution context:
-      - leads_df   : pandas DataFrame of listings_leads (800 rows)
-      - credits_df : pandas DataFrame of listings_credits (600 rows)
-      - pd         : the pandas module
+      - listings_df : pandas DataFrame of listings, incl. quality_score and
+                      credit-optimizer fields (300 rows)
+      - leads_df    : pandas DataFrame of listings_leads (800 rows)
+      - credits_df  : pandas DataFrame of listings_credits (600 rows)
+      - pd          : the pandas module
 
     Print your results with print(). The return value is all captured stdout.
     On error, the traceback is returned so you can fix and retry.
@@ -268,6 +451,7 @@ def run_python(code: str) -> str:
     _load()
 
     namespace = {
+        "listings_df": _listings_df.copy(),
         "leads_df": _leads_df.copy(),
         "credits_df": _credits_df.copy(),
         "pd": pd,

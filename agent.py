@@ -9,6 +9,8 @@ from strands import Agent
 from strands.models import BedrockModel
 from bedrock_agentcore.runtime import BedrockAgentCoreApp
 
+from bedrock_guardrails import check_text
+
 from tools import (
     get_leads_schema,
     get_credits_schema,
@@ -124,11 +126,30 @@ def realestate_agent(payload, context=None):
 
     print(f"[Agent] session={session_id} | prompt={user_input}")
 
+    # Layer 1 — Bedrock Guardrails: screen the incoming prompt (prompt-attack,
+    # denied topics, profanity, PII). No-op if no guardrail is configured.
+    input_check = check_text(user_input, source="INPUT")
+    if input_check.intervened:
+        print(f"[Guardrail] INPUT blocked: {input_check.assessments}")
+        return {
+            "response": input_check.text or "I can't help with that request.",
+            "session_id": session_id,
+            "blocked_by": "input_guardrail",
+        }
+
     agent = _get_or_create_agent(session_id)
     response = agent(user_input)
+    answer = response.message["content"][0]["text"]
+
+    # Layer 1 (output) — screen the model response before returning it.
+    output_check = check_text(answer, source="OUTPUT")
+    if output_check.intervened:
+        print(f"[Guardrail] OUTPUT intervened: {output_check.assessments}")
+        # Blocked -> canned message; masked -> use the masked text if provided.
+        answer = output_check.text or answer
 
     return {
-        "response": response.message["content"][0]["text"],
+        "response": answer,
         "session_id": session_id,
     }
 

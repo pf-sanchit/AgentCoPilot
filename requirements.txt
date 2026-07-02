@@ -1,6 +1,7 @@
 strands-agents
 bedrock-agentcore
+boto3
+codeshield
 pandas
 streamlit
 requests
-boto3

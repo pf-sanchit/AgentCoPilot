@@ -5,6 +5,7 @@ import requests
 import streamlit as st
 
 # ── Local vs deployed mode ────────────────────────────────────────────────────
+# Set LOCAL=true to call local agent server instead of deployed agent
 LOCAL_MODE = os.environ.get("LOCAL", "false").lower() == "true"
 LOCAL_URL  = "http://localhost:8080/invocations"
 
@@ -94,6 +95,7 @@ def call_agent(prompt: str) -> str:
     )
 
     if LOCAL_MODE:
+        # Call local agent server
         resp = requests.post(
             LOCAL_URL,
             json={"prompt": enriched_prompt, "session_id": st.session_state.runtime_session_id or "default"},

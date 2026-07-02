@@ -3,15 +3,27 @@ Tool definitions for the real estate agent. Each tool is decorated with @tool
 so Strands can expose them to the LLM automatically.
 
 Data strategy:
-  - Tools that map to real PF enterprise-api endpoints try the live API first,
-    then fall back to demo CSV if the call fails (no creds, timeout, error).
-  - Live endpoints used:
-      POST /v1/auth/token           → get JWT from apiKey/apiSecret
-      GET  /v1/listings             → listing search
-      GET  /v1/listings/{id}        → single listing detail
-      GET  /v1/credits/balance      → credit balance
-      GET  /v1/credits/transactions → credit spend history
-  - Tools without a matching API read CSV directly.
+  - Tools that map to real enterprise-api endpoints try the live AgentCore
+    Gateway first, then fall back to demo CSV if the call fails (no AWS
+    creds, network error, gateway/tool error).
+  - The Gateway (built in infra/, see infra/README.md) exposes enterprise-api
+    as MCP tools — this file calls it directly via a SigV4-signed tools/call
+    request, not the enterprise-api HTTP endpoints directly. The Gateway
+    owns auth (apiKey/apiSecret -> JWT) internally; this file only needs AWS
+    credentials to call the Gateway itself.
+  - Live tools used (see infra/README.md for the full list of 11):
+      listings-api___search_listings
+      credits-api___get_credit_balance
+      credits-api___get_credit_transactions
+  - Tools without a matching Gateway tool read CSV directly.
+
+NOTE: as of this writing the Gateway's Lambdas are configured to call
+atlas.staging.propertyfinder.com (per team direction), which is verified
+network-unreachable from AWS without a VPN/PrivateLink bridge into
+PropertyFinder's corporate network (see infra/README.md). So right now
+every "live" call below is expected to fail and fall back to CSV — that's
+the correct, tested behavior until that network access exists, not a bug
+in this file.
 
 Fallback datasets:
   - demo_listings.csv         : 40 hand-crafted listings (AGT001 = Sarah Al Mansoori)
@@ -25,53 +37,58 @@ import sys
 import traceback
 import pandas as pd
 import requests
+import boto3
+from botocore.auth import SigV4Auth
+from botocore.awsrequest import AWSRequest
 from strands import tool
 
 # ---------------------------------------------------------------------------
-# PF Enterprise API configuration
+# AgentCore Gateway configuration (see infra/deploy.py for provisioning)
 # ---------------------------------------------------------------------------
-PF_API_BASE = os.environ.get("PF_API_BASE", "https://api.propertyfinder.ae")
-PF_API_KEY = os.environ.get("PF_API_KEY", "")
-PF_API_SECRET = os.environ.get("PF_API_SECRET", "")
-API_TIMEOUT = int(os.environ.get("API_TIMEOUT", "5"))  # seconds
+GATEWAY_URL = os.environ.get(
+    "GATEWAY_URL",
+    "https://listingiq-gateway-pjolmk6vdb.gateway.bedrock-agentcore.us-east-1.amazonaws.com/mcp",
+)
+GATEWAY_REGION = os.environ.get("GATEWAY_REGION", "us-east-1")
+GATEWAY_AWS_PROFILE = os.environ.get("GATEWAY_AWS_PROFILE")  # optional, for local testing
+API_TIMEOUT = int(os.environ.get("API_TIMEOUT", "10"))  # seconds
 
-# Cached JWT token (refreshed on expiry)
-_jwt_token: str = ""
 
+def _call_gateway_tool(tool_name: str, arguments: dict) -> dict:
+    """
+    Call a tool on the AgentCore Gateway (SigV4-authenticated — the Gateway's
+    inbound auth is AWS_IAM). Raises on any failure (network, gateway error,
+    tool error) so the caller can fall back to CSV.
+    """
+    session = boto3.Session(profile_name=GATEWAY_AWS_PROFILE) if GATEWAY_AWS_PROFILE else boto3.Session()
+    frozen_creds = session.get_credentials()
+    if frozen_creds is None:
+        raise ConnectionError("No AWS credentials available to call the Gateway")
+    frozen_creds = frozen_creds.get_frozen_credentials()
 
-def _authenticate() -> str:
-    """Exchange apiKey/apiSecret for a JWT token via POST /v1/auth/token."""
-    global _jwt_token
-    if _jwt_token:
-        return _jwt_token
+    body = json.dumps({
+        "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+        "params": {"name": tool_name, "arguments": arguments},
+    })
+    req = AWSRequest(method="POST", url=GATEWAY_URL, data=body, headers={"Content-Type": "application/json"})
+    SigV4Auth(frozen_creds, "bedrock-agentcore", GATEWAY_REGION).add_auth(req)
 
-    if not PF_API_KEY or not PF_API_SECRET:
-        raise ConnectionError("PF_API_KEY / PF_API_SECRET not configured")
-
-    resp = requests.post(
-        f"{PF_API_BASE}/v1/auth/token",
-        json={"apiKey": PF_API_KEY, "apiSecret": PF_API_SECRET},
-        timeout=API_TIMEOUT,
-    )
+    resp = requests.post(GATEWAY_URL, data=body, headers=dict(req.headers), timeout=API_TIMEOUT)
     resp.raise_for_status()
-    _jwt_token = resp.json().get("token", "")
-    if not _jwt_token:
-        raise ValueError("No token in auth response")
-    print(f"[Auth] JWT obtained from {PF_API_BASE}/v1/auth/token")
-    return _jwt_token
+    payload = resp.json()
 
+    if "error" in payload:
+        raise RuntimeError(f"Gateway JSON-RPC error: {payload['error']}")
 
-def _api_get(path: str, params: dict = None) -> dict:
-    """Authenticated GET request to PF enterprise-api."""
-    token = _authenticate()
-    resp = requests.get(
-        f"{PF_API_BASE}{path}",
-        params=params,
-        headers={"Authorization": f"Bearer {token}"},
-        timeout=API_TIMEOUT,
-    )
-    resp.raise_for_status()
-    return resp.json()
+    result = payload["result"]
+    parsed = json.loads(result["content"][0]["text"])
+
+    if result.get("isError"):
+        raise RuntimeError(f"Gateway tool invocation failed: {parsed}")
+    if isinstance(parsed, dict) and parsed.get("error"):
+        raise RuntimeError(f"enterprise-api error via Gateway: {parsed}")
+
+    return parsed
 
 
 # ---------------------------------------------------------------------------
@@ -124,20 +141,20 @@ def get_credits_schema() -> str:
 @tool
 def get_listings_schema() -> str:
     """Return column names, dtypes, and 3 sample rows from the listings dataset.
-    Tries the live PF API (GET /v1/listings) first; falls back to CSV."""
+    Tries the live Gateway (listings-api___search_listings) first; falls back to CSV."""
 
-    # Try live API: GET /v1/listings
+    # Try live Gateway tool: listings-api___search_listings
     try:
-        data = _api_get("/v1/listings", params={"page": 1, "per_page": 3})
+        data = _call_gateway_tool("listings-api___search_listings", {"page": 1, "perPage": 3})
         listings = data if isinstance(data, list) else data.get("data", data.get("listings", []))
-        print(f"[Tool] get_listings_schema: live API OK — {len(listings)} sample rows")
+        print(f"[Tool] get_listings_schema: live Gateway OK — {len(listings)} sample rows")
         return json.dumps({
-            "source": "live_api",
-            "endpoint": "GET /v1/listings",
+            "source": "live_gateway",
+            "tool": "listings-api___search_listings",
             "sample": listings[:3] if isinstance(listings, list) else listings,
         }, default=str)
     except Exception as e:
-        print(f"[Tool] get_listings_schema: live API failed ({e}), using CSV fallback")
+        print(f"[Tool] get_listings_schema: live Gateway failed ({e}), using CSV fallback")
 
     # Fallback to CSV
     _load()
@@ -340,7 +357,12 @@ def get_quality_optimization_opportunities(agent_id: str = "", limit: int = 10) 
     Which listings can be optimized for quality score, and what's the single
     weakest factor dragging each one down (image quality, description, title,
     price realism, location specificity, verification, listing completion).
-    Tries live API (GET /v1/listings) first, falls back to CSV.
+    Tries the live Gateway (listings-api___search_listings) first, falls
+    back to CSV. NOTE: enterprise-api has no per-listing quality_score field
+    (verified directly against its OpenAPI spec) — the live path is expected
+    to always fall through to CSV for this specific tool; the live call is
+    kept here to exercise the Gateway/fallback path honestly rather than
+    skip it.
 
     Args:
         agent_id: Restrict to one agent's listings. Leave empty for all agents.
@@ -350,21 +372,21 @@ def get_quality_optimization_opportunities(agent_id: str = "", limit: int = 10) 
         JSON list of {listing_id, community, emirate, quality_score,
         quality_color, weak_factor, opportunity_score, expected_leads}.
     """
-    # Try live API: GET /v1/listings with quality score filter
+    # Try live Gateway tool: listings-api___search_listings
     try:
-        params = {"per_page": 50}
+        params = {"perPage": 50}
         if agent_id:
-            params["agent_id"] = agent_id
-        data = _api_get("/v1/listings", params=params)
+            params["assignedToId"] = agent_id
+        data = _call_gateway_tool("listings-api___search_listings", params)
         listings = data if isinstance(data, list) else data.get("data", data.get("listings", []))
         if isinstance(listings, list) and len(listings) > 0:
             df = pd.DataFrame(listings)
             if "quality_score" in df.columns:
                 df = df.sort_values("quality_score", ascending=True).head(limit)
-                print(f"[Tool] get_quality_optimization_opportunities: live API OK")
-                return json.dumps({"source": "live_api", "results": df.to_dict(orient="records")}, default=str)
+                print(f"[Tool] get_quality_optimization_opportunities: live Gateway OK")
+                return json.dumps({"source": "live_gateway", "results": df.to_dict(orient="records")}, default=str)
     except Exception as e:
-        print(f"[Tool] get_quality_optimization_opportunities: live API failed ({e}), using CSV fallback")
+        print(f"[Tool] get_quality_optimization_opportunities: live Gateway failed ({e}), using CSV fallback")
 
     # Fallback to CSV
     _load()
@@ -426,7 +448,8 @@ def get_credit_spend_last_period(agent_id: str = "", days: int = 7, limit: int =
     """
     Which listings had the most credits spent on them in the most recent
     period (default: last 7 days of activity in the dataset).
-    Tries live API (GET /v1/credits/transactions) first, falls back to CSV.
+    Tries the live Gateway (credits-api___get_credit_transactions) first,
+    falls back to CSV.
 
     Args:
         agent_id: Restrict to one agent's transactions. Leave empty for all agents.
@@ -436,27 +459,27 @@ def get_credit_spend_last_period(agent_id: str = "", days: int = 7, limit: int =
     Returns:
         JSON list of {listing_id, community, emirate, total_credits, transaction_count}.
     """
-    # Try live API: GET /v1/credits/transactions
+    # Try live Gateway tool: credits-api___get_credit_transactions
     try:
         from datetime import datetime, timedelta
-        date_to = datetime.now().strftime("%Y-%m-%d")
-        date_from = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
-        params = {"date_from": date_from, "date_to": date_to}
-        data = _api_get("/v1/credits/transactions", params=params)
+        date_to = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+        date_from = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        params = {"createdAtFrom": date_from, "createdAtTo": date_to}
+        data = _call_gateway_tool("credits-api___get_credit_transactions", params)
         txns = data if isinstance(data, list) else data.get("data", data.get("transactions", []))
         if isinstance(txns, list) and len(txns) > 0:
             df = pd.DataFrame(txns)
             if "credits_used" in df.columns or "amount" in df.columns:
                 credit_col = "credits_used" if "credits_used" in df.columns else "amount"
                 grouped = df.groupby("listing_id")[credit_col].sum().sort_values(ascending=False).head(limit)
-                print(f"[Tool] get_credit_spend_last_period: live API OK — {len(txns)} transactions")
+                print(f"[Tool] get_credit_spend_last_period: live Gateway OK — {len(txns)} transactions")
                 return json.dumps({
-                    "source": "live_api",
+                    "source": "live_gateway",
                     "window": f"{date_from} to {date_to}",
                     "results": grouped.reset_index().to_dict(orient="records"),
                 }, default=str)
     except Exception as e:
-        print(f"[Tool] get_credit_spend_last_period: live API failed ({e}), using CSV fallback")
+        print(f"[Tool] get_credit_spend_last_period: live Gateway failed ({e}), using CSV fallback")
 
     # Fallback to CSV
     _load()
@@ -486,18 +509,19 @@ def get_credit_spend_last_period(agent_id: str = "", days: int = 7, limit: int =
 def get_credit_balance() -> str:
     """
     Get current credit balance for the authenticated agent.
-    Tries live API (GET /v1/credits/balance) first, falls back to CSV aggregate.
+    Tries the live Gateway (credits-api___get_credit_balance) first, falls
+    back to CSV aggregate.
 
     Returns:
         JSON with {total, remaining, used} or CSV-derived total.
     """
-    # Try live API: GET /v1/credits/balance
+    # Try live Gateway tool: credits-api___get_credit_balance
     try:
-        data = _api_get("/v1/credits/balance")
-        print(f"[Tool] get_credit_balance: live API OK")
-        return json.dumps({"source": "live_api", "balance": data}, default=str)
+        data = _call_gateway_tool("credits-api___get_credit_balance", {})
+        print(f"[Tool] get_credit_balance: live Gateway OK")
+        return json.dumps({"source": "live_gateway", "balance": data}, default=str)
     except Exception as e:
-        print(f"[Tool] get_credit_balance: live API failed ({e}), using CSV fallback")
+        print(f"[Tool] get_credit_balance: live Gateway failed ({e}), using CSV fallback")
 
     # Fallback: sum credits from CSV
     _load()

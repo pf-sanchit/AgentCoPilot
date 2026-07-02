@@ -3,3 +3,4 @@ bedrock-agentcore
 pandas
 streamlit
 requests
+boto3

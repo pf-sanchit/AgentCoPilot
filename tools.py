@@ -20,12 +20,19 @@ Data strategy — try live first, fallback to CSV:
 """
 import io
 import json
+import logging
 import os
 import sys
 import traceback
 import pandas as pd
 import requests
 from strands import tool
+
+import sandbox_exec
+from code_denylist import check_code
+from code_shield import scan_code
+
+log = logging.getLogger("tools")
 
 # ---------------------------------------------------------------------------
 # MCP / API configuration
@@ -542,18 +549,82 @@ def run_python(code: str) -> str:
         print(f"Listings with leads but zero credits: {no_credits['listing_id'].nunique()}")
         \"\"\"
     """
+    # Load data via the same live-API/CSV-fallback path the other tools use, so
+    # the sandbox operates on identical data (source-agnostic — works with live
+    # API or demo CSVs).
     _load_fallback()
-
-    namespace = {
-        "listings_df": _listings_df.copy(),
-        "leads_df": _leads_df.copy(),
-        "credits_df": _credits_df.copy(),
-        "pd": pd,
+    frames = {
+        "listings_df": _listings_df,
+        "leads_df": _leads_df,
+        "credits_df": _credits_df,
     }
 
     with open("run_python.log", "a") as f:
         f.write(f"\n{'='*40}\n[run_python CALLED]\n{code}\n{'='*40}\n")
 
+    # Layer 2a — AST denylist: deterministic block of dangerous ops CodeShield
+    # misses (import os, eval, pickle, dunder escapes). Cheap, runs first.
+    deny = check_code(code)
+    if not deny.allowed:
+        log.warning("run_python blocked by denylist: %s", deny.violations)
+        with open("run_python.log", "a") as f:
+            f.write(f"[BLOCKED by denylist]\n{deny.reason}\n")
+        return (
+            "BLOCKED by the code guardrail — this code was not executed.\n\n"
+            f"{deny.reason}\n\n"
+            "Rewrite using only pandas-based analysis on listings_df/leads_df/"
+            "credits_df and try again."
+        )
+
+    # Layer 2b — CodeShield: scan generated code before it runs anywhere.
+    scan = scan_code(code)
+    if not scan.allowed:
+        log.warning("run_python blocked by CodeShield: %s", scan.reason)
+        with open("run_python.log", "a") as f:
+            f.write(f"[BLOCKED by CodeShield]\n{scan.reason}\n")
+        return (
+            "BLOCKED by the CodeShield guardrail — this code was flagged as insecure "
+            "and was not executed.\n\n"
+            f"{scan.reason}\n\n"
+            "Please rewrite the code to avoid the flagged issue and try again."
+        )
+    if scan.treatment == "warn":
+        log.info("CodeShield warning (allowed): %s", scan.reason)
+
+    # Layer 3 — sandbox: execute in the isolated AgentCore Code Interpreter,
+    # seeded with the frames loaded above.
+    sandbox = sandbox_exec.get_sandbox()
+    if sandbox is not None:
+        try:
+            output = sandbox.run(code, frames)
+            return output if output else _NO_OUTPUT
+        except sandbox_exec.SandboxError as exc:
+            return f"ERROR (sandbox):\n{exc}"
+        except Exception as exc:  # noqa: BLE001 - sandbox start/session failure
+            log.exception("sandbox execution failed")
+            if not sandbox_exec.fallback_local_allowed():
+                return (
+                    "ERROR: the isolated code sandbox is unavailable and local "
+                    f"execution is disabled for safety ({exc}). "
+                    "Set SANDBOX_FALLBACK_LOCAL=1 to allow local exec in dev."
+                )
+            log.warning("falling back to LOCAL (unsandboxed) exec")
+
+    # Local (in-process) execution — original behaviour. Used only when
+    # AGENTCOPILOT_SANDBOX=local or SANDBOX_FALLBACK_LOCAL=1.
+    return _run_local(code, frames)
+
+
+_NO_OUTPUT = "(code ran successfully but produced no output — add print() statements)"
+
+
+def _run_local(code: str, frames: dict) -> str:
+    namespace = {
+        "listings_df": frames["listings_df"].copy(),
+        "leads_df": frames["leads_df"].copy(),
+        "credits_df": frames["credits_df"].copy(),
+        "pd": pd,
+    }
     captured = io.StringIO()
     try:
         sys.stdout = captured
@@ -568,4 +639,4 @@ def run_python(code: str) -> str:
         sys.stdout = sys.__stdout__
 
     output = captured.getvalue().strip()
-    return output if output else "(code ran successfully but produced no output — add print() statements)"
+    return output if output else _NO_OUTPUT

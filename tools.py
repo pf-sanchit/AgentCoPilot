@@ -568,16 +568,14 @@ def run_python(code: str) -> str:
         "credits_df": _credits_df,
     }
 
-    with open("run_python.log", "a") as f:
-        f.write(f"\n{'='*40}\n[run_python CALLED]\n{code}\n{'='*40}\n")
+    print(f"\n{'='*40}\n[run_python CALLED]\n{code}\n{'='*40}")
 
     # Layer 2a — AST denylist: deterministic block of dangerous ops CodeShield
     # misses (import os, eval, pickle, dunder escapes). Cheap, runs first.
     deny = check_code(code)
     if not deny.allowed:
         log.warning("run_python blocked by denylist: %s", deny.violations)
-        with open("run_python.log", "a") as f:
-            f.write(f"[BLOCKED by denylist]\n{deny.reason}\n")
+        print(f"[BLOCKED by denylist]\n{deny.reason}")
         return (
             "BLOCKED by the code guardrail — this code was not executed.\n\n"
             f"{deny.reason}\n\n"
@@ -589,8 +587,7 @@ def run_python(code: str) -> str:
     scan = scan_code(code)
     if not scan.allowed:
         log.warning("run_python blocked by CodeShield: %s", scan.reason)
-        with open("run_python.log", "a") as f:
-            f.write(f"[BLOCKED by CodeShield]\n{scan.reason}\n")
+        print(f"[BLOCKED by CodeShield]\n{scan.reason}")
         return (
             "BLOCKED by the CodeShield guardrail — this code was flagged as insecure "
             "and was not executed.\n\n"
@@ -641,8 +638,7 @@ def _run_local(code: str, frames: dict) -> str:
     except Exception:
         sys.stdout = sys.__stdout__
         error = traceback.format_exc()
-        with open("run_python.log", "a") as f:
-            f.write(f"[run_python ERROR]\n{error}\n")
+        print(f"[run_python ERROR]\n{error}")
         return f"ERROR:\n{error}"
     finally:
         sys.stdout = sys.__stdout__

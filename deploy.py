@@ -10,11 +10,12 @@ Usage:
 import argparse
 import time
 import json
+import boto3
 from boto3.session import Session
 from bedrock_agentcore_starter_toolkit import Runtime
 
 # ── Config ───────────────────────────────────────────────────────────────────
-AGENT_NAME       = "realestate_agent"
+AGENT_NAME       = "agent_copilot"
 ENTRYPOINT       = "agent.py"
 REQUIREMENTS     = "requirements.txt"
 
@@ -97,8 +98,21 @@ def check_status(runtime: Runtime):
 
 def teardown(runtime: Runtime):
     print("\nTearing down deployment...")
-    runtime.delete()
-    print("✓ Teardown initiated. Agent will be removed shortly.")
+    try:
+        with open("agent_config.json") as f:
+            cfg = json.load(f)
+        agent_arn = cfg["agent_arn"]
+        # Extract runtime ID from ARN
+        # arn:aws:bedrock-agentcore:us-east-1:xxxxx:runtime/<runtime-id>/runtime-endpoint/DEFAULT:DEFAULT
+        runtime_id = agent_arn.split("/")[1]
+        client = boto3.client("bedrock-agentcore", region_name=region)
+        client.delete_agent_runtime(agentRuntimeId=runtime_id)
+        print(f"✓ Teardown initiated for runtime: {runtime_id}")
+        print("  Agent will be removed in a few minutes.")
+    except FileNotFoundError:
+        print("✗ agent_config.json not found. Cannot determine agent ARN.")
+    except Exception as e:
+        print(f"✗ Teardown failed: {e}")
 
 
 # ── Main ─────────────────────────────────────────────────────────────────────

@@ -13,7 +13,7 @@ agentcore_client = boto3.client("bedrock-agentcore", region_name=REGION)
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(page_title="Real Estate Agent", page_icon="🏠", layout="centered")
-st.title("🏠 Real Estate Agent")
+st.title("🏠 Agent Copilot")
 st.caption("Ask questions about listings, leads, and credits.")
 
 # ── Session state init ────────────────────────────────────────────────────────

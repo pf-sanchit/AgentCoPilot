@@ -2,21 +2,15 @@
 Tool definitions for the real estate agent. Each tool is decorated with @tool
 so Strands can expose them to the LLM automatically.
 
-Data strategy — try live first, fallback to CSV:
-  Each purpose-built tool first attempts to call the real PF internal API / MCP
-  server. If the call fails (connection error, timeout, 5xx, etc.), the tool
-  silently falls back to the demo CSV datasets so the hackathon demo never breaks.
+Data strategy:
+  - get_listings_schema tries a live API call first (GET /v1/listings),
+    falls back to demo CSV if the call fails.
+  - All other tools read directly from demo CSV datasets.
 
-  Live endpoints (when available):
-    - get_quality_optimization_opportunities → pf-ranking GET /v1/quality-score/details
-    - get_lead_quality_ranking               → pf-broker GET /pf-partner-gateway/leads
-    - get_credit_spend_last_period           → pf-product GET /rich-transactions
-    - get_target_location_recommendation     → pf-listings-search (proposed) GET /v2/aggregate
-
-  Fallback datasets:
-    - demo_listings.csv         : 40 hand-crafted listings (AGT001 = Sarah Al Mansoori)
-    - demo_listings_leads.csv   : 343 leads tuned for clear quality ranking
-    - demo_listings_credits.csv : 87 credit txns tuned for clear spending patterns
+Datasets:
+  - demo_listings.csv         : 40 hand-crafted listings (AGT001 = Sarah Al Mansoori)
+  - demo_listings_leads.csv   : 343 leads tuned for clear quality ranking
+  - demo_listings_credits.csv : 87 credit txns tuned for clear spending patterns
 """
 import io
 import json
@@ -28,62 +22,31 @@ import requests
 from strands import tool
 
 # ---------------------------------------------------------------------------
-# MCP / API configuration
+# Live API configuration (used by get_listings_schema)
 # ---------------------------------------------------------------------------
-MCP_BASE_URL = os.environ.get("MCP_BASE_URL", "")          # e.g. http://localhost:8080
-API_TIMEOUT = int(os.environ.get("API_TIMEOUT", "5"))       # seconds
-API_TOKEN = os.environ.get("API_TOKEN", "")                 # Bearer token if needed
-
-# Track whether we're using live or fallback data (logged once per tool call)
-_using_fallback = False
+LISTINGS_API_URL = os.environ.get(
+    "LISTINGS_API_URL",
+    "https://jsonplaceholder.typicode.com/posts",  # dummy API for demo
+)
+API_TIMEOUT = int(os.environ.get("API_TIMEOUT", "3"))  # seconds
 
 # ---------------------------------------------------------------------------
-# Fallback CSV data (loaded lazily on first fallback)
+# CSV data (loaded lazily on first use or on API fallback)
 # ---------------------------------------------------------------------------
-_FALLBACK_FILES = {
-    "listings": "demo_listings.csv",
-    "leads": "demo_listings_leads.csv",
-    "credits": "demo_listings_credits.csv",
-}
-
 _listings_df: pd.DataFrame = None
 _leads_df: pd.DataFrame = None
 _credits_df: pd.DataFrame = None
 
 
-def _load_fallback():
-    """Load demo CSVs for fallback. Called only when a live API call fails."""
-    global _listings_df, _leads_df, _credits_df, _using_fallback
+def _load():
+    """Load demo CSVs on first use."""
+    global _listings_df, _leads_df, _credits_df
     if _listings_df is None:
-        _listings_df = pd.read_csv(_FALLBACK_FILES["listings"])
+        _listings_df = pd.read_csv("demo_listings.csv")
     if _leads_df is None:
-        _leads_df = pd.read_csv(_FALLBACK_FILES["leads"])
+        _leads_df = pd.read_csv("demo_listings_leads.csv")
     if _credits_df is None:
-        _credits_df = pd.read_csv(_FALLBACK_FILES["credits"])
-    if not _using_fallback:
-        _using_fallback = True
-        print("[Data] Live API unavailable — using fallback demo datasets")
-
-
-def _api_call(method: str, path: str, params: dict = None, body: dict = None) -> dict:
-    """
-    Call a live PF API / MCP server endpoint.
-    Raises on any failure so the caller can fall back to CSV.
-    """
-    if not MCP_BASE_URL:
-        raise ConnectionError("MCP_BASE_URL not configured")
-
-    url = f"{MCP_BASE_URL.rstrip('/')}/{path.lstrip('/')}"
-    headers = {"Content-Type": "application/json"}
-    if API_TOKEN:
-        headers["Authorization"] = f"Bearer {API_TOKEN}"
-
-    resp = requests.request(
-        method, url, params=params, json=body,
-        headers=headers, timeout=API_TIMEOUT,
-    )
-    resp.raise_for_status()
-    return resp.json()
+        _credits_df = pd.read_csv("demo_listings_credits.csv")
 
 
 # ---------------------------------------------------------------------------
@@ -93,7 +56,7 @@ def _api_call(method: str, path: str, params: dict = None, body: dict = None) ->
 @tool
 def get_leads_schema() -> str:
     """Return column names, dtypes, and 3 sample rows from the listings leads dataset."""
-    _load_fallback()
+    _load()
     info = {
         "columns": list(_leads_df.dtypes.astype(str).to_dict().items()),
         "row_count": len(_leads_df),
@@ -105,7 +68,7 @@ def get_leads_schema() -> str:
 @tool
 def get_credits_schema() -> str:
     """Return column names, dtypes, and 3 sample rows from the listings credits dataset."""
-    _load_fallback()
+    _load()
     info = {
         "columns": list(_credits_df.dtypes.astype(str).to_dict().items()),
         "row_count": len(_credits_df),
@@ -117,9 +80,35 @@ def get_credits_schema() -> str:
 @tool
 def get_listings_schema() -> str:
     """Return column names, dtypes, and 3 sample rows from the listings dataset
-    (includes quality_score and credit-optimizer fields)."""
-    _load_fallback()
+    (includes quality_score and credit-optimizer fields).
+    Tries a live API call first; falls back to CSV if the API is unavailable."""
+
+    # Try live API first
+    try:
+        resp = requests.get(LISTINGS_API_URL, timeout=API_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+        print(f"[Tool] get_listings_schema: live API OK ({LISTINGS_API_URL})")
+        # If real PF API, return schema from response.
+        # For the dummy API, we still fall through to CSV for actual schema
+        # but log that the API is reachable.
+        if isinstance(data, list) and len(data) > 0 and "listing_id" in data[0]:
+            # Real PF API response — use it directly
+            df = pd.DataFrame(data)
+            info = {
+                "source": "live_api",
+                "columns": list(df.dtypes.astype(str).to_dict().items()),
+                "row_count": len(df),
+                "sample": df.head(3).to_dict(orient="records"),
+            }
+            return json.dumps(info, default=str)
+    except Exception as e:
+        print(f"[Tool] get_listings_schema: live API failed ({e}), using CSV fallback")
+
+    # Fallback to CSV
+    _load()
     info = {
+        "source": "csv_fallback",
         "columns": list(_listings_df.dtypes.astype(str).to_dict().items()),
         "row_count": len(_listings_df),
         "sample": _listings_df.head(3).to_dict(orient="records"),
@@ -155,7 +144,7 @@ def query_leads(
     Returns:
         JSON string with the query result.
     """
-    _load_fallback()
+    _load()
     df = _leads_df.copy()
 
     # Apply filters
@@ -199,7 +188,7 @@ def query_credits(
     Returns:
         JSON string with the query result.
     """
-    _load_fallback()
+    _load()
     df = _credits_df.copy()
 
     f = json.loads(filters) if isinstance(filters, str) else filters
@@ -256,7 +245,7 @@ def join_leads_and_credits(
     Returns:
         JSON string with join result or aggregated groups.
     """
-    _load_fallback()
+    _load()
     leads = _leads_df.copy()
     credits = _credits_df.copy()
 
@@ -326,19 +315,7 @@ def get_quality_optimization_opportunities(agent_id: str = "", limit: int = 10) 
         JSON list of {listing_id, community, emirate, quality_score,
         quality_color, weak_factor, opportunity_score, expected_leads}.
     """
-    # Try live API: pf-ranking GET /v1/quality-score/details
-    try:
-        params = {"limit": limit}
-        if agent_id:
-            params["agent_id"] = agent_id
-        result = _api_call("GET", "/v1/quality-score/details", params=params)
-        print(f"[Tool] get_quality_optimization_opportunities: live API OK")
-        return json.dumps(result, default=str)
-    except Exception as e:
-        print(f"[Tool] get_quality_optimization_opportunities: live API failed ({e}), using fallback")
-
-    # Fallback to CSV
-    _load_fallback()
+    _load()
     df = _listings_df.copy()
     if agent_id:
         df = df[df["agent_id"].astype(str).str.lower() == str(agent_id).lower()]
@@ -365,19 +342,7 @@ def get_lead_quality_ranking(agent_id: str = "", limit: int = 10) -> str:
         JSON list of {listing_id, community, emirate, total_leads,
         genuine_leads, genuine_ratio, response_rate, avg_response_time_minutes}.
     """
-    # Try live API: pf-broker GET /pf-partner-gateway/leads
-    try:
-        params = {"limit": limit}
-        if agent_id:
-            params["agent_id"] = agent_id
-        result = _api_call("GET", "/pf-partner-gateway/leads", params=params)
-        print(f"[Tool] get_lead_quality_ranking: live API OK")
-        return json.dumps(result, default=str)
-    except Exception as e:
-        print(f"[Tool] get_lead_quality_ranking: live API failed ({e}), using fallback")
-
-    # Fallback to CSV
-    _load_fallback()
+    _load()
     df = _leads_df.copy()
     if agent_id:
         df = df[df["agent_id"].astype(str).str.lower() == str(agent_id).lower()]
@@ -417,19 +382,7 @@ def get_credit_spend_last_period(agent_id: str = "", days: int = 7, limit: int =
     Returns:
         JSON list of {listing_id, community, emirate, total_credits, transaction_count}.
     """
-    # Try live API: pf-product GET /rich-transactions
-    try:
-        params = {"days": days, "limit": limit}
-        if agent_id:
-            params["agent_id"] = agent_id
-        result = _api_call("GET", "/rich-transactions", params=params)
-        print(f"[Tool] get_credit_spend_last_period: live API OK")
-        return json.dumps(result, default=str)
-    except Exception as e:
-        print(f"[Tool] get_credit_spend_last_period: live API failed ({e}), using fallback")
-
-    # Fallback to CSV
-    _load_fallback()
+    _load()
     df = _credits_df.copy()
     df["transaction_date"] = pd.to_datetime(df["transaction_date"])
 
@@ -470,17 +423,7 @@ def get_target_location_recommendation(agent_id: str, top_n: int = 5) -> str:
         JSON with the agent's current community coverage and the top
         recommended communities by avg_opportunity_score / avg_expected_leads.
     """
-    # Try live API: pf-listings-search GET /v2/aggregate
-    try:
-        params = {"agent_id": agent_id, "top_n": top_n}
-        result = _api_call("GET", "/v2/aggregate", params=params)
-        print(f"[Tool] get_target_location_recommendation: live API OK")
-        return json.dumps(result, default=str)
-    except Exception as e:
-        print(f"[Tool] get_target_location_recommendation: live API failed ({e}), using fallback")
-
-    # Fallback to CSV
-    _load_fallback()
+    _load()
     df = _listings_df.copy()
 
     market = df.groupby(["community", "emirate"]).agg(
@@ -521,9 +464,9 @@ def run_python(code: str) -> str:
 
     Pre-loaded variables available in the execution context:
       - listings_df : pandas DataFrame of listings, incl. quality_score and
-                      credit-optimizer fields (300 rows)
-      - leads_df    : pandas DataFrame of listings_leads (800 rows)
-      - credits_df  : pandas DataFrame of listings_credits (600 rows)
+                      credit-optimizer fields
+      - leads_df    : pandas DataFrame of listings_leads
+      - credits_df  : pandas DataFrame of listings_credits
       - pd          : the pandas module
 
     Print your results with print(). The return value is all captured stdout.
@@ -542,7 +485,7 @@ def run_python(code: str) -> str:
         print(f"Listings with leads but zero credits: {no_credits['listing_id'].nunique()}")
         \"\"\"
     """
-    _load_fallback()
+    _load()
 
     namespace = {
         "listings_df": _listings_df.copy(),

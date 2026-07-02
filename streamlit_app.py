@@ -79,6 +79,7 @@ with st.sidebar:
     st.markdown("- Which of my listings is performing best in terms of quality of leads?")
     st.markdown("- For which listings did I spend most credits last week?")
     st.markdown("- What should be my next target location to maximize?")
+    st.markdown("- Show leads vs credits per emirate")
     st.divider()
     st.markdown("**Agent**")
     st.caption(f"`{AGENT_ARN[-32:]}...`")

@@ -23,11 +23,6 @@ AGENT_CREDENTIALS = {
     "fatima@allsopp.ae":        {"password": "pass123", "agent_id": "AGT003", "name": "Fatima Hassan",        "agency": "Allsopp & Allsopp"},
     "raj@driven.ae":            {"password": "pass123", "agent_id": "AGT004", "name": "Raj Patel",            "agency": "Driven Properties"},
     "emma@dubizzle.ae":         {"password": "pass123", "agent_id": "AGT005", "name": "Emma Clarke",          "agency": "Dubizzle Property"},
-    "mohammed@provident.ae":    {"password": "pass123", "agent_id": "AGT006", "name": "Mohammed Al Rashid",   "agency": "Provident Estate"},
-    "priya@hamptons.ae":        {"password": "pass123", "agent_id": "AGT007", "name": "Priya Nair",           "agency": "Hamptons International"},
-    "tom@knightfrank.ae":       {"password": "pass123", "agent_id": "AGT008", "name": "Tom Reynolds",         "agency": "Knight Frank"},
-    "aisha@cbre.ae":            {"password": "pass123", "agent_id": "AGT009", "name": "Aisha Al Zaabi",       "agency": "CBRE"},
-    "carlos@savills.ae":        {"password": "pass123", "agent_id": "AGT010", "name": "Carlos Mendez",        "agency": "Savills"},
 }
 
 # ── Page config ───────────────────────────────────────────────────────────────

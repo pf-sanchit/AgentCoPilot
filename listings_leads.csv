@@ -1,0 +1,801 @@
+lead_id,listing_id,agent_id,agent_name,agency,property_type,bedrooms,community,emirate,listing_price,lead_source,lead_status,lead_date,buyer_name
+LED0001,LST0079,AGT004,Raj Patel,Driven Properties,Studio,0,Khalifa City,Abu Dhabi,982000.0,Direct Call,Contacted,2026-05-22,Buyer_0001
+LED0002,LST0166,AGT010,Carlos Mendez,Savills,Penthouse,5,Emirates Hills,Dubai,10529000.0,Bayut,Qualified,2026-02-20,Buyer_0002
+LED0003,LST0146,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Jumeirah Village Circle,Dubai,1181000.0,PropertyFinder,Qualified,2026-05-13,Buyer_0003
+LED0004,LST0283,AGT008,Tom Reynolds,Knight Frank,Townhouse,0,JBR,Dubai,3566000.0,Direct Call,Contacted,2026-01-23,Buyer_0004
+LED0005,LST0156,AGT007,Priya Nair,Hamptons International,Studio,0,Business Bay,Dubai,522000.0,Walk-in,Lost,2026-06-09,Buyer_0005
+LED0006,LST0258,AGT009,Aisha Al Zaabi,CBRE,Townhouse,0,JBR,Dubai,3513000.0,Bayut,Lost,2026-02-04,Buyer_0006
+LED0007,LST0079,AGT004,Raj Patel,Driven Properties,Studio,0,Khalifa City,Abu Dhabi,982000.0,Bayut,Lost,2026-01-29,Buyer_0007
+LED0008,LST0173,AGT005,Emma Clarke,Dubizzle Property,Penthouse,0,Yas Island,Abu Dhabi,8376000.0,Walk-in,New,2026-06-25,Buyer_0008
+LED0009,LST0042,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Dubai Marina,Dubai,358000.0,PropertyFinder,Lost,2026-04-26,Buyer_0009
+LED0010,LST0108,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Nahda,Sharjah,1036000.0,Walk-in,Converted,2026-01-25,Buyer_0010
+LED0011,LST0016,AGT007,Priya Nair,Hamptons International,Studio,0,Al Nahda,Sharjah,1153000.0,Referral,Lost,2026-04-19,Buyer_0011
+LED0012,LST0155,AGT007,Priya Nair,Hamptons International,Studio,0,Al Maryah Island,Abu Dhabi,733000.0,Referral,Contacted,2026-01-08,Buyer_0012
+LED0013,LST0208,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Downtown Dubai,Dubai,627000.0,Direct Call,Converted,2026-06-14,Buyer_0013
+LED0014,LST0031,AGT004,Raj Patel,Driven Properties,Apartment,0,Downtown Dubai,Dubai,1856000.0,Bayut,Converted,2026-03-18,Buyer_0014
+LED0015,LST0248,AGT005,Emma Clarke,Dubizzle Property,Apartment,4,Meydan City,Dubai,1053000.0,Referral,Contacted,2026-04-06,Buyer_0015
+LED0016,LST0074,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Al Majaz,Sharjah,2550000.0,Direct Call,Qualified,2026-04-05,Buyer_0016
+LED0017,LST0205,AGT004,Raj Patel,Driven Properties,Studio,0,Al Majaz,Sharjah,709000.0,Bayut,Qualified,2026-02-21,Buyer_0017
+LED0018,LST0288,AGT008,Tom Reynolds,Knight Frank,Townhouse,0,Al Reem Island,Abu Dhabi,3043000.0,PropertyFinder,Qualified,2026-05-02,Buyer_0018
+LED0019,LST0239,AGT007,Priya Nair,Hamptons International,Studio,0,Muwailih Commercial,Sharjah,740000.0,PropertyFinder,Qualified,2026-03-09,Buyer_0019
+LED0020,LST0127,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Emirates Hills,Dubai,5825000.0,Bayut,New,2026-06-20,Buyer_0020
+LED0021,LST0149,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,10905000.0,Referral,Lost,2026-03-17,Buyer_0021
+LED0022,LST0128,AGT010,Carlos Mendez,Savills,Studio,0,Al Reem Island,Abu Dhabi,357000.0,Bayut,Qualified,2026-02-05,Buyer_0022
+LED0023,LST0161,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Yas Island,Abu Dhabi,4343000.0,Bayut,Contacted,2026-02-25,Buyer_0023
+LED0024,LST0264,AGT008,Tom Reynolds,Knight Frank,Penthouse,4,Al Majaz,Sharjah,3050000.0,Referral,Converted,2026-04-15,Buyer_0024
+LED0025,LST0255,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Emirates Hills,Dubai,6953000.0,PropertyFinder,New,2026-03-24,Buyer_0025
+LED0026,LST0259,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Jumeirah Village Circle,Dubai,1163000.0,Referral,Contacted,2026-05-08,Buyer_0026
+LED0027,LST0299,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,4,Muwailih Commercial,Sharjah,3268000.0,Direct Call,New,2026-06-20,Buyer_0027
+LED0028,LST0145,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,894000.0,Referral,Lost,2026-01-16,Buyer_0028
+LED0029,LST0241,AGT001,Sarah Al Mansoori,Betterhomes,Villa,3,Al Maryah Island,Abu Dhabi,2390000.0,Direct Call,Lost,2026-06-30,Buyer_0029
+LED0030,LST0056,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,0,DIFC,Dubai,2221000.0,Referral,Contacted,2026-04-26,Buyer_0030
+LED0031,LST0188,AGT010,Carlos Mendez,Savills,Penthouse,5,Al Maryah Island,Abu Dhabi,9903000.0,Referral,Qualified,2026-06-21,Buyer_0031
+LED0032,LST0206,AGT007,Priya Nair,Hamptons International,Penthouse,3,Al Reem Island,Abu Dhabi,9931000.0,PropertyFinder,Lost,2026-02-09,Buyer_0032
+LED0033,LST0100,AGT004,Raj Patel,Driven Properties,Studio,0,Al Majaz,Sharjah,742000.0,Direct Call,Lost,2026-04-20,Buyer_0033
+LED0034,LST0038,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Dubai Marina,Dubai,1221000.0,Referral,Lost,2026-03-09,Buyer_0034
+LED0035,LST0282,AGT005,Emma Clarke,Dubizzle Property,Townhouse,2,Downtown Dubai,Dubai,2605000.0,Direct Call,Lost,2026-01-09,Buyer_0035
+LED0036,LST0061,AGT004,Raj Patel,Driven Properties,Villa,1,Al Maryah Island,Abu Dhabi,7364000.0,Bayut,New,2026-03-24,Buyer_0036
+LED0037,LST0192,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,5015000.0,Direct Call,Lost,2026-03-31,Buyer_0037
+LED0038,LST0074,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Al Majaz,Sharjah,2550000.0,Bayut,Lost,2026-02-22,Buyer_0038
+LED0039,LST0206,AGT007,Priya Nair,Hamptons International,Penthouse,3,Al Reem Island,Abu Dhabi,9931000.0,Walk-in,New,2026-06-21,Buyer_0039
+LED0040,LST0020,AGT009,Aisha Al Zaabi,CBRE,Apartment,2,Muwailih Commercial,Sharjah,1648000.0,Bayut,Qualified,2026-03-03,Buyer_0040
+LED0041,LST0266,AGT005,Emma Clarke,Dubizzle Property,Apartment,1,Al Nahda,Sharjah,938000.0,Referral,Contacted,2026-01-28,Buyer_0041
+LED0042,LST0264,AGT008,Tom Reynolds,Knight Frank,Penthouse,4,Al Majaz,Sharjah,3050000.0,Bayut,Qualified,2026-01-27,Buyer_0042
+LED0043,LST0164,AGT008,Tom Reynolds,Knight Frank,Apartment,1,Muwailih Commercial,Sharjah,1535000.0,Bayut,Converted,2026-01-26,Buyer_0043
+LED0044,LST0154,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Muwailih Commercial,Sharjah,8117000.0,Walk-in,Qualified,2026-02-23,Buyer_0044
+LED0045,LST0261,AGT009,Aisha Al Zaabi,CBRE,Penthouse,2,Yas Island,Abu Dhabi,5240000.0,Walk-in,Converted,2026-02-08,Buyer_0045
+LED0046,LST0154,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Muwailih Commercial,Sharjah,8117000.0,Referral,New,2026-03-30,Buyer_0046
+LED0047,LST0170,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,907000.0,PropertyFinder,Converted,2026-02-03,Buyer_0047
+LED0048,LST0158,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,4,JBR,Dubai,1947000.0,PropertyFinder,Lost,2026-03-03,Buyer_0048
+LED0049,LST0136,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Maryah Island,Abu Dhabi,716000.0,Walk-in,Lost,2026-05-05,Buyer_0049
+LED0050,LST0027,AGT009,Aisha Al Zaabi,CBRE,Townhouse,4,Al Majaz,Sharjah,2527000.0,Walk-in,Converted,2026-05-20,Buyer_0050
+LED0051,LST0269,AGT010,Carlos Mendez,Savills,Apartment,2,Khalifa City,Abu Dhabi,846000.0,Walk-in,Converted,2026-05-26,Buyer_0051
+LED0052,LST0125,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Muwailih Commercial,Sharjah,1713000.0,PropertyFinder,Lost,2026-01-04,Buyer_0052
+LED0053,LST0057,AGT008,Tom Reynolds,Knight Frank,Villa,4,Al Nahda,Sharjah,5822000.0,Bayut,New,2026-03-12,Buyer_0053
+LED0054,LST0161,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Yas Island,Abu Dhabi,4343000.0,Referral,Contacted,2026-03-19,Buyer_0054
+LED0055,LST0105,AGT007,Priya Nair,Hamptons International,Studio,0,Arabian Ranches,Dubai,928000.0,Referral,Lost,2026-01-27,Buyer_0055
+LED0056,LST0242,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Al Majaz,Sharjah,337000.0,PropertyFinder,Contacted,2026-02-20,Buyer_0056
+LED0057,LST0107,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Al Reem Island,Abu Dhabi,4673000.0,Walk-in,Qualified,2026-01-14,Buyer_0057
+LED0058,LST0245,AGT002,James Mitchell,Espace Real Estate,Townhouse,2,Muwailih Commercial,Sharjah,1403000.0,Walk-in,Converted,2026-04-13,Buyer_0058
+LED0059,LST0089,AGT007,Priya Nair,Hamptons International,Penthouse,4,Business Bay,Dubai,11988000.0,Referral,Lost,2026-04-06,Buyer_0059
+LED0060,LST0280,AGT009,Aisha Al Zaabi,CBRE,Townhouse,2,Khalifa City,Abu Dhabi,3820000.0,Direct Call,Qualified,2026-01-27,Buyer_0060
+LED0061,LST0248,AGT005,Emma Clarke,Dubizzle Property,Apartment,4,Meydan City,Dubai,1053000.0,Bayut,Contacted,2026-04-22,Buyer_0061
+LED0062,LST0286,AGT002,James Mitchell,Espace Real Estate,Villa,1,Yas Island,Abu Dhabi,6238000.0,Direct Call,Contacted,2026-04-17,Buyer_0062
+LED0063,LST0148,AGT009,Aisha Al Zaabi,CBRE,Townhouse,0,Al Majaz,Sharjah,2969000.0,Bayut,Converted,2026-04-12,Buyer_0063
+LED0064,LST0246,AGT010,Carlos Mendez,Savills,Townhouse,1,Al Reem Island,Abu Dhabi,2220000.0,Direct Call,Lost,2026-04-23,Buyer_0064
+LED0065,LST0148,AGT009,Aisha Al Zaabi,CBRE,Townhouse,0,Al Majaz,Sharjah,2969000.0,PropertyFinder,Lost,2026-01-10,Buyer_0065
+LED0066,LST0279,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Khalifa City,Abu Dhabi,6221000.0,Referral,Converted,2026-04-05,Buyer_0066
+LED0067,LST0075,AGT008,Tom Reynolds,Knight Frank,Townhouse,3,Muwailih Commercial,Sharjah,2592000.0,Direct Call,New,2026-04-20,Buyer_0067
+LED0068,LST0041,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,447000.0,Direct Call,Converted,2026-01-16,Buyer_0068
+LED0069,LST0132,AGT010,Carlos Mendez,Savills,Townhouse,5,Business Bay,Dubai,3829000.0,Referral,Contacted,2026-05-12,Buyer_0069
+LED0070,LST0276,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Jumeirah Village Circle,Dubai,6849000.0,Direct Call,Lost,2026-01-05,Buyer_0070
+LED0071,LST0140,AGT007,Priya Nair,Hamptons International,Studio,0,Saadiyat Island,Abu Dhabi,903000.0,Bayut,New,2026-01-26,Buyer_0071
+LED0072,LST0123,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,Khalifa City,Abu Dhabi,4751000.0,Bayut,New,2026-01-12,Buyer_0072
+LED0073,LST0272,AGT005,Emma Clarke,Dubizzle Property,Townhouse,5,DIFC,Dubai,1136000.0,Bayut,Contacted,2026-06-19,Buyer_0073
+LED0074,LST0052,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Nahda,Sharjah,307000.0,Referral,Qualified,2026-03-04,Buyer_0074
+LED0075,LST0052,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Nahda,Sharjah,307000.0,Bayut,New,2026-02-12,Buyer_0075
+LED0076,LST0081,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2086000.0,Referral,Converted,2026-03-02,Buyer_0076
+LED0077,LST0103,AGT004,Raj Patel,Driven Properties,Penthouse,0,Al Nahda,Sharjah,8625000.0,Direct Call,Qualified,2026-04-20,Buyer_0077
+LED0078,LST0031,AGT004,Raj Patel,Driven Properties,Apartment,0,Downtown Dubai,Dubai,1856000.0,PropertyFinder,Lost,2026-05-04,Buyer_0078
+LED0079,LST0274,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,1073000.0,PropertyFinder,Contacted,2026-03-18,Buyer_0079
+LED0080,LST0091,AGT010,Carlos Mendez,Savills,Studio,0,Al Maryah Island,Abu Dhabi,1153000.0,PropertyFinder,Converted,2026-02-26,Buyer_0080
+LED0081,LST0096,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,2,Saadiyat Island,Abu Dhabi,10232000.0,Direct Call,New,2026-06-30,Buyer_0081
+LED0082,LST0153,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,2,Al Maryah Island,Abu Dhabi,3563000.0,Walk-in,Lost,2026-06-05,Buyer_0082
+LED0083,LST0172,AGT010,Carlos Mendez,Savills,Penthouse,2,Business Bay,Dubai,8461000.0,Direct Call,Converted,2026-01-19,Buyer_0083
+LED0084,LST0279,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Khalifa City,Abu Dhabi,6221000.0,Walk-in,Converted,2026-05-29,Buyer_0084
+LED0085,LST0259,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Jumeirah Village Circle,Dubai,1163000.0,Referral,Qualified,2026-05-14,Buyer_0085
+LED0086,LST0058,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,4,Downtown Dubai,Dubai,535000.0,Direct Call,Contacted,2026-03-07,Buyer_0086
+LED0087,LST0132,AGT010,Carlos Mendez,Savills,Townhouse,5,Business Bay,Dubai,3829000.0,Bayut,New,2026-04-07,Buyer_0087
+LED0088,LST0152,AGT002,James Mitchell,Espace Real Estate,Villa,2,Muwailih Commercial,Sharjah,6204000.0,Walk-in,Contacted,2026-05-19,Buyer_0088
+LED0089,LST0208,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Downtown Dubai,Dubai,627000.0,Referral,Lost,2026-04-10,Buyer_0089
+LED0090,LST0045,AGT007,Priya Nair,Hamptons International,Villa,0,Al Majaz,Sharjah,7167000.0,Referral,New,2026-05-16,Buyer_0090
+LED0091,LST0072,AGT007,Priya Nair,Hamptons International,Townhouse,5,Khalifa City,Abu Dhabi,2091000.0,Referral,Qualified,2026-04-30,Buyer_0091
+LED0092,LST0004,AGT004,Raj Patel,Driven Properties,Penthouse,3,Emirates Hills,Dubai,8598000.0,Direct Call,Converted,2026-05-03,Buyer_0092
+LED0093,LST0229,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,0,Meydan City,Dubai,7149000.0,Direct Call,Qualified,2026-04-16,Buyer_0093
+LED0094,LST0299,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,4,Muwailih Commercial,Sharjah,3268000.0,Walk-in,New,2026-04-27,Buyer_0094
+LED0095,LST0185,AGT002,James Mitchell,Espace Real Estate,Villa,5,Al Maryah Island,Abu Dhabi,6496000.0,Bayut,New,2026-01-13,Buyer_0095
+LED0096,LST0061,AGT004,Raj Patel,Driven Properties,Villa,1,Al Maryah Island,Abu Dhabi,7364000.0,Referral,Qualified,2026-05-23,Buyer_0096
+LED0097,LST0208,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Downtown Dubai,Dubai,627000.0,Walk-in,Qualified,2026-01-07,Buyer_0097
+LED0098,LST0061,AGT004,Raj Patel,Driven Properties,Villa,1,Al Maryah Island,Abu Dhabi,7364000.0,Direct Call,Qualified,2026-01-26,Buyer_0098
+LED0099,LST0114,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Al Majaz,Sharjah,10533000.0,Bayut,Contacted,2026-03-02,Buyer_0099
+LED0100,LST0079,AGT004,Raj Patel,Driven Properties,Studio,0,Khalifa City,Abu Dhabi,982000.0,Referral,Lost,2026-03-29,Buyer_0100
+LED0101,LST0213,AGT004,Raj Patel,Driven Properties,Studio,0,Jumeirah Village Circle,Dubai,1067000.0,Walk-in,Converted,2026-02-15,Buyer_0101
+LED0102,LST0112,AGT010,Carlos Mendez,Savills,Townhouse,5,Al Reem Island,Abu Dhabi,4090000.0,Bayut,Lost,2026-06-12,Buyer_0102
+LED0103,LST0270,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Downtown Dubai,Dubai,364000.0,Referral,Lost,2026-01-03,Buyer_0103
+LED0104,LST0186,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,0,Khalifa City,Abu Dhabi,1918000.0,PropertyFinder,Lost,2026-06-04,Buyer_0104
+LED0105,LST0032,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Emirates Hills,Dubai,4567000.0,Walk-in,Lost,2026-05-12,Buyer_0105
+LED0106,LST0294,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,2,Al Reem Island,Abu Dhabi,4700000.0,Walk-in,Contacted,2026-05-21,Buyer_0106
+LED0107,LST0168,AGT004,Raj Patel,Driven Properties,Villa,3,Al Maryah Island,Abu Dhabi,5436000.0,Walk-in,Converted,2026-06-03,Buyer_0107
+LED0108,LST0106,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Muwailih Commercial,Sharjah,3892000.0,Walk-in,Converted,2026-06-09,Buyer_0108
+LED0109,LST0262,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,0,Saadiyat Island,Abu Dhabi,1756000.0,Referral,New,2026-03-08,Buyer_0109
+LED0110,LST0068,AGT007,Priya Nair,Hamptons International,Townhouse,4,Al Reem Island,Abu Dhabi,4446000.0,Walk-in,Converted,2026-03-08,Buyer_0110
+LED0111,LST0289,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Khalifa City,Abu Dhabi,4365000.0,PropertyFinder,Lost,2026-03-06,Buyer_0111
+LED0112,LST0158,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,4,JBR,Dubai,1947000.0,PropertyFinder,Converted,2026-04-28,Buyer_0112
+LED0113,LST0002,AGT002,James Mitchell,Espace Real Estate,Studio,0,Muwailih Commercial,Sharjah,861000.0,Bayut,Lost,2026-06-14,Buyer_0113
+LED0114,LST0024,AGT010,Carlos Mendez,Savills,Apartment,2,Muwailih Commercial,Sharjah,1223000.0,Referral,Qualified,2026-01-04,Buyer_0114
+LED0115,LST0033,AGT008,Tom Reynolds,Knight Frank,Studio,0,Meydan City,Dubai,531000.0,Walk-in,New,2026-06-15,Buyer_0115
+LED0116,LST0242,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Al Majaz,Sharjah,337000.0,PropertyFinder,Qualified,2026-03-20,Buyer_0116
+LED0117,LST0093,AGT008,Tom Reynolds,Knight Frank,Villa,1,Al Nahda,Sharjah,7390000.0,Bayut,Converted,2026-03-29,Buyer_0117
+LED0118,LST0196,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,0,Emirates Hills,Dubai,3341000.0,Referral,Converted,2026-03-28,Buyer_0118
+LED0119,LST0042,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Dubai Marina,Dubai,358000.0,Walk-in,Contacted,2026-01-16,Buyer_0119
+LED0120,LST0179,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Maryah Island,Abu Dhabi,1089000.0,PropertyFinder,Contacted,2026-02-15,Buyer_0120
+LED0121,LST0202,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,4,Yas Island,Abu Dhabi,705000.0,Walk-in,Contacted,2026-05-06,Buyer_0121
+LED0122,LST0002,AGT002,James Mitchell,Espace Real Estate,Studio,0,Muwailih Commercial,Sharjah,861000.0,PropertyFinder,Qualified,2026-03-06,Buyer_0122
+LED0123,LST0279,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Khalifa City,Abu Dhabi,6221000.0,Referral,Lost,2026-03-27,Buyer_0123
+LED0124,LST0118,AGT002,James Mitchell,Espace Real Estate,Townhouse,5,Al Majaz,Sharjah,2913000.0,Bayut,Converted,2026-04-05,Buyer_0124
+LED0125,LST0080,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,5,Khalifa City,Abu Dhabi,5719000.0,Direct Call,Contacted,2026-06-04,Buyer_0125
+LED0126,LST0017,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2318000.0,Referral,Lost,2026-06-28,Buyer_0126
+LED0127,LST0124,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Khalifa City,Abu Dhabi,1227000.0,Bayut,New,2026-06-07,Buyer_0127
+LED0128,LST0018,AGT007,Priya Nair,Hamptons International,Villa,4,Palm Jumeirah,Dubai,2162000.0,Referral,Lost,2026-01-11,Buyer_0128
+LED0129,LST0025,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Al Reem Island,Abu Dhabi,6805000.0,Bayut,New,2026-03-22,Buyer_0129
+LED0130,LST0225,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,3,Al Nahda,Sharjah,4836000.0,Bayut,Lost,2026-05-08,Buyer_0130
+LED0131,LST0029,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,415000.0,Bayut,Lost,2026-04-19,Buyer_0131
+LED0132,LST0120,AGT004,Raj Patel,Driven Properties,Apartment,2,Al Nahda,Sharjah,826000.0,Walk-in,Qualified,2026-02-05,Buyer_0132
+LED0133,LST0165,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Arabian Ranches,Dubai,1050000.0,Bayut,Qualified,2026-05-27,Buyer_0133
+LED0134,LST0267,AGT008,Tom Reynolds,Knight Frank,Studio,0,DIFC,Dubai,360000.0,Bayut,Converted,2026-04-17,Buyer_0134
+LED0135,LST0141,AGT007,Priya Nair,Hamptons International,Townhouse,2,JBR,Dubai,2178000.0,PropertyFinder,Lost,2026-02-01,Buyer_0135
+LED0136,LST0090,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,2,Al Nahda,Sharjah,5837000.0,Referral,Lost,2026-02-26,Buyer_0136
+LED0137,LST0025,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Al Reem Island,Abu Dhabi,6805000.0,Direct Call,Converted,2026-02-18,Buyer_0137
+LED0138,LST0164,AGT008,Tom Reynolds,Knight Frank,Apartment,1,Muwailih Commercial,Sharjah,1535000.0,Referral,Converted,2026-05-25,Buyer_0138
+LED0139,LST0154,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Muwailih Commercial,Sharjah,8117000.0,Referral,Contacted,2026-02-15,Buyer_0139
+LED0140,LST0243,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Khalifa City,Abu Dhabi,879000.0,Bayut,Contacted,2026-04-17,Buyer_0140
+LED0141,LST0074,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Al Majaz,Sharjah,2550000.0,Referral,New,2026-02-09,Buyer_0141
+LED0142,LST0212,AGT002,James Mitchell,Espace Real Estate,Villa,2,Al Nahda,Sharjah,6619000.0,Referral,Lost,2026-02-17,Buyer_0142
+LED0143,LST0069,AGT005,Emma Clarke,Dubizzle Property,Villa,0,Al Maryah Island,Abu Dhabi,5840000.0,Referral,Contacted,2026-04-28,Buyer_0143
+LED0144,LST0105,AGT007,Priya Nair,Hamptons International,Studio,0,Arabian Ranches,Dubai,928000.0,Direct Call,New,2026-03-09,Buyer_0144
+LED0145,LST0190,AGT008,Tom Reynolds,Knight Frank,Villa,3,Arabian Ranches,Dubai,7218000.0,PropertyFinder,Lost,2026-05-15,Buyer_0145
+LED0146,LST0027,AGT009,Aisha Al Zaabi,CBRE,Townhouse,4,Al Majaz,Sharjah,2527000.0,Direct Call,Converted,2026-01-11,Buyer_0146
+LED0147,LST0021,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Jumeirah Village Circle,Dubai,3031000.0,PropertyFinder,Contacted,2026-02-02,Buyer_0147
+LED0148,LST0287,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Khalifa City,Abu Dhabi,875000.0,Bayut,Converted,2026-05-10,Buyer_0148
+LED0149,LST0171,AGT005,Emma Clarke,Dubizzle Property,Penthouse,1,Al Nahda,Sharjah,12494000.0,Direct Call,New,2026-05-09,Buyer_0149
+LED0150,LST0098,AGT002,James Mitchell,Espace Real Estate,Villa,5,Arabian Ranches,Dubai,2029000.0,PropertyFinder,Converted,2026-05-01,Buyer_0150
+LED0151,LST0105,AGT007,Priya Nair,Hamptons International,Studio,0,Arabian Ranches,Dubai,928000.0,Referral,Contacted,2026-02-11,Buyer_0151
+LED0152,LST0165,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Arabian Ranches,Dubai,1050000.0,Direct Call,Converted,2026-03-05,Buyer_0152
+LED0153,LST0274,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,1073000.0,Direct Call,Qualified,2026-04-27,Buyer_0153
+LED0154,LST0185,AGT002,James Mitchell,Espace Real Estate,Villa,5,Al Maryah Island,Abu Dhabi,6496000.0,Walk-in,Converted,2026-03-05,Buyer_0154
+LED0155,LST0051,AGT006,Mohammed Al Rashid,Provident Estate,Villa,2,Yas Island,Abu Dhabi,2699000.0,Referral,Qualified,2026-05-11,Buyer_0155
+LED0156,LST0190,AGT008,Tom Reynolds,Knight Frank,Villa,3,Arabian Ranches,Dubai,7218000.0,Direct Call,Converted,2026-06-21,Buyer_0156
+LED0157,LST0289,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Khalifa City,Abu Dhabi,4365000.0,Bayut,Contacted,2026-06-28,Buyer_0157
+LED0158,LST0134,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Downtown Dubai,Dubai,1384000.0,Walk-in,Lost,2026-02-04,Buyer_0158
+LED0159,LST0214,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,879000.0,Direct Call,Contacted,2026-05-13,Buyer_0159
+LED0160,LST0169,AGT005,Emma Clarke,Dubizzle Property,Penthouse,5,Yas Island,Abu Dhabi,8193000.0,Bayut,Converted,2026-02-07,Buyer_0160
+LED0161,LST0126,AGT009,Aisha Al Zaabi,CBRE,Apartment,3,Business Bay,Dubai,1402000.0,Referral,Lost,2026-01-16,Buyer_0161
+LED0162,LST0173,AGT005,Emma Clarke,Dubizzle Property,Penthouse,0,Yas Island,Abu Dhabi,8376000.0,Direct Call,Converted,2026-01-19,Buyer_0162
+LED0163,LST0252,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Arabian Ranches,Dubai,867000.0,Referral,Contacted,2026-04-03,Buyer_0163
+LED0164,LST0087,AGT004,Raj Patel,Driven Properties,Villa,3,Palm Jumeirah,Dubai,5756000.0,Bayut,Lost,2026-02-27,Buyer_0164
+LED0165,LST0095,AGT008,Tom Reynolds,Knight Frank,Villa,1,Al Nahda,Sharjah,2087000.0,Walk-in,New,2026-02-18,Buyer_0165
+LED0166,LST0018,AGT007,Priya Nair,Hamptons International,Villa,4,Palm Jumeirah,Dubai,2162000.0,PropertyFinder,New,2026-07-01,Buyer_0166
+LED0167,LST0212,AGT002,James Mitchell,Espace Real Estate,Villa,2,Al Nahda,Sharjah,6619000.0,Bayut,Contacted,2026-06-15,Buyer_0167
+LED0168,LST0078,AGT004,Raj Patel,Driven Properties,Apartment,3,Dubai Marina,Dubai,1409000.0,PropertyFinder,Contacted,2026-02-23,Buyer_0168
+LED0169,LST0234,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,5,Al Majaz,Sharjah,1231000.0,Direct Call,New,2026-01-25,Buyer_0169
+LED0170,LST0248,AGT005,Emma Clarke,Dubizzle Property,Apartment,4,Meydan City,Dubai,1053000.0,Referral,New,2026-07-01,Buyer_0170
+LED0171,LST0273,AGT010,Carlos Mendez,Savills,Apartment,5,Saadiyat Island,Abu Dhabi,1630000.0,Walk-in,Converted,2026-06-29,Buyer_0171
+LED0172,LST0009,AGT005,Emma Clarke,Dubizzle Property,Villa,0,Dubai Marina,Dubai,6675000.0,Walk-in,Qualified,2026-02-15,Buyer_0172
+LED0173,LST0147,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,5,Al Nahda,Sharjah,1405000.0,PropertyFinder,Lost,2026-01-05,Buyer_0173
+LED0174,LST0221,AGT004,Raj Patel,Driven Properties,Townhouse,4,Khalifa City,Abu Dhabi,1469000.0,Bayut,New,2026-06-08,Buyer_0174
+LED0175,LST0269,AGT010,Carlos Mendez,Savills,Apartment,2,Khalifa City,Abu Dhabi,846000.0,Bayut,Contacted,2026-05-14,Buyer_0175
+LED0176,LST0270,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Downtown Dubai,Dubai,364000.0,Direct Call,Qualified,2026-04-25,Buyer_0176
+LED0177,LST0204,AGT008,Tom Reynolds,Knight Frank,Townhouse,4,Muwailih Commercial,Sharjah,3151000.0,PropertyFinder,Qualified,2026-03-21,Buyer_0177
+LED0178,LST0236,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Saadiyat Island,Abu Dhabi,7201000.0,Walk-in,Contacted,2026-01-05,Buyer_0178
+LED0179,LST0116,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Al Maryah Island,Abu Dhabi,704000.0,Direct Call,New,2026-01-16,Buyer_0179
+LED0180,LST0017,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2318000.0,PropertyFinder,Converted,2026-03-27,Buyer_0180
+LED0181,LST0194,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,857000.0,Walk-in,Converted,2026-06-18,Buyer_0181
+LED0182,LST0005,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,DIFC,Dubai,1816000.0,Bayut,New,2026-02-25,Buyer_0182
+LED0183,LST0223,AGT010,Carlos Mendez,Savills,Penthouse,0,Business Bay,Dubai,3073000.0,Direct Call,Lost,2026-06-08,Buyer_0183
+LED0184,LST0271,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Muwailih Commercial,Sharjah,319000.0,PropertyFinder,Contacted,2026-05-09,Buyer_0184
+LED0185,LST0291,AGT004,Raj Patel,Driven Properties,Penthouse,4,Al Reem Island,Abu Dhabi,5713000.0,Referral,Qualified,2026-06-21,Buyer_0185
+LED0186,LST0039,AGT008,Tom Reynolds,Knight Frank,Penthouse,1,DIFC,Dubai,11214000.0,Direct Call,Lost,2026-02-08,Buyer_0186
+LED0187,LST0017,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2318000.0,Bayut,Qualified,2026-06-28,Buyer_0187
+LED0188,LST0107,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Al Reem Island,Abu Dhabi,4673000.0,Walk-in,Contacted,2026-03-23,Buyer_0188
+LED0189,LST0040,AGT007,Priya Nair,Hamptons International,Apartment,2,DIFC,Dubai,1888000.0,Direct Call,Contacted,2026-02-08,Buyer_0189
+LED0190,LST0124,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Khalifa City,Abu Dhabi,1227000.0,Walk-in,Converted,2026-01-10,Buyer_0190
+LED0191,LST0277,AGT009,Aisha Al Zaabi,CBRE,Penthouse,3,Al Maryah Island,Abu Dhabi,5406000.0,Direct Call,Converted,2026-05-28,Buyer_0191
+LED0192,LST0041,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,447000.0,Walk-in,Qualified,2026-06-19,Buyer_0192
+LED0193,LST0051,AGT006,Mohammed Al Rashid,Provident Estate,Villa,2,Yas Island,Abu Dhabi,2699000.0,Referral,Contacted,2026-06-13,Buyer_0193
+LED0194,LST0175,AGT004,Raj Patel,Driven Properties,Townhouse,5,Meydan City,Dubai,1730000.0,Walk-in,Lost,2026-01-31,Buyer_0194
+LED0195,LST0204,AGT008,Tom Reynolds,Knight Frank,Townhouse,4,Muwailih Commercial,Sharjah,3151000.0,Direct Call,New,2026-01-21,Buyer_0195
+LED0196,LST0140,AGT007,Priya Nair,Hamptons International,Studio,0,Saadiyat Island,Abu Dhabi,903000.0,Referral,Converted,2026-05-05,Buyer_0196
+LED0197,LST0183,AGT010,Carlos Mendez,Savills,Townhouse,3,Muwailih Commercial,Sharjah,3893000.0,Walk-in,Converted,2026-03-14,Buyer_0197
+LED0198,LST0096,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,2,Saadiyat Island,Abu Dhabi,10232000.0,Walk-in,Converted,2026-06-11,Buyer_0198
+LED0199,LST0152,AGT002,James Mitchell,Espace Real Estate,Villa,2,Muwailih Commercial,Sharjah,6204000.0,Bayut,New,2026-06-11,Buyer_0199
+LED0200,LST0138,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,1250000.0,Bayut,Converted,2026-01-21,Buyer_0200
+LED0201,LST0079,AGT004,Raj Patel,Driven Properties,Studio,0,Khalifa City,Abu Dhabi,982000.0,Referral,Qualified,2026-04-01,Buyer_0201
+LED0202,LST0055,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Muwailih Commercial,Sharjah,1939000.0,PropertyFinder,New,2026-04-15,Buyer_0202
+LED0203,LST0228,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Khalifa City,Abu Dhabi,1151000.0,Direct Call,Qualified,2026-06-06,Buyer_0203
+LED0204,LST0068,AGT007,Priya Nair,Hamptons International,Townhouse,4,Al Reem Island,Abu Dhabi,4446000.0,PropertyFinder,Contacted,2026-03-14,Buyer_0204
+LED0205,LST0230,AGT007,Priya Nair,Hamptons International,Studio,0,DIFC,Dubai,798000.0,Walk-in,Lost,2026-02-21,Buyer_0205
+LED0206,LST0209,AGT010,Carlos Mendez,Savills,Apartment,4,Emirates Hills,Dubai,1334000.0,PropertyFinder,New,2026-06-10,Buyer_0206
+LED0207,LST0182,AGT002,James Mitchell,Espace Real Estate,Studio,0,Jumeirah Village Circle,Dubai,732000.0,Walk-in,New,2026-01-31,Buyer_0207
+LED0208,LST0167,AGT007,Priya Nair,Hamptons International,Studio,0,Downtown Dubai,Dubai,889000.0,Referral,New,2026-04-19,Buyer_0208
+LED0209,LST0212,AGT002,James Mitchell,Espace Real Estate,Villa,2,Al Nahda,Sharjah,6619000.0,Referral,New,2026-02-09,Buyer_0209
+LED0210,LST0125,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Muwailih Commercial,Sharjah,1713000.0,Walk-in,Lost,2026-05-20,Buyer_0210
+LED0211,LST0195,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Saadiyat Island,Abu Dhabi,563000.0,Bayut,Contacted,2026-04-25,Buyer_0211
+LED0212,LST0155,AGT007,Priya Nair,Hamptons International,Studio,0,Al Maryah Island,Abu Dhabi,733000.0,Direct Call,Converted,2026-05-26,Buyer_0212
+LED0213,LST0033,AGT008,Tom Reynolds,Knight Frank,Studio,0,Meydan City,Dubai,531000.0,Bayut,Converted,2026-04-23,Buyer_0213
+LED0214,LST0216,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Reem Island,Abu Dhabi,1341000.0,Direct Call,Converted,2026-06-13,Buyer_0214
+LED0215,LST0185,AGT002,James Mitchell,Espace Real Estate,Villa,5,Al Maryah Island,Abu Dhabi,6496000.0,Direct Call,Contacted,2026-01-23,Buyer_0215
+LED0216,LST0254,AGT008,Tom Reynolds,Knight Frank,Villa,4,Al Reem Island,Abu Dhabi,3424000.0,Walk-in,Lost,2026-05-13,Buyer_0216
+LED0217,LST0235,AGT010,Carlos Mendez,Savills,Studio,0,Al Nahda,Sharjah,607000.0,PropertyFinder,Contacted,2026-04-16,Buyer_0217
+LED0218,LST0004,AGT004,Raj Patel,Driven Properties,Penthouse,3,Emirates Hills,Dubai,8598000.0,Referral,Qualified,2026-01-25,Buyer_0218
+LED0219,LST0195,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Saadiyat Island,Abu Dhabi,563000.0,Direct Call,Converted,2026-04-08,Buyer_0219
+LED0220,LST0221,AGT004,Raj Patel,Driven Properties,Townhouse,4,Khalifa City,Abu Dhabi,1469000.0,Walk-in,Contacted,2026-04-17,Buyer_0220
+LED0221,LST0165,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Arabian Ranches,Dubai,1050000.0,Walk-in,Contacted,2026-03-02,Buyer_0221
+LED0222,LST0161,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Yas Island,Abu Dhabi,4343000.0,Bayut,Converted,2026-04-12,Buyer_0222
+LED0223,LST0150,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Nahda,Sharjah,695000.0,Referral,Lost,2026-05-01,Buyer_0223
+LED0224,LST0167,AGT007,Priya Nair,Hamptons International,Studio,0,Downtown Dubai,Dubai,889000.0,Referral,Qualified,2026-03-24,Buyer_0224
+LED0225,LST0187,AGT004,Raj Patel,Driven Properties,Apartment,4,Yas Island,Abu Dhabi,686000.0,PropertyFinder,Lost,2026-05-12,Buyer_0225
+LED0226,LST0280,AGT009,Aisha Al Zaabi,CBRE,Townhouse,2,Khalifa City,Abu Dhabi,3820000.0,Bayut,Lost,2026-06-26,Buyer_0226
+LED0227,LST0237,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,4,Al Maryah Island,Abu Dhabi,593000.0,Bayut,Converted,2026-04-19,Buyer_0227
+LED0228,LST0036,AGT004,Raj Patel,Driven Properties,Villa,4,Business Bay,Dubai,4357000.0,Referral,Converted,2026-05-28,Buyer_0228
+LED0229,LST0156,AGT007,Priya Nair,Hamptons International,Studio,0,Business Bay,Dubai,522000.0,Bayut,Qualified,2026-01-15,Buyer_0229
+LED0230,LST0079,AGT004,Raj Patel,Driven Properties,Studio,0,Khalifa City,Abu Dhabi,982000.0,Referral,Converted,2026-06-14,Buyer_0230
+LED0231,LST0230,AGT007,Priya Nair,Hamptons International,Studio,0,DIFC,Dubai,798000.0,Walk-in,Converted,2026-02-03,Buyer_0231
+LED0232,LST0206,AGT007,Priya Nair,Hamptons International,Penthouse,3,Al Reem Island,Abu Dhabi,9931000.0,Walk-in,Lost,2026-01-06,Buyer_0232
+LED0233,LST0215,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Nahda,Sharjah,1548000.0,Walk-in,New,2026-04-01,Buyer_0233
+LED0234,LST0275,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,1,Al Nahda,Sharjah,3599000.0,Walk-in,New,2026-06-05,Buyer_0234
+LED0235,LST0128,AGT010,Carlos Mendez,Savills,Studio,0,Al Reem Island,Abu Dhabi,357000.0,Direct Call,Contacted,2026-01-18,Buyer_0235
+LED0236,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Muwailih Commercial,Sharjah,445000.0,Walk-in,Converted,2026-04-09,Buyer_0236
+LED0237,LST0221,AGT004,Raj Patel,Driven Properties,Townhouse,4,Khalifa City,Abu Dhabi,1469000.0,PropertyFinder,New,2026-06-07,Buyer_0237
+LED0238,LST0133,AGT004,Raj Patel,Driven Properties,Studio,0,Yas Island,Abu Dhabi,915000.0,Bayut,Lost,2026-02-20,Buyer_0238
+LED0239,LST0286,AGT002,James Mitchell,Espace Real Estate,Villa,1,Yas Island,Abu Dhabi,6238000.0,Walk-in,Lost,2026-05-07,Buyer_0239
+LED0240,LST0229,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,0,Meydan City,Dubai,7149000.0,Direct Call,Converted,2026-03-06,Buyer_0240
+LED0241,LST0257,AGT004,Raj Patel,Driven Properties,Villa,4,Al Nahda,Sharjah,2589000.0,Bayut,Qualified,2026-06-26,Buyer_0241
+LED0242,LST0248,AGT005,Emma Clarke,Dubizzle Property,Apartment,4,Meydan City,Dubai,1053000.0,PropertyFinder,Qualified,2026-03-18,Buyer_0242
+LED0243,LST0044,AGT002,James Mitchell,Espace Real Estate,Studio,0,Dubai Marina,Dubai,1109000.0,PropertyFinder,Contacted,2026-04-04,Buyer_0243
+LED0244,LST0160,AGT008,Tom Reynolds,Knight Frank,Apartment,2,Saadiyat Island,Abu Dhabi,995000.0,Direct Call,Converted,2026-05-11,Buyer_0244
+LED0245,LST0267,AGT008,Tom Reynolds,Knight Frank,Studio,0,DIFC,Dubai,360000.0,Referral,Qualified,2026-03-03,Buyer_0245
+LED0246,LST0050,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,781000.0,Referral,Converted,2026-04-12,Buyer_0246
+LED0247,LST0035,AGT002,James Mitchell,Espace Real Estate,Apartment,0,Khalifa City,Abu Dhabi,1092000.0,Direct Call,New,2026-06-03,Buyer_0247
+LED0248,LST0012,AGT005,Emma Clarke,Dubizzle Property,Penthouse,5,JBR,Dubai,9538000.0,Direct Call,New,2026-01-10,Buyer_0248
+LED0249,LST0085,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,895000.0,Bayut,Lost,2026-05-19,Buyer_0249
+LED0250,LST0283,AGT008,Tom Reynolds,Knight Frank,Townhouse,0,JBR,Dubai,3566000.0,Bayut,Qualified,2026-02-09,Buyer_0250
+LED0251,LST0219,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,Muwailih Commercial,Sharjah,719000.0,Referral,Contacted,2026-03-21,Buyer_0251
+LED0252,LST0095,AGT008,Tom Reynolds,Knight Frank,Villa,1,Al Nahda,Sharjah,2087000.0,Bayut,Converted,2026-03-23,Buyer_0252
+LED0253,LST0015,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,2,Khalifa City,Abu Dhabi,4326000.0,Walk-in,Contacted,2026-03-09,Buyer_0253
+LED0254,LST0220,AGT008,Tom Reynolds,Knight Frank,Townhouse,5,Downtown Dubai,Dubai,2530000.0,Referral,New,2026-01-03,Buyer_0254
+LED0255,LST0110,AGT008,Tom Reynolds,Knight Frank,Villa,4,Khalifa City,Abu Dhabi,5279000.0,Bayut,Qualified,2026-01-03,Buyer_0255
+LED0256,LST0033,AGT008,Tom Reynolds,Knight Frank,Studio,0,Meydan City,Dubai,531000.0,Walk-in,New,2026-02-15,Buyer_0256
+LED0257,LST0096,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,2,Saadiyat Island,Abu Dhabi,10232000.0,Direct Call,Qualified,2026-05-13,Buyer_0257
+LED0258,LST0235,AGT010,Carlos Mendez,Savills,Studio,0,Al Nahda,Sharjah,607000.0,PropertyFinder,Qualified,2026-01-12,Buyer_0258
+LED0259,LST0251,AGT002,James Mitchell,Espace Real Estate,Townhouse,4,Downtown Dubai,Dubai,3716000.0,Walk-in,Qualified,2026-01-31,Buyer_0259
+LED0260,LST0199,AGT009,Aisha Al Zaabi,CBRE,Townhouse,4,Khalifa City,Abu Dhabi,1453000.0,Walk-in,Converted,2026-02-02,Buyer_0260
+LED0261,LST0059,AGT007,Priya Nair,Hamptons International,Villa,1,Muwailih Commercial,Sharjah,2038000.0,Direct Call,Qualified,2026-03-07,Buyer_0261
+LED0262,LST0089,AGT007,Priya Nair,Hamptons International,Penthouse,4,Business Bay,Dubai,11988000.0,Direct Call,Lost,2026-02-01,Buyer_0262
+LED0263,LST0044,AGT002,James Mitchell,Espace Real Estate,Studio,0,Dubai Marina,Dubai,1109000.0,Bayut,Qualified,2026-06-02,Buyer_0263
+LED0264,LST0123,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,Khalifa City,Abu Dhabi,4751000.0,Direct Call,New,2026-05-17,Buyer_0264
+LED0265,LST0192,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,5015000.0,Bayut,Lost,2026-03-25,Buyer_0265
+LED0266,LST0215,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Nahda,Sharjah,1548000.0,Walk-in,Contacted,2026-02-05,Buyer_0266
+LED0267,LST0197,AGT004,Raj Patel,Driven Properties,Townhouse,4,Dubai Marina,Dubai,2187000.0,Referral,Contacted,2026-02-28,Buyer_0267
+LED0268,LST0276,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Jumeirah Village Circle,Dubai,6849000.0,Bayut,Lost,2026-05-21,Buyer_0268
+LED0269,LST0251,AGT002,James Mitchell,Espace Real Estate,Townhouse,4,Downtown Dubai,Dubai,3716000.0,Direct Call,Contacted,2026-05-16,Buyer_0269
+LED0270,LST0162,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Al Nahda,Sharjah,887000.0,Referral,Lost,2026-06-19,Buyer_0270
+LED0271,LST0184,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Business Bay,Dubai,11400000.0,PropertyFinder,Converted,2026-05-29,Buyer_0271
+LED0272,LST0100,AGT004,Raj Patel,Driven Properties,Studio,0,Al Majaz,Sharjah,742000.0,Referral,Lost,2026-02-23,Buyer_0272
+LED0273,LST0254,AGT008,Tom Reynolds,Knight Frank,Villa,4,Al Reem Island,Abu Dhabi,3424000.0,Referral,Converted,2026-03-18,Buyer_0273
+LED0274,LST0228,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Khalifa City,Abu Dhabi,1151000.0,Referral,Contacted,2026-06-11,Buyer_0274
+LED0275,LST0290,AGT009,Aisha Al Zaabi,CBRE,Penthouse,3,Al Majaz,Sharjah,11679000.0,PropertyFinder,Contacted,2026-04-19,Buyer_0275
+LED0276,LST0017,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2318000.0,Direct Call,Contacted,2026-02-15,Buyer_0276
+LED0277,LST0148,AGT009,Aisha Al Zaabi,CBRE,Townhouse,0,Al Majaz,Sharjah,2969000.0,Bayut,Converted,2026-02-08,Buyer_0277
+LED0278,LST0254,AGT008,Tom Reynolds,Knight Frank,Villa,4,Al Reem Island,Abu Dhabi,3424000.0,Walk-in,Lost,2026-06-04,Buyer_0278
+LED0279,LST0294,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,2,Al Reem Island,Abu Dhabi,4700000.0,PropertyFinder,Qualified,2026-02-13,Buyer_0279
+LED0280,LST0188,AGT010,Carlos Mendez,Savills,Penthouse,5,Al Maryah Island,Abu Dhabi,9903000.0,Walk-in,New,2026-03-12,Buyer_0280
+LED0281,LST0280,AGT009,Aisha Al Zaabi,CBRE,Townhouse,2,Khalifa City,Abu Dhabi,3820000.0,Bayut,Converted,2026-06-06,Buyer_0281
+LED0282,LST0127,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Emirates Hills,Dubai,5825000.0,Direct Call,New,2026-03-09,Buyer_0282
+LED0283,LST0135,AGT008,Tom Reynolds,Knight Frank,Apartment,5,Khalifa City,Abu Dhabi,942000.0,Direct Call,New,2026-03-12,Buyer_0283
+LED0284,LST0061,AGT004,Raj Patel,Driven Properties,Villa,1,Al Maryah Island,Abu Dhabi,7364000.0,Bayut,Contacted,2026-02-02,Buyer_0284
+LED0285,LST0180,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Al Reem Island,Abu Dhabi,4373000.0,Walk-in,Converted,2026-05-21,Buyer_0285
+LED0286,LST0072,AGT007,Priya Nair,Hamptons International,Townhouse,5,Khalifa City,Abu Dhabi,2091000.0,Bayut,Contacted,2026-06-17,Buyer_0286
+LED0287,LST0292,AGT002,James Mitchell,Espace Real Estate,Villa,3,Downtown Dubai,Dubai,2784000.0,Direct Call,Lost,2026-04-22,Buyer_0287
+LED0288,LST0276,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Jumeirah Village Circle,Dubai,6849000.0,Bayut,Qualified,2026-01-03,Buyer_0288
+LED0289,LST0150,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Nahda,Sharjah,695000.0,Direct Call,Lost,2026-04-25,Buyer_0289
+LED0290,LST0264,AGT008,Tom Reynolds,Knight Frank,Penthouse,4,Al Majaz,Sharjah,3050000.0,PropertyFinder,Contacted,2026-03-19,Buyer_0290
+LED0291,LST0031,AGT004,Raj Patel,Driven Properties,Apartment,0,Downtown Dubai,Dubai,1856000.0,Direct Call,Contacted,2026-01-04,Buyer_0291
+LED0292,LST0068,AGT007,Priya Nair,Hamptons International,Townhouse,4,Al Reem Island,Abu Dhabi,4446000.0,Bayut,Contacted,2026-04-11,Buyer_0292
+LED0293,LST0127,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Emirates Hills,Dubai,5825000.0,Referral,Converted,2026-05-27,Buyer_0293
+LED0294,LST0296,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Khalifa City,Abu Dhabi,881000.0,Direct Call,Converted,2026-03-28,Buyer_0294
+LED0295,LST0232,AGT004,Raj Patel,Driven Properties,Studio,0,Emirates Hills,Dubai,1161000.0,PropertyFinder,New,2026-03-21,Buyer_0295
+LED0296,LST0264,AGT008,Tom Reynolds,Knight Frank,Penthouse,4,Al Majaz,Sharjah,3050000.0,Direct Call,Qualified,2026-03-08,Buyer_0296
+LED0297,LST0250,AGT006,Mohammed Al Rashid,Provident Estate,Villa,3,Saadiyat Island,Abu Dhabi,2894000.0,Direct Call,Lost,2026-07-02,Buyer_0297
+LED0298,LST0048,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Arabian Ranches,Dubai,2546000.0,Referral,Qualified,2026-06-16,Buyer_0298
+LED0299,LST0274,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,1073000.0,Referral,Contacted,2026-03-15,Buyer_0299
+LED0300,LST0109,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,1,Al Maryah Island,Abu Dhabi,3921000.0,Referral,Qualified,2026-04-11,Buyer_0300
+LED0301,LST0146,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Jumeirah Village Circle,Dubai,1181000.0,Direct Call,Lost,2026-02-05,Buyer_0301
+LED0302,LST0067,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Saadiyat Island,Abu Dhabi,336000.0,Walk-in,Converted,2026-04-06,Buyer_0302
+LED0303,LST0025,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Al Reem Island,Abu Dhabi,6805000.0,PropertyFinder,New,2026-01-23,Buyer_0303
+LED0304,LST0236,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Saadiyat Island,Abu Dhabi,7201000.0,PropertyFinder,New,2026-05-23,Buyer_0304
+LED0305,LST0226,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Muwailih Commercial,Sharjah,4027000.0,Referral,New,2026-03-15,Buyer_0305
+LED0306,LST0104,AGT010,Carlos Mendez,Savills,Townhouse,0,Downtown Dubai,Dubai,3803000.0,Bayut,Qualified,2026-05-23,Buyer_0306
+LED0307,LST0141,AGT007,Priya Nair,Hamptons International,Townhouse,2,JBR,Dubai,2178000.0,PropertyFinder,Qualified,2026-04-29,Buyer_0307
+LED0308,LST0043,AGT008,Tom Reynolds,Knight Frank,Studio,0,Dubai Marina,Dubai,778000.0,Direct Call,Contacted,2026-06-19,Buyer_0308
+LED0309,LST0203,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Maryah Island,Abu Dhabi,977000.0,Direct Call,Contacted,2026-03-15,Buyer_0309
+LED0310,LST0047,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Muwailih Commercial,Sharjah,601000.0,PropertyFinder,New,2026-05-09,Buyer_0310
+LED0311,LST0245,AGT002,James Mitchell,Espace Real Estate,Townhouse,2,Muwailih Commercial,Sharjah,1403000.0,PropertyFinder,Contacted,2026-02-01,Buyer_0311
+LED0312,LST0116,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Al Maryah Island,Abu Dhabi,704000.0,Walk-in,Converted,2026-06-30,Buyer_0312
+LED0313,LST0005,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,DIFC,Dubai,1816000.0,Direct Call,New,2026-03-16,Buyer_0313
+LED0314,LST0068,AGT007,Priya Nair,Hamptons International,Townhouse,4,Al Reem Island,Abu Dhabi,4446000.0,Referral,New,2026-05-05,Buyer_0314
+LED0315,LST0197,AGT004,Raj Patel,Driven Properties,Townhouse,4,Dubai Marina,Dubai,2187000.0,PropertyFinder,New,2026-06-06,Buyer_0315
+LED0316,LST0161,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Yas Island,Abu Dhabi,4343000.0,Direct Call,Qualified,2026-05-28,Buyer_0316
+LED0317,LST0196,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,0,Emirates Hills,Dubai,3341000.0,Bayut,Contacted,2026-06-15,Buyer_0317
+LED0318,LST0272,AGT005,Emma Clarke,Dubizzle Property,Townhouse,5,DIFC,Dubai,1136000.0,Walk-in,New,2026-01-27,Buyer_0318
+LED0319,LST0085,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,895000.0,Referral,Qualified,2026-05-09,Buyer_0319
+LED0320,LST0078,AGT004,Raj Patel,Driven Properties,Apartment,3,Dubai Marina,Dubai,1409000.0,Referral,Lost,2026-01-08,Buyer_0320
+LED0321,LST0227,AGT002,James Mitchell,Espace Real Estate,Penthouse,2,Yas Island,Abu Dhabi,8470000.0,Bayut,New,2026-06-07,Buyer_0321
+LED0322,LST0072,AGT007,Priya Nair,Hamptons International,Townhouse,5,Khalifa City,Abu Dhabi,2091000.0,PropertyFinder,Lost,2026-03-26,Buyer_0322
+LED0323,LST0180,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Al Reem Island,Abu Dhabi,4373000.0,Referral,Qualified,2026-05-28,Buyer_0323
+LED0324,LST0127,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Emirates Hills,Dubai,5825000.0,Direct Call,New,2026-04-30,Buyer_0324
+LED0325,LST0284,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,0,Al Nahda,Sharjah,3375000.0,Walk-in,Lost,2026-01-28,Buyer_0325
+LED0326,LST0146,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Jumeirah Village Circle,Dubai,1181000.0,PropertyFinder,Qualified,2026-05-11,Buyer_0326
+LED0327,LST0266,AGT005,Emma Clarke,Dubizzle Property,Apartment,1,Al Nahda,Sharjah,938000.0,Walk-in,Lost,2026-05-15,Buyer_0327
+LED0328,LST0201,AGT007,Priya Nair,Hamptons International,Penthouse,5,JBR,Dubai,4026000.0,Direct Call,New,2026-05-02,Buyer_0328
+LED0329,LST0254,AGT008,Tom Reynolds,Knight Frank,Villa,4,Al Reem Island,Abu Dhabi,3424000.0,Referral,New,2026-05-02,Buyer_0329
+LED0330,LST0256,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,Al Maryah Island,Abu Dhabi,10392000.0,Walk-in,New,2026-02-17,Buyer_0330
+LED0331,LST0007,AGT009,Aisha Al Zaabi,CBRE,Penthouse,0,Yas Island,Abu Dhabi,12245000.0,Direct Call,Qualified,2026-05-30,Buyer_0331
+LED0332,LST0199,AGT009,Aisha Al Zaabi,CBRE,Townhouse,4,Khalifa City,Abu Dhabi,1453000.0,Walk-in,Converted,2026-03-31,Buyer_0332
+LED0333,LST0280,AGT009,Aisha Al Zaabi,CBRE,Townhouse,2,Khalifa City,Abu Dhabi,3820000.0,Bayut,Converted,2026-06-14,Buyer_0333
+LED0334,LST0009,AGT005,Emma Clarke,Dubizzle Property,Villa,0,Dubai Marina,Dubai,6675000.0,Walk-in,New,2026-06-29,Buyer_0334
+LED0335,LST0135,AGT008,Tom Reynolds,Knight Frank,Apartment,5,Khalifa City,Abu Dhabi,942000.0,Bayut,New,2026-06-17,Buyer_0335
+LED0336,LST0204,AGT008,Tom Reynolds,Knight Frank,Townhouse,4,Muwailih Commercial,Sharjah,3151000.0,Walk-in,Qualified,2026-01-23,Buyer_0336
+LED0337,LST0257,AGT004,Raj Patel,Driven Properties,Villa,4,Al Nahda,Sharjah,2589000.0,Referral,Converted,2026-01-04,Buyer_0337
+LED0338,LST0206,AGT007,Priya Nair,Hamptons International,Penthouse,3,Al Reem Island,Abu Dhabi,9931000.0,PropertyFinder,Lost,2026-02-15,Buyer_0338
+LED0339,LST0079,AGT004,Raj Patel,Driven Properties,Studio,0,Khalifa City,Abu Dhabi,982000.0,Direct Call,New,2026-04-14,Buyer_0339
+LED0340,LST0041,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,447000.0,Walk-in,Contacted,2026-05-24,Buyer_0340
+LED0341,LST0275,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,1,Al Nahda,Sharjah,3599000.0,Direct Call,Converted,2026-02-02,Buyer_0341
+LED0342,LST0034,AGT002,James Mitchell,Espace Real Estate,Apartment,5,Saadiyat Island,Abu Dhabi,1135000.0,Direct Call,Converted,2026-05-02,Buyer_0342
+LED0343,LST0030,AGT010,Carlos Mendez,Savills,Apartment,4,Arabian Ranches,Dubai,830000.0,Bayut,New,2026-03-13,Buyer_0343
+LED0344,LST0060,AGT004,Raj Patel,Driven Properties,Villa,5,Arabian Ranches,Dubai,2386000.0,Referral,Lost,2026-01-28,Buyer_0344
+LED0345,LST0029,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,415000.0,Direct Call,Contacted,2026-06-02,Buyer_0345
+LED0346,LST0007,AGT009,Aisha Al Zaabi,CBRE,Penthouse,0,Yas Island,Abu Dhabi,12245000.0,Bayut,New,2026-05-22,Buyer_0346
+LED0347,LST0255,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Emirates Hills,Dubai,6953000.0,Direct Call,Lost,2026-02-20,Buyer_0347
+LED0348,LST0133,AGT004,Raj Patel,Driven Properties,Studio,0,Yas Island,Abu Dhabi,915000.0,Bayut,Qualified,2026-05-31,Buyer_0348
+LED0349,LST0138,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,1250000.0,PropertyFinder,New,2026-04-08,Buyer_0349
+LED0350,LST0220,AGT008,Tom Reynolds,Knight Frank,Townhouse,5,Downtown Dubai,Dubai,2530000.0,Direct Call,Lost,2026-06-16,Buyer_0350
+LED0351,LST0135,AGT008,Tom Reynolds,Knight Frank,Apartment,5,Khalifa City,Abu Dhabi,942000.0,Walk-in,New,2026-02-25,Buyer_0351
+LED0352,LST0234,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,5,Al Majaz,Sharjah,1231000.0,Walk-in,Qualified,2026-06-18,Buyer_0352
+LED0353,LST0256,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,Al Maryah Island,Abu Dhabi,10392000.0,Walk-in,Contacted,2026-03-30,Buyer_0353
+LED0354,LST0081,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2086000.0,Direct Call,New,2026-02-06,Buyer_0354
+LED0355,LST0060,AGT004,Raj Patel,Driven Properties,Villa,5,Arabian Ranches,Dubai,2386000.0,Bayut,Lost,2026-07-02,Buyer_0355
+LED0356,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Muwailih Commercial,Sharjah,445000.0,PropertyFinder,Contacted,2026-06-21,Buyer_0356
+LED0357,LST0242,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Al Majaz,Sharjah,337000.0,Direct Call,Converted,2026-05-25,Buyer_0357
+LED0358,LST0092,AGT008,Tom Reynolds,Knight Frank,Penthouse,0,Jumeirah Village Circle,Dubai,6694000.0,PropertyFinder,Lost,2026-01-16,Buyer_0358
+LED0359,LST0215,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Al Nahda,Sharjah,1548000.0,Bayut,Qualified,2026-04-30,Buyer_0359
+LED0360,LST0214,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,879000.0,Direct Call,Qualified,2026-06-13,Buyer_0360
+LED0361,LST0293,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,5,Yas Island,Abu Dhabi,1302000.0,Direct Call,New,2026-02-24,Buyer_0361
+LED0362,LST0027,AGT009,Aisha Al Zaabi,CBRE,Townhouse,4,Al Majaz,Sharjah,2527000.0,Bayut,Contacted,2026-02-20,Buyer_0362
+LED0363,LST0024,AGT010,Carlos Mendez,Savills,Apartment,2,Muwailih Commercial,Sharjah,1223000.0,Referral,New,2026-03-05,Buyer_0363
+LED0364,LST0145,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,894000.0,Direct Call,Qualified,2026-06-10,Buyer_0364
+LED0365,LST0284,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,0,Al Nahda,Sharjah,3375000.0,Referral,New,2026-03-30,Buyer_0365
+LED0366,LST0103,AGT004,Raj Patel,Driven Properties,Penthouse,0,Al Nahda,Sharjah,8625000.0,Direct Call,Lost,2026-04-16,Buyer_0366
+LED0367,LST0125,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Muwailih Commercial,Sharjah,1713000.0,Referral,Qualified,2026-02-01,Buyer_0367
+LED0368,LST0253,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Palm Jumeirah,Dubai,985000.0,Bayut,Lost,2026-05-01,Buyer_0368
+LED0369,LST0078,AGT004,Raj Patel,Driven Properties,Apartment,3,Dubai Marina,Dubai,1409000.0,PropertyFinder,Converted,2026-06-26,Buyer_0369
+LED0370,LST0120,AGT004,Raj Patel,Driven Properties,Apartment,2,Al Nahda,Sharjah,826000.0,Walk-in,Qualified,2026-01-21,Buyer_0370
+LED0371,LST0005,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,DIFC,Dubai,1816000.0,Direct Call,New,2026-01-15,Buyer_0371
+LED0372,LST0193,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,1,Al Majaz,Sharjah,1983000.0,Direct Call,New,2026-05-11,Buyer_0372
+LED0373,LST0272,AGT005,Emma Clarke,Dubizzle Property,Townhouse,5,DIFC,Dubai,1136000.0,Bayut,Converted,2026-02-27,Buyer_0373
+LED0374,LST0031,AGT004,Raj Patel,Driven Properties,Apartment,0,Downtown Dubai,Dubai,1856000.0,Bayut,Qualified,2026-06-09,Buyer_0374
+LED0375,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Muwailih Commercial,Sharjah,445000.0,Bayut,Lost,2026-03-19,Buyer_0375
+LED0376,LST0191,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,358000.0,Referral,New,2026-02-04,Buyer_0376
+LED0377,LST0049,AGT002,James Mitchell,Espace Real Estate,Townhouse,0,Khalifa City,Abu Dhabi,2647000.0,Walk-in,Contacted,2026-01-20,Buyer_0377
+LED0378,LST0202,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,4,Yas Island,Abu Dhabi,705000.0,PropertyFinder,Lost,2026-02-07,Buyer_0378
+LED0379,LST0032,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Emirates Hills,Dubai,4567000.0,Referral,Contacted,2026-05-03,Buyer_0379
+LED0380,LST0150,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Nahda,Sharjah,695000.0,Direct Call,Qualified,2026-03-24,Buyer_0380
+LED0381,LST0168,AGT004,Raj Patel,Driven Properties,Villa,3,Al Maryah Island,Abu Dhabi,5436000.0,Direct Call,Converted,2026-04-24,Buyer_0381
+LED0382,LST0120,AGT004,Raj Patel,Driven Properties,Apartment,2,Al Nahda,Sharjah,826000.0,PropertyFinder,Contacted,2026-05-29,Buyer_0382
+LED0383,LST0300,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,DIFC,Dubai,1090000.0,PropertyFinder,Contacted,2026-06-05,Buyer_0383
+LED0384,LST0085,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,895000.0,Referral,Converted,2026-04-13,Buyer_0384
+LED0385,LST0209,AGT010,Carlos Mendez,Savills,Apartment,4,Emirates Hills,Dubai,1334000.0,PropertyFinder,Lost,2026-04-02,Buyer_0385
+LED0386,LST0107,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Al Reem Island,Abu Dhabi,4673000.0,Referral,Qualified,2026-03-06,Buyer_0386
+LED0387,LST0136,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Maryah Island,Abu Dhabi,716000.0,PropertyFinder,New,2026-05-23,Buyer_0387
+LED0388,LST0156,AGT007,Priya Nair,Hamptons International,Studio,0,Business Bay,Dubai,522000.0,Walk-in,New,2026-05-08,Buyer_0388
+LED0389,LST0168,AGT004,Raj Patel,Driven Properties,Villa,3,Al Maryah Island,Abu Dhabi,5436000.0,Bayut,New,2026-04-30,Buyer_0389
+LED0390,LST0183,AGT010,Carlos Mendez,Savills,Townhouse,3,Muwailih Commercial,Sharjah,3893000.0,Referral,Lost,2026-06-20,Buyer_0390
+LED0391,LST0154,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Muwailih Commercial,Sharjah,8117000.0,Direct Call,Contacted,2026-06-25,Buyer_0391
+LED0392,LST0208,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Downtown Dubai,Dubai,627000.0,Referral,Lost,2026-02-12,Buyer_0392
+LED0393,LST0128,AGT010,Carlos Mendez,Savills,Studio,0,Al Reem Island,Abu Dhabi,357000.0,PropertyFinder,Converted,2026-06-06,Buyer_0393
+LED0394,LST0072,AGT007,Priya Nair,Hamptons International,Townhouse,5,Khalifa City,Abu Dhabi,2091000.0,PropertyFinder,New,2026-06-17,Buyer_0394
+LED0395,LST0114,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Al Majaz,Sharjah,10533000.0,Bayut,Contacted,2026-03-22,Buyer_0395
+LED0396,LST0191,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,358000.0,PropertyFinder,Lost,2026-02-02,Buyer_0396
+LED0397,LST0133,AGT004,Raj Patel,Driven Properties,Studio,0,Yas Island,Abu Dhabi,915000.0,PropertyFinder,New,2026-06-16,Buyer_0397
+LED0398,LST0102,AGT010,Carlos Mendez,Savills,Apartment,0,Jumeirah Village Circle,Dubai,1892000.0,Referral,Contacted,2026-06-09,Buyer_0398
+LED0399,LST0170,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,907000.0,PropertyFinder,New,2026-03-06,Buyer_0399
+LED0400,LST0026,AGT009,Aisha Al Zaabi,CBRE,Apartment,1,JBR,Dubai,675000.0,Bayut,Lost,2026-03-14,Buyer_0400
+LED0401,LST0203,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Maryah Island,Abu Dhabi,977000.0,Referral,New,2026-03-27,Buyer_0401
+LED0402,LST0219,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,1,Muwailih Commercial,Sharjah,719000.0,Bayut,Qualified,2026-05-09,Buyer_0402
+LED0403,LST0096,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,2,Saadiyat Island,Abu Dhabi,10232000.0,Direct Call,Qualified,2026-03-10,Buyer_0403
+LED0404,LST0077,AGT004,Raj Patel,Driven Properties,Apartment,5,Al Nahda,Sharjah,952000.0,PropertyFinder,Lost,2026-01-25,Buyer_0404
+LED0405,LST0126,AGT009,Aisha Al Zaabi,CBRE,Apartment,3,Business Bay,Dubai,1402000.0,Direct Call,Converted,2026-03-19,Buyer_0405
+LED0406,LST0282,AGT005,Emma Clarke,Dubizzle Property,Townhouse,2,Downtown Dubai,Dubai,2605000.0,Referral,New,2026-06-10,Buyer_0406
+LED0407,LST0144,AGT009,Aisha Al Zaabi,CBRE,Apartment,3,Al Maryah Island,Abu Dhabi,1108000.0,Referral,Contacted,2026-03-17,Buyer_0407
+LED0408,LST0103,AGT004,Raj Patel,Driven Properties,Penthouse,0,Al Nahda,Sharjah,8625000.0,Walk-in,Contacted,2026-01-22,Buyer_0408
+LED0409,LST0279,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Khalifa City,Abu Dhabi,6221000.0,PropertyFinder,Converted,2026-04-02,Buyer_0409
+LED0410,LST0246,AGT010,Carlos Mendez,Savills,Townhouse,1,Al Reem Island,Abu Dhabi,2220000.0,Walk-in,Converted,2026-04-05,Buyer_0410
+LED0411,LST0290,AGT009,Aisha Al Zaabi,CBRE,Penthouse,3,Al Majaz,Sharjah,11679000.0,Walk-in,Qualified,2026-03-25,Buyer_0411
+LED0412,LST0139,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,3,Al Maryah Island,Abu Dhabi,1269000.0,Bayut,New,2026-04-12,Buyer_0412
+LED0413,LST0113,AGT002,James Mitchell,Espace Real Estate,Villa,1,Emirates Hills,Dubai,5904000.0,PropertyFinder,Qualified,2026-06-18,Buyer_0413
+LED0414,LST0242,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Al Majaz,Sharjah,337000.0,Walk-in,Qualified,2026-02-03,Buyer_0414
+LED0415,LST0120,AGT004,Raj Patel,Driven Properties,Apartment,2,Al Nahda,Sharjah,826000.0,Bayut,New,2026-04-30,Buyer_0415
+LED0416,LST0124,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Khalifa City,Abu Dhabi,1227000.0,Direct Call,Lost,2026-06-18,Buyer_0416
+LED0417,LST0113,AGT002,James Mitchell,Espace Real Estate,Villa,1,Emirates Hills,Dubai,5904000.0,Walk-in,Converted,2026-04-03,Buyer_0417
+LED0418,LST0089,AGT007,Priya Nair,Hamptons International,Penthouse,4,Business Bay,Dubai,11988000.0,Bayut,Contacted,2026-02-01,Buyer_0418
+LED0419,LST0163,AGT004,Raj Patel,Driven Properties,Townhouse,5,Muwailih Commercial,Sharjah,1389000.0,Direct Call,Lost,2026-06-25,Buyer_0419
+LED0420,LST0181,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,DIFC,Dubai,386000.0,Walk-in,Lost,2026-05-27,Buyer_0420
+LED0421,LST0289,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Khalifa City,Abu Dhabi,4365000.0,Bayut,Converted,2026-02-14,Buyer_0421
+LED0422,LST0159,AGT009,Aisha Al Zaabi,CBRE,Apartment,3,JBR,Dubai,503000.0,Bayut,Converted,2026-06-23,Buyer_0422
+LED0423,LST0047,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Muwailih Commercial,Sharjah,601000.0,PropertyFinder,Contacted,2026-01-29,Buyer_0423
+LED0424,LST0113,AGT002,James Mitchell,Espace Real Estate,Villa,1,Emirates Hills,Dubai,5904000.0,PropertyFinder,Lost,2026-03-02,Buyer_0424
+LED0425,LST0001,AGT005,Emma Clarke,Dubizzle Property,Apartment,1,Al Majaz,Sharjah,819000.0,Direct Call,Lost,2026-05-12,Buyer_0425
+LED0426,LST0067,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Saadiyat Island,Abu Dhabi,336000.0,Direct Call,Contacted,2026-04-11,Buyer_0426
+LED0427,LST0031,AGT004,Raj Patel,Driven Properties,Apartment,0,Downtown Dubai,Dubai,1856000.0,PropertyFinder,Contacted,2026-02-02,Buyer_0427
+LED0428,LST0073,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,4,DIFC,Dubai,8406000.0,PropertyFinder,Lost,2026-03-31,Buyer_0428
+LED0429,LST0038,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Dubai Marina,Dubai,1221000.0,Direct Call,Converted,2026-02-02,Buyer_0429
+LED0430,LST0052,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Nahda,Sharjah,307000.0,Direct Call,Qualified,2026-04-11,Buyer_0430
+LED0431,LST0070,AGT006,Mohammed Al Rashid,Provident Estate,Villa,3,Muwailih Commercial,Sharjah,2199000.0,Bayut,Converted,2026-01-20,Buyer_0431
+LED0432,LST0250,AGT006,Mohammed Al Rashid,Provident Estate,Villa,3,Saadiyat Island,Abu Dhabi,2894000.0,Direct Call,Contacted,2026-02-09,Buyer_0432
+LED0433,LST0183,AGT010,Carlos Mendez,Savills,Townhouse,3,Muwailih Commercial,Sharjah,3893000.0,Bayut,Lost,2026-05-19,Buyer_0433
+LED0434,LST0194,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,857000.0,Direct Call,Qualified,2026-05-31,Buyer_0434
+LED0435,LST0091,AGT010,Carlos Mendez,Savills,Studio,0,Al Maryah Island,Abu Dhabi,1153000.0,PropertyFinder,Lost,2026-03-24,Buyer_0435
+LED0436,LST0291,AGT004,Raj Patel,Driven Properties,Penthouse,4,Al Reem Island,Abu Dhabi,5713000.0,PropertyFinder,Contacted,2026-01-29,Buyer_0436
+LED0437,LST0163,AGT004,Raj Patel,Driven Properties,Townhouse,5,Muwailih Commercial,Sharjah,1389000.0,Walk-in,Contacted,2026-01-20,Buyer_0437
+LED0438,LST0290,AGT009,Aisha Al Zaabi,CBRE,Penthouse,3,Al Majaz,Sharjah,11679000.0,PropertyFinder,Converted,2026-05-27,Buyer_0438
+LED0439,LST0170,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,907000.0,PropertyFinder,Contacted,2026-04-05,Buyer_0439
+LED0440,LST0164,AGT008,Tom Reynolds,Knight Frank,Apartment,1,Muwailih Commercial,Sharjah,1535000.0,Bayut,New,2026-01-12,Buyer_0440
+LED0441,LST0172,AGT010,Carlos Mendez,Savills,Penthouse,2,Business Bay,Dubai,8461000.0,Referral,New,2026-04-26,Buyer_0441
+LED0442,LST0108,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Nahda,Sharjah,1036000.0,Bayut,New,2026-04-04,Buyer_0442
+LED0443,LST0132,AGT010,Carlos Mendez,Savills,Townhouse,5,Business Bay,Dubai,3829000.0,PropertyFinder,New,2026-06-20,Buyer_0443
+LED0444,LST0198,AGT007,Priya Nair,Hamptons International,Villa,4,Yas Island,Abu Dhabi,2448000.0,Referral,Converted,2026-05-21,Buyer_0444
+LED0445,LST0212,AGT002,James Mitchell,Espace Real Estate,Villa,2,Al Nahda,Sharjah,6619000.0,Referral,Converted,2026-04-04,Buyer_0445
+LED0446,LST0280,AGT009,Aisha Al Zaabi,CBRE,Townhouse,2,Khalifa City,Abu Dhabi,3820000.0,Referral,New,2026-03-02,Buyer_0446
+LED0447,LST0296,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Khalifa City,Abu Dhabi,881000.0,Bayut,Contacted,2026-03-09,Buyer_0447
+LED0448,LST0038,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Dubai Marina,Dubai,1221000.0,PropertyFinder,Qualified,2026-06-27,Buyer_0448
+LED0449,LST0164,AGT008,Tom Reynolds,Knight Frank,Apartment,1,Muwailih Commercial,Sharjah,1535000.0,Direct Call,New,2026-06-14,Buyer_0449
+LED0450,LST0176,AGT002,James Mitchell,Espace Real Estate,Villa,5,Muwailih Commercial,Sharjah,5484000.0,Bayut,Converted,2026-05-22,Buyer_0450
+LED0451,LST0039,AGT008,Tom Reynolds,Knight Frank,Penthouse,1,DIFC,Dubai,11214000.0,Walk-in,New,2026-04-07,Buyer_0451
+LED0452,LST0248,AGT005,Emma Clarke,Dubizzle Property,Apartment,4,Meydan City,Dubai,1053000.0,PropertyFinder,Converted,2026-01-16,Buyer_0452
+LED0453,LST0085,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,895000.0,Walk-in,Converted,2026-05-23,Buyer_0453
+LED0454,LST0028,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Muwailih Commercial,Sharjah,7472000.0,PropertyFinder,Qualified,2026-05-11,Buyer_0454
+LED0455,LST0098,AGT002,James Mitchell,Espace Real Estate,Villa,5,Arabian Ranches,Dubai,2029000.0,Referral,Lost,2026-02-14,Buyer_0455
+LED0456,LST0136,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Maryah Island,Abu Dhabi,716000.0,Direct Call,Qualified,2026-05-03,Buyer_0456
+LED0457,LST0050,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,781000.0,PropertyFinder,Converted,2026-02-06,Buyer_0457
+LED0458,LST0282,AGT005,Emma Clarke,Dubizzle Property,Townhouse,2,Downtown Dubai,Dubai,2605000.0,Referral,Contacted,2026-06-19,Buyer_0458
+LED0459,LST0185,AGT002,James Mitchell,Espace Real Estate,Villa,5,Al Maryah Island,Abu Dhabi,6496000.0,PropertyFinder,Converted,2026-06-10,Buyer_0459
+LED0460,LST0151,AGT009,Aisha Al Zaabi,CBRE,Penthouse,1,Saadiyat Island,Abu Dhabi,6644000.0,Walk-in,Converted,2026-05-12,Buyer_0460
+LED0461,LST0050,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,781000.0,PropertyFinder,Contacted,2026-05-20,Buyer_0461
+LED0462,LST0150,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Nahda,Sharjah,695000.0,PropertyFinder,Converted,2026-06-03,Buyer_0462
+LED0463,LST0158,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,4,JBR,Dubai,1947000.0,Referral,Converted,2026-02-27,Buyer_0463
+LED0464,LST0136,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Maryah Island,Abu Dhabi,716000.0,PropertyFinder,Lost,2026-03-25,Buyer_0464
+LED0465,LST0095,AGT008,Tom Reynolds,Knight Frank,Villa,1,Al Nahda,Sharjah,2087000.0,Direct Call,Converted,2026-03-30,Buyer_0465
+LED0466,LST0096,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,2,Saadiyat Island,Abu Dhabi,10232000.0,Referral,New,2026-04-26,Buyer_0466
+LED0467,LST0226,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Muwailih Commercial,Sharjah,4027000.0,Referral,Qualified,2026-05-06,Buyer_0467
+LED0468,LST0138,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,1250000.0,Walk-in,New,2026-05-25,Buyer_0468
+LED0469,LST0050,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,781000.0,PropertyFinder,Qualified,2026-02-14,Buyer_0469
+LED0470,LST0212,AGT002,James Mitchell,Espace Real Estate,Villa,2,Al Nahda,Sharjah,6619000.0,Walk-in,Contacted,2026-02-11,Buyer_0470
+LED0471,LST0032,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Emirates Hills,Dubai,4567000.0,Referral,Lost,2026-03-17,Buyer_0471
+LED0472,LST0275,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,1,Al Nahda,Sharjah,3599000.0,Referral,Lost,2026-05-03,Buyer_0472
+LED0473,LST0244,AGT007,Priya Nair,Hamptons International,Penthouse,2,Al Reem Island,Abu Dhabi,9450000.0,Direct Call,New,2026-03-23,Buyer_0473
+LED0474,LST0018,AGT007,Priya Nair,Hamptons International,Villa,4,Palm Jumeirah,Dubai,2162000.0,Walk-in,Lost,2026-02-20,Buyer_0474
+LED0475,LST0293,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,5,Yas Island,Abu Dhabi,1302000.0,Walk-in,Contacted,2026-06-02,Buyer_0475
+LED0476,LST0230,AGT007,Priya Nair,Hamptons International,Studio,0,DIFC,Dubai,798000.0,Bayut,Contacted,2026-05-09,Buyer_0476
+LED0477,LST0099,AGT010,Carlos Mendez,Savills,Apartment,1,Business Bay,Dubai,843000.0,Bayut,New,2026-03-16,Buyer_0477
+LED0478,LST0041,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,447000.0,Referral,Contacted,2026-01-23,Buyer_0478
+LED0479,LST0076,AGT002,James Mitchell,Espace Real Estate,Villa,2,Al Nahda,Sharjah,4738000.0,Walk-in,Qualified,2026-04-12,Buyer_0479
+LED0480,LST0035,AGT002,James Mitchell,Espace Real Estate,Apartment,0,Khalifa City,Abu Dhabi,1092000.0,PropertyFinder,Converted,2026-02-10,Buyer_0480
+LED0481,LST0204,AGT008,Tom Reynolds,Knight Frank,Townhouse,4,Muwailih Commercial,Sharjah,3151000.0,Walk-in,Qualified,2026-04-23,Buyer_0481
+LED0482,LST0267,AGT008,Tom Reynolds,Knight Frank,Studio,0,DIFC,Dubai,360000.0,Referral,New,2026-01-04,Buyer_0482
+LED0483,LST0268,AGT009,Aisha Al Zaabi,CBRE,Apartment,4,Muwailih Commercial,Sharjah,848000.0,Referral,New,2026-03-18,Buyer_0483
+LED0484,LST0077,AGT004,Raj Patel,Driven Properties,Apartment,5,Al Nahda,Sharjah,952000.0,Bayut,Lost,2026-02-02,Buyer_0484
+LED0485,LST0299,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,4,Muwailih Commercial,Sharjah,3268000.0,PropertyFinder,New,2026-02-08,Buyer_0485
+LED0486,LST0052,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Nahda,Sharjah,307000.0,Direct Call,Lost,2026-04-05,Buyer_0486
+LED0487,LST0211,AGT002,James Mitchell,Espace Real Estate,Townhouse,4,Al Nahda,Sharjah,2815000.0,Direct Call,Converted,2026-01-16,Buyer_0487
+LED0488,LST0249,AGT007,Priya Nair,Hamptons International,Apartment,4,Emirates Hills,Dubai,1030000.0,Walk-in,Lost,2026-03-03,Buyer_0488
+LED0489,LST0020,AGT009,Aisha Al Zaabi,CBRE,Apartment,2,Muwailih Commercial,Sharjah,1648000.0,Bayut,Qualified,2026-03-21,Buyer_0489
+LED0490,LST0074,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Al Majaz,Sharjah,2550000.0,Walk-in,Lost,2026-01-09,Buyer_0490
+LED0491,LST0206,AGT007,Priya Nair,Hamptons International,Penthouse,3,Al Reem Island,Abu Dhabi,9931000.0,PropertyFinder,Converted,2026-04-09,Buyer_0491
+LED0492,LST0122,AGT008,Tom Reynolds,Knight Frank,Villa,0,Al Nahda,Sharjah,6775000.0,PropertyFinder,Converted,2026-04-25,Buyer_0492
+LED0493,LST0191,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,358000.0,PropertyFinder,Qualified,2026-04-16,Buyer_0493
+LED0494,LST0160,AGT008,Tom Reynolds,Knight Frank,Apartment,2,Saadiyat Island,Abu Dhabi,995000.0,Direct Call,Converted,2026-01-05,Buyer_0494
+LED0495,LST0051,AGT006,Mohammed Al Rashid,Provident Estate,Villa,2,Yas Island,Abu Dhabi,2699000.0,Bayut,Contacted,2026-04-17,Buyer_0495
+LED0496,LST0227,AGT002,James Mitchell,Espace Real Estate,Penthouse,2,Yas Island,Abu Dhabi,8470000.0,Direct Call,Qualified,2026-03-18,Buyer_0496
+LED0497,LST0046,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Meydan City,Dubai,888000.0,Bayut,Converted,2026-05-09,Buyer_0497
+LED0498,LST0209,AGT010,Carlos Mendez,Savills,Apartment,4,Emirates Hills,Dubai,1334000.0,Referral,Lost,2026-03-29,Buyer_0498
+LED0499,LST0029,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,415000.0,Walk-in,Contacted,2026-06-16,Buyer_0499
+LED0500,LST0160,AGT008,Tom Reynolds,Knight Frank,Apartment,2,Saadiyat Island,Abu Dhabi,995000.0,Walk-in,Converted,2026-05-29,Buyer_0500
+LED0501,LST0269,AGT010,Carlos Mendez,Savills,Apartment,2,Khalifa City,Abu Dhabi,846000.0,Walk-in,New,2026-05-19,Buyer_0501
+LED0502,LST0099,AGT010,Carlos Mendez,Savills,Apartment,1,Business Bay,Dubai,843000.0,Bayut,New,2026-04-30,Buyer_0502
+LED0503,LST0017,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2318000.0,Referral,New,2026-04-01,Buyer_0503
+LED0504,LST0102,AGT010,Carlos Mendez,Savills,Apartment,0,Jumeirah Village Circle,Dubai,1892000.0,Direct Call,Qualified,2026-03-06,Buyer_0504
+LED0505,LST0259,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Jumeirah Village Circle,Dubai,1163000.0,Referral,New,2026-01-09,Buyer_0505
+LED0506,LST0016,AGT007,Priya Nair,Hamptons International,Studio,0,Al Nahda,Sharjah,1153000.0,Bayut,Qualified,2026-02-27,Buyer_0506
+LED0507,LST0229,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,0,Meydan City,Dubai,7149000.0,Bayut,Converted,2026-02-02,Buyer_0507
+LED0508,LST0283,AGT008,Tom Reynolds,Knight Frank,Townhouse,0,JBR,Dubai,3566000.0,Direct Call,Qualified,2026-05-22,Buyer_0508
+LED0509,LST0133,AGT004,Raj Patel,Driven Properties,Studio,0,Yas Island,Abu Dhabi,915000.0,PropertyFinder,Qualified,2026-06-25,Buyer_0509
+LED0510,LST0198,AGT007,Priya Nair,Hamptons International,Villa,4,Yas Island,Abu Dhabi,2448000.0,PropertyFinder,Contacted,2026-02-06,Buyer_0510
+LED0511,LST0110,AGT008,Tom Reynolds,Knight Frank,Villa,4,Khalifa City,Abu Dhabi,5279000.0,Bayut,Contacted,2026-01-10,Buyer_0511
+LED0512,LST0106,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Muwailih Commercial,Sharjah,3892000.0,Direct Call,Converted,2026-02-21,Buyer_0512
+LED0513,LST0011,AGT010,Carlos Mendez,Savills,Apartment,5,Al Nahda,Sharjah,740000.0,PropertyFinder,Converted,2026-05-30,Buyer_0513
+LED0514,LST0089,AGT007,Priya Nair,Hamptons International,Penthouse,4,Business Bay,Dubai,11988000.0,Walk-in,New,2026-05-06,Buyer_0514
+LED0515,LST0130,AGT007,Priya Nair,Hamptons International,Apartment,3,Palm Jumeirah,Dubai,1528000.0,Walk-in,Qualified,2026-01-19,Buyer_0515
+LED0516,LST0141,AGT007,Priya Nair,Hamptons International,Townhouse,2,JBR,Dubai,2178000.0,Referral,Converted,2026-04-04,Buyer_0516
+LED0517,LST0236,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Saadiyat Island,Abu Dhabi,7201000.0,Direct Call,Contacted,2026-03-05,Buyer_0517
+LED0518,LST0155,AGT007,Priya Nair,Hamptons International,Studio,0,Al Maryah Island,Abu Dhabi,733000.0,Walk-in,Lost,2026-03-23,Buyer_0518
+LED0519,LST0300,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,DIFC,Dubai,1090000.0,PropertyFinder,New,2026-02-22,Buyer_0519
+LED0520,LST0192,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,5015000.0,Walk-in,Lost,2026-01-28,Buyer_0520
+LED0521,LST0145,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,894000.0,Direct Call,New,2026-03-01,Buyer_0521
+LED0522,LST0033,AGT008,Tom Reynolds,Knight Frank,Studio,0,Meydan City,Dubai,531000.0,Direct Call,Qualified,2026-01-20,Buyer_0522
+LED0523,LST0167,AGT007,Priya Nair,Hamptons International,Studio,0,Downtown Dubai,Dubai,889000.0,Direct Call,Qualified,2026-01-16,Buyer_0523
+LED0524,LST0153,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,2,Al Maryah Island,Abu Dhabi,3563000.0,Bayut,Contacted,2026-02-20,Buyer_0524
+LED0525,LST0124,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Khalifa City,Abu Dhabi,1227000.0,PropertyFinder,Lost,2026-03-21,Buyer_0525
+LED0526,LST0164,AGT008,Tom Reynolds,Knight Frank,Apartment,1,Muwailih Commercial,Sharjah,1535000.0,Bayut,New,2026-01-16,Buyer_0526
+LED0527,LST0255,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Emirates Hills,Dubai,6953000.0,Direct Call,Qualified,2026-03-17,Buyer_0527
+LED0528,LST0208,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Downtown Dubai,Dubai,627000.0,Referral,New,2026-02-03,Buyer_0528
+LED0529,LST0293,AGT006,Mohammed Al Rashid,Provident Estate,Townhouse,5,Yas Island,Abu Dhabi,1302000.0,Bayut,Qualified,2026-05-07,Buyer_0529
+LED0530,LST0274,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,1073000.0,Referral,Qualified,2026-02-23,Buyer_0530
+LED0531,LST0154,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Muwailih Commercial,Sharjah,8117000.0,Bayut,Lost,2026-05-17,Buyer_0531
+LED0532,LST0151,AGT009,Aisha Al Zaabi,CBRE,Penthouse,1,Saadiyat Island,Abu Dhabi,6644000.0,PropertyFinder,Converted,2026-05-31,Buyer_0532
+LED0533,LST0133,AGT004,Raj Patel,Driven Properties,Studio,0,Yas Island,Abu Dhabi,915000.0,Walk-in,Contacted,2026-01-09,Buyer_0533
+LED0534,LST0172,AGT010,Carlos Mendez,Savills,Penthouse,2,Business Bay,Dubai,8461000.0,PropertyFinder,Contacted,2026-04-03,Buyer_0534
+LED0535,LST0115,AGT004,Raj Patel,Driven Properties,Penthouse,2,Saadiyat Island,Abu Dhabi,9308000.0,Direct Call,Converted,2026-04-09,Buyer_0535
+LED0536,LST0191,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,358000.0,Direct Call,Lost,2026-04-18,Buyer_0536
+LED0537,LST0238,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,2,Yas Island,Abu Dhabi,597000.0,PropertyFinder,Converted,2026-06-19,Buyer_0537
+LED0538,LST0299,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,4,Muwailih Commercial,Sharjah,3268000.0,Walk-in,Lost,2026-06-14,Buyer_0538
+LED0539,LST0242,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Al Majaz,Sharjah,337000.0,Bayut,Lost,2026-06-02,Buyer_0539
+LED0540,LST0196,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,0,Emirates Hills,Dubai,3341000.0,Walk-in,Qualified,2026-03-19,Buyer_0540
+LED0541,LST0028,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Muwailih Commercial,Sharjah,7472000.0,Bayut,Contacted,2026-05-12,Buyer_0541
+LED0542,LST0176,AGT002,James Mitchell,Espace Real Estate,Villa,5,Muwailih Commercial,Sharjah,5484000.0,Referral,Lost,2026-03-07,Buyer_0542
+LED0543,LST0074,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Al Majaz,Sharjah,2550000.0,Direct Call,Contacted,2026-06-12,Buyer_0543
+LED0544,LST0250,AGT006,Mohammed Al Rashid,Provident Estate,Villa,3,Saadiyat Island,Abu Dhabi,2894000.0,Direct Call,Contacted,2026-04-13,Buyer_0544
+LED0545,LST0030,AGT010,Carlos Mendez,Savills,Apartment,4,Arabian Ranches,Dubai,830000.0,PropertyFinder,Converted,2026-04-23,Buyer_0545
+LED0546,LST0108,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Al Nahda,Sharjah,1036000.0,Bayut,Lost,2026-05-23,Buyer_0546
+LED0547,LST0251,AGT002,James Mitchell,Espace Real Estate,Townhouse,4,Downtown Dubai,Dubai,3716000.0,PropertyFinder,Contacted,2026-01-26,Buyer_0547
+LED0548,LST0223,AGT010,Carlos Mendez,Savills,Penthouse,0,Business Bay,Dubai,3073000.0,Referral,Converted,2026-03-15,Buyer_0548
+LED0549,LST0245,AGT002,James Mitchell,Espace Real Estate,Townhouse,2,Muwailih Commercial,Sharjah,1403000.0,Referral,New,2026-06-23,Buyer_0549
+LED0550,LST0274,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Arabian Ranches,Dubai,1073000.0,Bayut,Qualified,2026-06-29,Buyer_0550
+LED0551,LST0165,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Arabian Ranches,Dubai,1050000.0,Walk-in,Contacted,2026-06-28,Buyer_0551
+LED0552,LST0003,AGT004,Raj Patel,Driven Properties,Villa,4,Downtown Dubai,Dubai,5232000.0,Bayut,Contacted,2026-01-06,Buyer_0552
+LED0553,LST0177,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Yas Island,Abu Dhabi,996000.0,Direct Call,Contacted,2026-06-06,Buyer_0553
+LED0554,LST0197,AGT004,Raj Patel,Driven Properties,Townhouse,4,Dubai Marina,Dubai,2187000.0,Walk-in,Lost,2026-04-15,Buyer_0554
+LED0555,LST0086,AGT004,Raj Patel,Driven Properties,Townhouse,2,Yas Island,Abu Dhabi,2229000.0,PropertyFinder,New,2026-04-17,Buyer_0555
+LED0556,LST0149,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,10905000.0,Referral,Lost,2026-01-31,Buyer_0556
+LED0557,LST0269,AGT010,Carlos Mendez,Savills,Apartment,2,Khalifa City,Abu Dhabi,846000.0,Direct Call,Converted,2026-01-08,Buyer_0557
+LED0558,LST0069,AGT005,Emma Clarke,Dubizzle Property,Villa,0,Al Maryah Island,Abu Dhabi,5840000.0,Direct Call,Converted,2026-04-02,Buyer_0558
+LED0559,LST0097,AGT002,James Mitchell,Espace Real Estate,Townhouse,3,Khalifa City,Abu Dhabi,1146000.0,Bayut,Converted,2026-06-28,Buyer_0559
+LED0560,LST0117,AGT005,Emma Clarke,Dubizzle Property,Penthouse,2,Al Reem Island,Abu Dhabi,5388000.0,Bayut,Contacted,2026-05-09,Buyer_0560
+LED0561,LST0012,AGT005,Emma Clarke,Dubizzle Property,Penthouse,5,JBR,Dubai,9538000.0,Walk-in,Lost,2026-05-20,Buyer_0561
+LED0562,LST0064,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,JBR,Dubai,1842000.0,Direct Call,New,2026-03-28,Buyer_0562
+LED0563,LST0131,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Yas Island,Abu Dhabi,3411000.0,Walk-in,Lost,2026-06-20,Buyer_0563
+LED0564,LST0025,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Al Reem Island,Abu Dhabi,6805000.0,PropertyFinder,New,2026-06-20,Buyer_0564
+LED0565,LST0060,AGT004,Raj Patel,Driven Properties,Villa,5,Arabian Ranches,Dubai,2386000.0,Referral,Converted,2026-03-27,Buyer_0565
+LED0566,LST0064,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,JBR,Dubai,1842000.0,Walk-in,Qualified,2026-03-03,Buyer_0566
+LED0567,LST0079,AGT004,Raj Patel,Driven Properties,Studio,0,Khalifa City,Abu Dhabi,982000.0,Bayut,New,2026-04-16,Buyer_0567
+LED0568,LST0216,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Reem Island,Abu Dhabi,1341000.0,PropertyFinder,Lost,2026-04-24,Buyer_0568
+LED0569,LST0071,AGT002,James Mitchell,Espace Real Estate,Townhouse,5,Al Maryah Island,Abu Dhabi,4158000.0,Referral,New,2026-02-22,Buyer_0569
+LED0570,LST0061,AGT004,Raj Patel,Driven Properties,Villa,1,Al Maryah Island,Abu Dhabi,7364000.0,Direct Call,New,2026-06-05,Buyer_0570
+LED0571,LST0255,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Emirates Hills,Dubai,6953000.0,Bayut,Lost,2026-05-12,Buyer_0571
+LED0572,LST0135,AGT008,Tom Reynolds,Knight Frank,Apartment,5,Khalifa City,Abu Dhabi,942000.0,Walk-in,Contacted,2026-04-02,Buyer_0572
+LED0573,LST0210,AGT007,Priya Nair,Hamptons International,Townhouse,5,DIFC,Dubai,1256000.0,Direct Call,Contacted,2026-06-22,Buyer_0573
+LED0574,LST0281,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,DIFC,Dubai,818000.0,Referral,Contacted,2026-01-07,Buyer_0574
+LED0575,LST0247,AGT005,Emma Clarke,Dubizzle Property,Townhouse,5,Al Majaz,Sharjah,3469000.0,Direct Call,Contacted,2026-07-02,Buyer_0575
+LED0576,LST0007,AGT009,Aisha Al Zaabi,CBRE,Penthouse,0,Yas Island,Abu Dhabi,12245000.0,PropertyFinder,New,2026-02-06,Buyer_0576
+LED0577,LST0253,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Palm Jumeirah,Dubai,985000.0,Bayut,New,2026-02-22,Buyer_0577
+LED0578,LST0039,AGT008,Tom Reynolds,Knight Frank,Penthouse,1,DIFC,Dubai,11214000.0,PropertyFinder,Qualified,2026-01-19,Buyer_0578
+LED0579,LST0119,AGT008,Tom Reynolds,Knight Frank,Villa,2,Business Bay,Dubai,5930000.0,Referral,Qualified,2026-04-26,Buyer_0579
+LED0580,LST0238,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,2,Yas Island,Abu Dhabi,597000.0,PropertyFinder,New,2026-05-19,Buyer_0580
+LED0581,LST0021,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Jumeirah Village Circle,Dubai,3031000.0,Direct Call,Qualified,2026-01-10,Buyer_0581
+LED0582,LST0161,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Yas Island,Abu Dhabi,4343000.0,Referral,New,2026-06-08,Buyer_0582
+LED0583,LST0024,AGT010,Carlos Mendez,Savills,Apartment,2,Muwailih Commercial,Sharjah,1223000.0,PropertyFinder,Contacted,2026-01-14,Buyer_0583
+LED0584,LST0088,AGT007,Priya Nair,Hamptons International,Penthouse,2,Downtown Dubai,Dubai,8155000.0,Direct Call,Qualified,2026-03-12,Buyer_0584
+LED0585,LST0138,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,1250000.0,PropertyFinder,Qualified,2026-04-06,Buyer_0585
+LED0586,LST0094,AGT010,Carlos Mendez,Savills,Studio,0,DIFC,Dubai,930000.0,PropertyFinder,Converted,2026-03-22,Buyer_0586
+LED0587,LST0234,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,5,Al Majaz,Sharjah,1231000.0,Direct Call,Converted,2026-01-07,Buyer_0587
+LED0588,LST0245,AGT002,James Mitchell,Espace Real Estate,Townhouse,2,Muwailih Commercial,Sharjah,1403000.0,Referral,Contacted,2026-06-04,Buyer_0588
+LED0589,LST0068,AGT007,Priya Nair,Hamptons International,Townhouse,4,Al Reem Island,Abu Dhabi,4446000.0,PropertyFinder,Contacted,2026-06-06,Buyer_0589
+LED0590,LST0214,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,879000.0,Walk-in,Converted,2026-02-07,Buyer_0590
+LED0591,LST0225,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,3,Al Nahda,Sharjah,4836000.0,Bayut,Lost,2026-03-27,Buyer_0591
+LED0592,LST0184,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Business Bay,Dubai,11400000.0,Walk-in,New,2026-01-08,Buyer_0592
+LED0593,LST0067,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Saadiyat Island,Abu Dhabi,336000.0,Referral,Converted,2026-06-04,Buyer_0593
+LED0594,LST0211,AGT002,James Mitchell,Espace Real Estate,Townhouse,4,Al Nahda,Sharjah,2815000.0,Referral,New,2026-06-16,Buyer_0594
+LED0595,LST0134,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Downtown Dubai,Dubai,1384000.0,Direct Call,New,2026-01-03,Buyer_0595
+LED0596,LST0269,AGT010,Carlos Mendez,Savills,Apartment,2,Khalifa City,Abu Dhabi,846000.0,Walk-in,Lost,2026-05-06,Buyer_0596
+LED0597,LST0174,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Majaz,Sharjah,1091000.0,Walk-in,Lost,2026-01-07,Buyer_0597
+LED0598,LST0049,AGT002,James Mitchell,Espace Real Estate,Townhouse,0,Khalifa City,Abu Dhabi,2647000.0,Referral,Contacted,2026-03-01,Buyer_0598
+LED0599,LST0178,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,1,Al Reem Island,Abu Dhabi,4256000.0,Referral,Contacted,2026-02-10,Buyer_0599
+LED0600,LST0028,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Muwailih Commercial,Sharjah,7472000.0,PropertyFinder,Contacted,2026-02-23,Buyer_0600
+LED0601,LST0241,AGT001,Sarah Al Mansoori,Betterhomes,Villa,3,Al Maryah Island,Abu Dhabi,2390000.0,Referral,Contacted,2026-06-13,Buyer_0601
+LED0602,LST0252,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Arabian Ranches,Dubai,867000.0,Direct Call,Contacted,2026-04-09,Buyer_0602
+LED0603,LST0143,AGT002,James Mitchell,Espace Real Estate,Penthouse,2,Al Majaz,Sharjah,5398000.0,PropertyFinder,Lost,2026-05-06,Buyer_0603
+LED0604,LST0282,AGT005,Emma Clarke,Dubizzle Property,Townhouse,2,Downtown Dubai,Dubai,2605000.0,Referral,Converted,2026-05-03,Buyer_0604
+LED0605,LST0041,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,447000.0,Referral,Converted,2026-02-06,Buyer_0605
+LED0606,LST0230,AGT007,Priya Nair,Hamptons International,Studio,0,DIFC,Dubai,798000.0,PropertyFinder,Converted,2026-03-10,Buyer_0606
+LED0607,LST0162,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Al Nahda,Sharjah,887000.0,PropertyFinder,Converted,2026-01-16,Buyer_0607
+LED0608,LST0010,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,1,Al Reem Island,Abu Dhabi,6517000.0,PropertyFinder,Converted,2026-03-19,Buyer_0608
+LED0609,LST0019,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Nahda,Sharjah,1223000.0,Walk-in,Lost,2026-07-02,Buyer_0609
+LED0610,LST0047,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Muwailih Commercial,Sharjah,601000.0,Walk-in,Lost,2026-01-20,Buyer_0610
+LED0611,LST0156,AGT007,Priya Nair,Hamptons International,Studio,0,Business Bay,Dubai,522000.0,Walk-in,Lost,2026-05-11,Buyer_0611
+LED0612,LST0234,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,5,Al Majaz,Sharjah,1231000.0,Direct Call,Qualified,2026-06-19,Buyer_0612
+LED0613,LST0115,AGT004,Raj Patel,Driven Properties,Penthouse,2,Saadiyat Island,Abu Dhabi,9308000.0,Referral,Qualified,2026-02-09,Buyer_0613
+LED0614,LST0243,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Khalifa City,Abu Dhabi,879000.0,Direct Call,Converted,2026-06-03,Buyer_0614
+LED0615,LST0050,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,781000.0,Bayut,New,2026-04-06,Buyer_0615
+LED0616,LST0182,AGT002,James Mitchell,Espace Real Estate,Studio,0,Jumeirah Village Circle,Dubai,732000.0,Direct Call,Lost,2026-02-19,Buyer_0616
+LED0617,LST0192,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,5015000.0,PropertyFinder,New,2026-05-21,Buyer_0617
+LED0618,LST0253,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Palm Jumeirah,Dubai,985000.0,Bayut,Converted,2026-06-05,Buyer_0618
+LED0619,LST0131,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Yas Island,Abu Dhabi,3411000.0,Walk-in,Contacted,2026-05-15,Buyer_0619
+LED0620,LST0062,AGT006,Mohammed Al Rashid,Provident Estate,Villa,3,Yas Island,Abu Dhabi,6373000.0,Referral,Contacted,2026-03-07,Buyer_0620
+LED0621,LST0098,AGT002,James Mitchell,Espace Real Estate,Villa,5,Arabian Ranches,Dubai,2029000.0,Direct Call,New,2026-03-18,Buyer_0621
+LED0622,LST0024,AGT010,Carlos Mendez,Savills,Apartment,2,Muwailih Commercial,Sharjah,1223000.0,Walk-in,New,2026-03-09,Buyer_0622
+LED0623,LST0235,AGT010,Carlos Mendez,Savills,Studio,0,Al Nahda,Sharjah,607000.0,Walk-in,Lost,2026-05-29,Buyer_0623
+LED0624,LST0256,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,Al Maryah Island,Abu Dhabi,10392000.0,PropertyFinder,Lost,2026-06-20,Buyer_0624
+LED0625,LST0284,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,0,Al Nahda,Sharjah,3375000.0,Referral,Lost,2026-03-01,Buyer_0625
+LED0626,LST0261,AGT009,Aisha Al Zaabi,CBRE,Penthouse,2,Yas Island,Abu Dhabi,5240000.0,Bayut,Lost,2026-05-19,Buyer_0626
+LED0627,LST0066,AGT009,Aisha Al Zaabi,CBRE,Penthouse,2,Al Maryah Island,Abu Dhabi,11923000.0,PropertyFinder,Converted,2026-01-15,Buyer_0627
+LED0628,LST0165,AGT005,Emma Clarke,Dubizzle Property,Apartment,2,Arabian Ranches,Dubai,1050000.0,Walk-in,Converted,2026-03-17,Buyer_0628
+LED0629,LST0128,AGT010,Carlos Mendez,Savills,Studio,0,Al Reem Island,Abu Dhabi,357000.0,Direct Call,Converted,2026-04-06,Buyer_0629
+LED0630,LST0151,AGT009,Aisha Al Zaabi,CBRE,Penthouse,1,Saadiyat Island,Abu Dhabi,6644000.0,Referral,Contacted,2026-05-28,Buyer_0630
+LED0631,LST0212,AGT002,James Mitchell,Espace Real Estate,Villa,2,Al Nahda,Sharjah,6619000.0,Walk-in,Lost,2026-04-17,Buyer_0631
+LED0632,LST0281,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,DIFC,Dubai,818000.0,Direct Call,Lost,2026-01-22,Buyer_0632
+LED0633,LST0112,AGT010,Carlos Mendez,Savills,Townhouse,5,Al Reem Island,Abu Dhabi,4090000.0,Bayut,Contacted,2026-01-24,Buyer_0633
+LED0634,LST0149,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,10905000.0,Direct Call,Contacted,2026-01-17,Buyer_0634
+LED0635,LST0092,AGT008,Tom Reynolds,Knight Frank,Penthouse,0,Jumeirah Village Circle,Dubai,6694000.0,Walk-in,Lost,2026-01-06,Buyer_0635
+LED0636,LST0166,AGT010,Carlos Mendez,Savills,Penthouse,5,Emirates Hills,Dubai,10529000.0,PropertyFinder,Qualified,2026-02-09,Buyer_0636
+LED0637,LST0246,AGT010,Carlos Mendez,Savills,Townhouse,1,Al Reem Island,Abu Dhabi,2220000.0,Walk-in,Lost,2026-01-13,Buyer_0637
+LED0638,LST0214,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Muwailih Commercial,Sharjah,879000.0,Walk-in,Qualified,2026-03-16,Buyer_0638
+LED0639,LST0007,AGT009,Aisha Al Zaabi,CBRE,Penthouse,0,Yas Island,Abu Dhabi,12245000.0,Walk-in,New,2026-06-26,Buyer_0639
+LED0640,LST0196,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,0,Emirates Hills,Dubai,3341000.0,Bayut,New,2026-01-12,Buyer_0640
+LED0641,LST0029,AGT008,Tom Reynolds,Knight Frank,Studio,0,Khalifa City,Abu Dhabi,415000.0,Bayut,Qualified,2026-05-22,Buyer_0641
+LED0642,LST0147,AGT001,Sarah Al Mansoori,Betterhomes,Apartment,5,Al Nahda,Sharjah,1405000.0,Direct Call,Contacted,2026-06-17,Buyer_0642
+LED0643,LST0152,AGT002,James Mitchell,Espace Real Estate,Villa,2,Muwailih Commercial,Sharjah,6204000.0,Bayut,Lost,2026-06-24,Buyer_0643
+LED0644,LST0184,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,4,Business Bay,Dubai,11400000.0,Referral,New,2026-01-26,Buyer_0644
+LED0645,LST0288,AGT008,Tom Reynolds,Knight Frank,Townhouse,0,Al Reem Island,Abu Dhabi,3043000.0,Bayut,Lost,2026-03-25,Buyer_0645
+LED0646,LST0122,AGT008,Tom Reynolds,Knight Frank,Villa,0,Al Nahda,Sharjah,6775000.0,Walk-in,Qualified,2026-01-06,Buyer_0646
+LED0647,LST0025,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Al Reem Island,Abu Dhabi,6805000.0,Referral,Converted,2026-03-18,Buyer_0647
+LED0648,LST0161,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Yas Island,Abu Dhabi,4343000.0,Walk-in,New,2026-06-29,Buyer_0648
+LED0649,LST0129,AGT002,James Mitchell,Espace Real Estate,Townhouse,1,Business Bay,Dubai,1900000.0,Bayut,Lost,2026-03-11,Buyer_0649
+LED0650,LST0116,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Al Maryah Island,Abu Dhabi,704000.0,Direct Call,Lost,2026-02-13,Buyer_0650
+LED0651,LST0101,AGT010,Carlos Mendez,Savills,Studio,0,Saadiyat Island,Abu Dhabi,1216000.0,Bayut,Qualified,2026-03-10,Buyer_0651
+LED0652,LST0091,AGT010,Carlos Mendez,Savills,Studio,0,Al Maryah Island,Abu Dhabi,1153000.0,PropertyFinder,Contacted,2026-05-19,Buyer_0652
+LED0653,LST0264,AGT008,Tom Reynolds,Knight Frank,Penthouse,4,Al Majaz,Sharjah,3050000.0,PropertyFinder,Converted,2026-06-22,Buyer_0653
+LED0654,LST0220,AGT008,Tom Reynolds,Knight Frank,Townhouse,5,Downtown Dubai,Dubai,2530000.0,Direct Call,Lost,2026-04-26,Buyer_0654
+LED0655,LST0067,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Saadiyat Island,Abu Dhabi,336000.0,Bayut,Lost,2026-04-28,Buyer_0655
+LED0656,LST0003,AGT004,Raj Patel,Driven Properties,Villa,4,Downtown Dubai,Dubai,5232000.0,Direct Call,Converted,2026-05-24,Buyer_0656
+LED0657,LST0021,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,3,Jumeirah Village Circle,Dubai,3031000.0,Bayut,Qualified,2026-01-31,Buyer_0657
+LED0658,LST0027,AGT009,Aisha Al Zaabi,CBRE,Townhouse,4,Al Majaz,Sharjah,2527000.0,Walk-in,Qualified,2026-02-27,Buyer_0658
+LED0659,LST0294,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,2,Al Reem Island,Abu Dhabi,4700000.0,Walk-in,Qualified,2026-06-14,Buyer_0659
+LED0660,LST0163,AGT004,Raj Patel,Driven Properties,Townhouse,5,Muwailih Commercial,Sharjah,1389000.0,Walk-in,Contacted,2026-05-16,Buyer_0660
+LED0661,LST0267,AGT008,Tom Reynolds,Knight Frank,Studio,0,DIFC,Dubai,360000.0,PropertyFinder,Lost,2026-05-23,Buyer_0661
+LED0662,LST0213,AGT004,Raj Patel,Driven Properties,Studio,0,Jumeirah Village Circle,Dubai,1067000.0,Walk-in,Lost,2026-03-21,Buyer_0662
+LED0663,LST0048,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Arabian Ranches,Dubai,2546000.0,Direct Call,Contacted,2026-05-09,Buyer_0663
+LED0664,LST0170,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Reem Island,Abu Dhabi,907000.0,Direct Call,Qualified,2026-04-18,Buyer_0664
+LED0665,LST0112,AGT010,Carlos Mendez,Savills,Townhouse,5,Al Reem Island,Abu Dhabi,4090000.0,Walk-in,Lost,2026-03-03,Buyer_0665
+LED0666,LST0288,AGT008,Tom Reynolds,Knight Frank,Townhouse,0,Al Reem Island,Abu Dhabi,3043000.0,PropertyFinder,New,2026-01-12,Buyer_0666
+LED0667,LST0178,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,1,Al Reem Island,Abu Dhabi,4256000.0,Referral,Contacted,2026-01-19,Buyer_0667
+LED0668,LST0125,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Muwailih Commercial,Sharjah,1713000.0,PropertyFinder,Qualified,2026-03-27,Buyer_0668
+LED0669,LST0059,AGT007,Priya Nair,Hamptons International,Villa,1,Muwailih Commercial,Sharjah,2038000.0,Referral,Qualified,2026-02-14,Buyer_0669
+LED0670,LST0145,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,894000.0,PropertyFinder,Lost,2026-03-29,Buyer_0670
+LED0671,LST0264,AGT008,Tom Reynolds,Knight Frank,Penthouse,4,Al Majaz,Sharjah,3050000.0,Walk-in,Converted,2026-02-28,Buyer_0671
+LED0672,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Muwailih Commercial,Sharjah,445000.0,Direct Call,Contacted,2026-04-11,Buyer_0672
+LED0673,LST0264,AGT008,Tom Reynolds,Knight Frank,Penthouse,4,Al Majaz,Sharjah,3050000.0,PropertyFinder,New,2026-05-21,Buyer_0673
+LED0674,LST0276,AGT001,Sarah Al Mansoori,Betterhomes,Villa,1,Jumeirah Village Circle,Dubai,6849000.0,Walk-in,New,2026-01-23,Buyer_0674
+LED0675,LST0034,AGT002,James Mitchell,Espace Real Estate,Apartment,5,Saadiyat Island,Abu Dhabi,1135000.0,Bayut,Contacted,2026-01-08,Buyer_0675
+LED0676,LST0218,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,2,Khalifa City,Abu Dhabi,2146000.0,PropertyFinder,Contacted,2026-02-15,Buyer_0676
+LED0677,LST0223,AGT010,Carlos Mendez,Savills,Penthouse,0,Business Bay,Dubai,3073000.0,PropertyFinder,Contacted,2026-06-26,Buyer_0677
+LED0678,LST0236,AGT002,James Mitchell,Espace Real Estate,Penthouse,3,Saadiyat Island,Abu Dhabi,7201000.0,Direct Call,New,2026-06-10,Buyer_0678
+LED0679,LST0038,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Dubai Marina,Dubai,1221000.0,PropertyFinder,Contacted,2026-04-29,Buyer_0679
+LED0680,LST0286,AGT002,James Mitchell,Espace Real Estate,Villa,1,Yas Island,Abu Dhabi,6238000.0,PropertyFinder,Lost,2026-05-05,Buyer_0680
+LED0681,LST0133,AGT004,Raj Patel,Driven Properties,Studio,0,Yas Island,Abu Dhabi,915000.0,Referral,Converted,2026-03-09,Buyer_0681
+LED0682,LST0208,AGT002,James Mitchell,Espace Real Estate,Apartment,3,Downtown Dubai,Dubai,627000.0,Referral,Qualified,2026-06-28,Buyer_0682
+LED0683,LST0200,AGT009,Aisha Al Zaabi,CBRE,Apartment,2,Meydan City,Dubai,1176000.0,PropertyFinder,Lost,2026-07-01,Buyer_0683
+LED0684,LST0033,AGT008,Tom Reynolds,Knight Frank,Studio,0,Meydan City,Dubai,531000.0,Walk-in,New,2026-01-04,Buyer_0684
+LED0685,LST0038,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Dubai Marina,Dubai,1221000.0,Direct Call,Lost,2026-06-05,Buyer_0685
+LED0686,LST0149,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,10905000.0,Direct Call,Lost,2026-06-10,Buyer_0686
+LED0687,LST0145,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,894000.0,Referral,Converted,2026-03-23,Buyer_0687
+LED0688,LST0016,AGT007,Priya Nair,Hamptons International,Studio,0,Al Nahda,Sharjah,1153000.0,Referral,Contacted,2026-02-16,Buyer_0688
+LED0689,LST0113,AGT002,James Mitchell,Espace Real Estate,Villa,1,Emirates Hills,Dubai,5904000.0,Bayut,Converted,2026-02-13,Buyer_0689
+LED0690,LST0152,AGT002,James Mitchell,Espace Real Estate,Villa,2,Muwailih Commercial,Sharjah,6204000.0,Bayut,Qualified,2026-01-10,Buyer_0690
+LED0691,LST0192,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,5015000.0,PropertyFinder,Lost,2026-02-10,Buyer_0691
+LED0692,LST0073,AGT003,Fatima Hassan,Allsopp & Allsopp,Penthouse,4,DIFC,Dubai,8406000.0,PropertyFinder,New,2026-07-01,Buyer_0692
+LED0693,LST0294,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,2,Al Reem Island,Abu Dhabi,4700000.0,Walk-in,Converted,2026-02-15,Buyer_0693
+LED0694,LST0281,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,DIFC,Dubai,818000.0,PropertyFinder,Qualified,2026-05-10,Buyer_0694
+LED0695,LST0177,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Yas Island,Abu Dhabi,996000.0,Bayut,Converted,2026-01-18,Buyer_0695
+LED0696,LST0263,AGT001,Sarah Al Mansoori,Betterhomes,Villa,2,Saadiyat Island,Abu Dhabi,7029000.0,Bayut,Contacted,2026-05-16,Buyer_0696
+LED0697,LST0114,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Al Majaz,Sharjah,10533000.0,Walk-in,Qualified,2026-05-14,Buyer_0697
+LED0698,LST0059,AGT007,Priya Nair,Hamptons International,Villa,1,Muwailih Commercial,Sharjah,2038000.0,Bayut,Lost,2026-06-19,Buyer_0698
+LED0699,LST0282,AGT005,Emma Clarke,Dubizzle Property,Townhouse,2,Downtown Dubai,Dubai,2605000.0,Referral,Lost,2026-06-14,Buyer_0699
+LED0700,LST0149,AGT002,James Mitchell,Espace Real Estate,Penthouse,5,Downtown Dubai,Dubai,10905000.0,PropertyFinder,Qualified,2026-06-07,Buyer_0700
+LED0701,LST0102,AGT010,Carlos Mendez,Savills,Apartment,0,Jumeirah Village Circle,Dubai,1892000.0,Walk-in,Converted,2026-04-09,Buyer_0701
+LED0702,LST0183,AGT010,Carlos Mendez,Savills,Townhouse,3,Muwailih Commercial,Sharjah,3893000.0,Bayut,Contacted,2026-06-07,Buyer_0702
+LED0703,LST0146,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Jumeirah Village Circle,Dubai,1181000.0,Walk-in,New,2026-05-14,Buyer_0703
+LED0704,LST0163,AGT004,Raj Patel,Driven Properties,Townhouse,5,Muwailih Commercial,Sharjah,1389000.0,Referral,Converted,2026-04-09,Buyer_0704
+LED0705,LST0157,AGT007,Priya Nair,Hamptons International,Penthouse,3,Arabian Ranches,Dubai,12390000.0,Walk-in,Contacted,2026-02-08,Buyer_0705
+LED0706,LST0291,AGT004,Raj Patel,Driven Properties,Penthouse,4,Al Reem Island,Abu Dhabi,5713000.0,Direct Call,Qualified,2026-03-15,Buyer_0706
+LED0707,LST0087,AGT004,Raj Patel,Driven Properties,Villa,3,Palm Jumeirah,Dubai,5756000.0,PropertyFinder,Qualified,2026-04-30,Buyer_0707
+LED0708,LST0114,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Al Majaz,Sharjah,10533000.0,Referral,Qualified,2026-04-01,Buyer_0708
+LED0709,LST0069,AGT005,Emma Clarke,Dubizzle Property,Villa,0,Al Maryah Island,Abu Dhabi,5840000.0,Direct Call,Converted,2026-03-06,Buyer_0709
+LED0710,LST0229,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,0,Meydan City,Dubai,7149000.0,Direct Call,Qualified,2026-02-28,Buyer_0710
+LED0711,LST0283,AGT008,Tom Reynolds,Knight Frank,Townhouse,0,JBR,Dubai,3566000.0,PropertyFinder,Contacted,2026-01-18,Buyer_0711
+LED0712,LST0042,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Dubai Marina,Dubai,358000.0,Direct Call,Contacted,2026-02-15,Buyer_0712
+LED0713,LST0101,AGT010,Carlos Mendez,Savills,Studio,0,Saadiyat Island,Abu Dhabi,1216000.0,Direct Call,New,2026-06-13,Buyer_0713
+LED0714,LST0010,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,1,Al Reem Island,Abu Dhabi,6517000.0,Walk-in,New,2026-02-04,Buyer_0714
+LED0715,LST0297,AGT008,Tom Reynolds,Knight Frank,Penthouse,4,Jumeirah Village Circle,Dubai,6903000.0,Referral,Lost,2026-05-09,Buyer_0715
+LED0716,LST0019,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Nahda,Sharjah,1223000.0,Walk-in,Qualified,2026-02-13,Buyer_0716
+LED0717,LST0277,AGT009,Aisha Al Zaabi,CBRE,Penthouse,3,Al Maryah Island,Abu Dhabi,5406000.0,Referral,Contacted,2026-03-31,Buyer_0717
+LED0718,LST0201,AGT007,Priya Nair,Hamptons International,Penthouse,5,JBR,Dubai,4026000.0,Bayut,Lost,2026-04-19,Buyer_0718
+LED0719,LST0069,AGT005,Emma Clarke,Dubizzle Property,Villa,0,Al Maryah Island,Abu Dhabi,5840000.0,Referral,Lost,2026-02-22,Buyer_0719
+LED0720,LST0047,AGT009,Aisha Al Zaabi,CBRE,Studio,0,Muwailih Commercial,Sharjah,601000.0,Referral,Qualified,2026-02-24,Buyer_0720
+LED0721,LST0006,AGT002,James Mitchell,Espace Real Estate,Penthouse,2,Downtown Dubai,Dubai,11051000.0,Bayut,Lost,2026-01-08,Buyer_0721
+LED0722,LST0085,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,895000.0,Walk-in,Contacted,2026-03-10,Buyer_0722
+LED0723,LST0082,AGT008,Tom Reynolds,Knight Frank,Villa,5,JBR,Dubai,4827000.0,Bayut,Lost,2026-02-08,Buyer_0723
+LED0724,LST0075,AGT008,Tom Reynolds,Knight Frank,Townhouse,3,Muwailih Commercial,Sharjah,2592000.0,Referral,Qualified,2026-06-22,Buyer_0724
+LED0725,LST0113,AGT002,James Mitchell,Espace Real Estate,Villa,1,Emirates Hills,Dubai,5904000.0,Referral,Contacted,2026-06-16,Buyer_0725
+LED0726,LST0136,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Maryah Island,Abu Dhabi,716000.0,Direct Call,Contacted,2026-06-22,Buyer_0726
+LED0727,LST0106,AGT001,Sarah Al Mansoori,Betterhomes,Townhouse,3,Muwailih Commercial,Sharjah,3892000.0,Walk-in,Qualified,2026-03-25,Buyer_0727
+LED0728,LST0241,AGT001,Sarah Al Mansoori,Betterhomes,Villa,3,Al Maryah Island,Abu Dhabi,2390000.0,Referral,New,2026-06-22,Buyer_0728
+LED0729,LST0166,AGT010,Carlos Mendez,Savills,Penthouse,5,Emirates Hills,Dubai,10529000.0,PropertyFinder,Lost,2026-01-21,Buyer_0729
+LED0730,LST0141,AGT007,Priya Nair,Hamptons International,Townhouse,2,JBR,Dubai,2178000.0,Direct Call,Lost,2026-02-13,Buyer_0730
+LED0731,LST0292,AGT002,James Mitchell,Espace Real Estate,Villa,3,Downtown Dubai,Dubai,2784000.0,Bayut,Converted,2026-01-16,Buyer_0731
+LED0732,LST0194,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,857000.0,Direct Call,Lost,2026-01-16,Buyer_0732
+LED0733,LST0040,AGT007,Priya Nair,Hamptons International,Apartment,2,DIFC,Dubai,1888000.0,Walk-in,Qualified,2026-03-28,Buyer_0733
+LED0734,LST0115,AGT004,Raj Patel,Driven Properties,Penthouse,2,Saadiyat Island,Abu Dhabi,9308000.0,Walk-in,Converted,2026-04-03,Buyer_0734
+LED0735,LST0177,AGT006,Mohammed Al Rashid,Provident Estate,Studio,0,Yas Island,Abu Dhabi,996000.0,Referral,Converted,2026-01-29,Buyer_0735
+LED0736,LST0004,AGT004,Raj Patel,Driven Properties,Penthouse,3,Emirates Hills,Dubai,8598000.0,Walk-in,Contacted,2026-03-12,Buyer_0736
+LED0737,LST0085,AGT008,Tom Reynolds,Knight Frank,Studio,0,Al Nahda,Sharjah,895000.0,Bayut,New,2026-02-21,Buyer_0737
+LED0738,LST0144,AGT009,Aisha Al Zaabi,CBRE,Apartment,3,Al Maryah Island,Abu Dhabi,1108000.0,Bayut,Contacted,2026-05-16,Buyer_0738
+LED0739,LST0081,AGT009,Aisha Al Zaabi,CBRE,Villa,3,Saadiyat Island,Abu Dhabi,2086000.0,Direct Call,Lost,2026-06-02,Buyer_0739
+LED0740,LST0118,AGT002,James Mitchell,Espace Real Estate,Townhouse,5,Al Majaz,Sharjah,2913000.0,Referral,Qualified,2026-06-03,Buyer_0740
+LED0741,LST0247,AGT005,Emma Clarke,Dubizzle Property,Townhouse,5,Al Majaz,Sharjah,3469000.0,Referral,Converted,2026-05-10,Buyer_0741
+LED0742,LST0083,AGT010,Carlos Mendez,Savills,Penthouse,5,Al Nahda,Sharjah,11474000.0,Referral,New,2026-05-01,Buyer_0742
+LED0743,LST0023,AGT004,Raj Patel,Driven Properties,Studio,0,Muwailih Commercial,Sharjah,445000.0,Bayut,Lost,2026-02-01,Buyer_0743
+LED0744,LST0083,AGT010,Carlos Mendez,Savills,Penthouse,5,Al Nahda,Sharjah,11474000.0,Bayut,Lost,2026-06-22,Buyer_0744
+LED0745,LST0294,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,2,Al Reem Island,Abu Dhabi,4700000.0,Bayut,New,2026-05-21,Buyer_0745
+LED0746,LST0133,AGT004,Raj Patel,Driven Properties,Studio,0,Yas Island,Abu Dhabi,915000.0,Bayut,Lost,2026-03-21,Buyer_0746
+LED0747,LST0289,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Khalifa City,Abu Dhabi,4365000.0,PropertyFinder,Qualified,2026-06-11,Buyer_0747
+LED0748,LST0111,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,1,Yas Island,Abu Dhabi,7632000.0,Referral,Lost,2026-03-04,Buyer_0748
+LED0749,LST0247,AGT005,Emma Clarke,Dubizzle Property,Townhouse,5,Al Majaz,Sharjah,3469000.0,Bayut,Contacted,2026-03-19,Buyer_0749
+LED0750,LST0074,AGT005,Emma Clarke,Dubizzle Property,Townhouse,1,Al Majaz,Sharjah,2550000.0,Walk-in,Contacted,2026-01-24,Buyer_0750
+LED0751,LST0262,AGT006,Mohammed Al Rashid,Provident Estate,Apartment,0,Saadiyat Island,Abu Dhabi,1756000.0,Direct Call,Contacted,2026-01-08,Buyer_0751
+LED0752,LST0176,AGT002,James Mitchell,Espace Real Estate,Villa,5,Muwailih Commercial,Sharjah,5484000.0,Referral,Lost,2026-02-01,Buyer_0752
+LED0753,LST0036,AGT004,Raj Patel,Driven Properties,Villa,4,Business Bay,Dubai,4357000.0,Bayut,Converted,2026-03-26,Buyer_0753
+LED0754,LST0068,AGT007,Priya Nair,Hamptons International,Townhouse,4,Al Reem Island,Abu Dhabi,4446000.0,PropertyFinder,New,2026-05-12,Buyer_0754
+LED0755,LST0268,AGT009,Aisha Al Zaabi,CBRE,Apartment,4,Muwailih Commercial,Sharjah,848000.0,Walk-in,Converted,2026-05-25,Buyer_0755
+LED0756,LST0050,AGT004,Raj Patel,Driven Properties,Studio,0,Downtown Dubai,Dubai,781000.0,Bayut,Converted,2026-01-26,Buyer_0756
+LED0757,LST0020,AGT009,Aisha Al Zaabi,CBRE,Apartment,2,Muwailih Commercial,Sharjah,1648000.0,Walk-in,Lost,2026-06-02,Buyer_0757
+LED0758,LST0048,AGT005,Emma Clarke,Dubizzle Property,Villa,3,Arabian Ranches,Dubai,2546000.0,Referral,Contacted,2026-01-29,Buyer_0758
+LED0759,LST0277,AGT009,Aisha Al Zaabi,CBRE,Penthouse,3,Al Maryah Island,Abu Dhabi,5406000.0,PropertyFinder,Converted,2026-02-19,Buyer_0759
+LED0760,LST0216,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,1,Al Reem Island,Abu Dhabi,1341000.0,Direct Call,New,2026-01-05,Buyer_0760
+LED0761,LST0272,AGT005,Emma Clarke,Dubizzle Property,Townhouse,5,DIFC,Dubai,1136000.0,Referral,Contacted,2026-03-01,Buyer_0761
+LED0762,LST0196,AGT003,Fatima Hassan,Allsopp & Allsopp,Townhouse,0,Emirates Hills,Dubai,3341000.0,Direct Call,Lost,2026-01-05,Buyer_0762
+LED0763,LST0295,AGT008,Tom Reynolds,Knight Frank,Villa,0,Palm Jumeirah,Dubai,3857000.0,PropertyFinder,Converted,2026-05-29,Buyer_0763
+LED0764,LST0131,AGT005,Emma Clarke,Dubizzle Property,Villa,5,Yas Island,Abu Dhabi,3411000.0,Referral,Contacted,2026-06-11,Buyer_0764
+LED0765,LST0146,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Jumeirah Village Circle,Dubai,1181000.0,Walk-in,Lost,2026-03-20,Buyer_0765
+LED0766,LST0132,AGT010,Carlos Mendez,Savills,Townhouse,5,Business Bay,Dubai,3829000.0,Bayut,New,2026-07-01,Buyer_0766
+LED0767,LST0296,AGT003,Fatima Hassan,Allsopp & Allsopp,Studio,0,Khalifa City,Abu Dhabi,881000.0,Walk-in,New,2026-02-19,Buyer_0767
+LED0768,LST0004,AGT004,Raj Patel,Driven Properties,Penthouse,3,Emirates Hills,Dubai,8598000.0,Referral,Contacted,2026-01-07,Buyer_0768
+LED0769,LST0162,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Al Nahda,Sharjah,887000.0,Referral,Qualified,2026-06-05,Buyer_0769
+LED0770,LST0080,AGT003,Fatima Hassan,Allsopp & Allsopp,Villa,5,Khalifa City,Abu Dhabi,5719000.0,Referral,Lost,2026-04-29,Buyer_0770
+LED0771,LST0134,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Downtown Dubai,Dubai,1384000.0,Walk-in,Converted,2026-02-08,Buyer_0771
+LED0772,LST0188,AGT010,Carlos Mendez,Savills,Penthouse,5,Al Maryah Island,Abu Dhabi,9903000.0,Walk-in,Qualified,2026-01-09,Buyer_0772
+LED0773,LST0204,AGT008,Tom Reynolds,Knight Frank,Townhouse,4,Muwailih Commercial,Sharjah,3151000.0,Bayut,Converted,2026-02-11,Buyer_0773
+LED0774,LST0286,AGT002,James Mitchell,Espace Real Estate,Villa,1,Yas Island,Abu Dhabi,6238000.0,Referral,Contacted,2026-03-30,Buyer_0774
+LED0775,LST0287,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Khalifa City,Abu Dhabi,875000.0,Walk-in,Converted,2026-04-29,Buyer_0775
+LED0776,LST0158,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,4,JBR,Dubai,1947000.0,Walk-in,Qualified,2026-01-03,Buyer_0776
+LED0777,LST0204,AGT008,Tom Reynolds,Knight Frank,Townhouse,4,Muwailih Commercial,Sharjah,3151000.0,Bayut,New,2026-05-05,Buyer_0777
+LED0778,LST0229,AGT006,Mohammed Al Rashid,Provident Estate,Penthouse,0,Meydan City,Dubai,7149000.0,Bayut,New,2026-05-09,Buyer_0778
+LED0779,LST0261,AGT009,Aisha Al Zaabi,CBRE,Penthouse,2,Yas Island,Abu Dhabi,5240000.0,Referral,Qualified,2026-02-12,Buyer_0779
+LED0780,LST0027,AGT009,Aisha Al Zaabi,CBRE,Townhouse,4,Al Majaz,Sharjah,2527000.0,Bayut,Converted,2026-01-21,Buyer_0780
+LED0781,LST0003,AGT004,Raj Patel,Driven Properties,Villa,4,Downtown Dubai,Dubai,5232000.0,PropertyFinder,Contacted,2026-03-04,Buyer_0781
+LED0782,LST0223,AGT010,Carlos Mendez,Savills,Penthouse,0,Business Bay,Dubai,3073000.0,PropertyFinder,New,2026-04-26,Buyer_0782
+LED0783,LST0114,AGT008,Tom Reynolds,Knight Frank,Penthouse,3,Al Majaz,Sharjah,10533000.0,Direct Call,New,2026-01-28,Buyer_0783
+LED0784,LST0020,AGT009,Aisha Al Zaabi,CBRE,Apartment,2,Muwailih Commercial,Sharjah,1648000.0,Referral,Converted,2026-01-26,Buyer_0784
+LED0785,LST0267,AGT008,Tom Reynolds,Knight Frank,Studio,0,DIFC,Dubai,360000.0,Direct Call,Lost,2026-06-18,Buyer_0785
+LED0786,LST0090,AGT001,Sarah Al Mansoori,Betterhomes,Penthouse,2,Al Nahda,Sharjah,5837000.0,Referral,Converted,2026-06-30,Buyer_0786
+LED0787,LST0104,AGT010,Carlos Mendez,Savills,Townhouse,0,Downtown Dubai,Dubai,3803000.0,Walk-in,Qualified,2026-05-14,Buyer_0787
+LED0788,LST0018,AGT007,Priya Nair,Hamptons International,Villa,4,Palm Jumeirah,Dubai,2162000.0,Walk-in,Lost,2026-02-20,Buyer_0788
+LED0789,LST0119,AGT008,Tom Reynolds,Knight Frank,Villa,2,Business Bay,Dubai,5930000.0,Walk-in,Contacted,2026-01-11,Buyer_0789
+LED0790,LST0019,AGT005,Emma Clarke,Dubizzle Property,Studio,0,Al Nahda,Sharjah,1223000.0,Direct Call,Contacted,2026-01-16,Buyer_0790
+LED0791,LST0001,AGT005,Emma Clarke,Dubizzle Property,Apartment,1,Al Majaz,Sharjah,819000.0,Bayut,New,2026-04-23,Buyer_0791
+LED0792,LST0205,AGT004,Raj Patel,Driven Properties,Studio,0,Al Majaz,Sharjah,709000.0,Direct Call,Converted,2026-03-21,Buyer_0792
+LED0793,LST0103,AGT004,Raj Patel,Driven Properties,Penthouse,0,Al Nahda,Sharjah,8625000.0,Walk-in,New,2026-01-03,Buyer_0793
+LED0794,LST0036,AGT004,Raj Patel,Driven Properties,Villa,4,Business Bay,Dubai,4357000.0,PropertyFinder,Lost,2026-04-21,Buyer_0794
+LED0795,LST0287,AGT001,Sarah Al Mansoori,Betterhomes,Studio,0,Khalifa City,Abu Dhabi,875000.0,Walk-in,Qualified,2026-04-05,Buyer_0795
+LED0796,LST0142,AGT008,Tom Reynolds,Knight Frank,Penthouse,2,Arabian Ranches,Dubai,9295000.0,Bayut,Lost,2026-05-14,Buyer_0796
+LED0797,LST0233,AGT002,James Mitchell,Espace Real Estate,Villa,1,Saadiyat Island,Abu Dhabi,3259000.0,Referral,Lost,2026-07-01,Buyer_0797
+LED0798,LST0134,AGT003,Fatima Hassan,Allsopp & Allsopp,Apartment,2,Downtown Dubai,Dubai,1384000.0,Bayut,Converted,2026-02-23,Buyer_0798
+LED0799,LST0055,AGT009,Aisha Al Zaabi,CBRE,Townhouse,3,Muwailih Commercial,Sharjah,1939000.0,Walk-in,New,2026-02-24,Buyer_0799
+LED0800,LST0151,AGT009,Aisha Al Zaabi,CBRE,Penthouse,1,Saadiyat Island,Abu Dhabi,6644000.0,Direct Call,New,2026-02-21,Buyer_0800

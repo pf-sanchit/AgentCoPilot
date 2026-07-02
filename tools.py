@@ -181,7 +181,12 @@ def query_leads(
         result = result.sort_values(result.columns[-1], ascending=False).head(limit)
         return json.dumps(result.to_dict(orient="records"), default=str)
 
-    return json.dumps(df.head(limit).to_dict(orient="records"), default=str)
+    # Always include total_count so LLM knows the real total, not just the page size
+    return json.dumps({
+        "total_count": len(df),
+        "returned": min(limit, len(df)),
+        "rows": df.head(limit).to_dict(orient="records"),
+    }, default=str)
 
 
 @tool
@@ -226,7 +231,11 @@ def query_credits(
         result = result.sort_values(result.columns[-1], ascending=False).head(limit)
         return json.dumps(result.to_dict(orient="records"), default=str)
 
-    return json.dumps(df.head(limit).to_dict(orient="records"), default=str)
+    return json.dumps({
+        "total_count": len(df),
+        "returned": min(limit, len(df)),
+        "rows": df.head(limit).to_dict(orient="records"),
+    }, default=str)
 
 
 # ---------------------------------------------------------------------------

@@ -1,7 +1,8 @@
 """
 Provisions the listingIQ AgentCore Gateway: a Secrets Manager secret for
-enterprise-api credentials, two Lambda-backed MCP targets (credits-api,
-listings-api), their IAM roles, and the Gateway itself.
+enterprise-api credentials, five Lambda-backed MCP targets (credits-api,
+listings-api, leads-api, stats-api, locations-api), their IAM roles, and
+the Gateway itself.
 
 Idempotent: safe to re-run. Each step checks for an existing resource first.
 
@@ -31,6 +32,9 @@ GATEWAY_ROLE_NAME = "listingiq-gateway-role"
 GATEWAY_NAME = "listingiq-gateway"
 CREDITS_LAMBDA_NAME = "listingiq-credits-tool"
 LISTINGS_LAMBDA_NAME = "listingiq-listings-tool"
+LEADS_LAMBDA_NAME = "listingiq-leads-tool"
+STATS_LAMBDA_NAME = "listingiq-stats-tool"
+LOCATIONS_LAMBDA_NAME = "listingiq-locations-tool"
 
 CREDITS_TOOLS = [
     {
@@ -92,6 +96,115 @@ LISTINGS_TOOLS = [
             "type": "object",
             "properties": {"id": {"type": "string", "description": "The listing ID"}},
             "required": ["id"],
+        },
+    },
+]
+
+LEADS_TOOLS = [
+    {
+        "name": "get_leads",
+        "description": "Fetch leads, filterable by status, channel, listing, date range, etc. Use this for lead-quality questions (spam status, response status, channel).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "status": {"type": "string", "description": "Comma-separated: sent, delivered, read, replied"},
+                "channel": {"type": "string", "description": "Comma-separated: whatsapp, email, call"},
+                "entityType": {"type": "string", "description": "Comma-separated: listing, project, developer, agent, company"},
+                "publicProfileId": {"type": "string", "description": "Comma-separated public profile IDs"},
+                "listingId": {"type": "string", "description": "Comma-separated listing IDs"},
+                "listingCategory": {"type": "string", "description": "Comma-separated: commercial, residential"},
+                "listingOffering": {"type": "string", "description": "Comma-separated: sale, rent"},
+                "tag": {"type": "string", "description": "Comma-separated tags"},
+                "createdAtFrom": {"type": "string", "description": "RFC3339 date; must not be older than 3 months"},
+                "createdAtTo": {"type": "string", "description": "RFC3339 date"},
+                "search": {"type": "string"},
+                "orderBy": {"type": "string"},
+                "orderDirection": {"type": "string"},
+                "page": {"type": "integer"},
+                "perPage": {"type": "integer", "description": "Max 50"},
+            },
+        },
+    },
+]
+
+STATS_TOOLS = [
+    {
+        "name": "get_public_profile_stats",
+        "description": "Per-agent stats: verification status, live listings, avg rating, score, response time, response rate, listing quality. AE only (SuperAgent 2.0 countries).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "search": {"type": "string"},
+                "orderBy": {"type": "string"},
+                "orderDirection": {"type": "string"},
+                "page": {"type": "integer"},
+                "perPage": {"type": "integer"},
+            },
+        },
+    },
+    {
+        "name": "get_stats_overview",
+        "description": "Aggregated overview: active/verified/non-verified profile counts, at-risk profiles, average score across all profiles.",
+        "inputSchema": {"type": "object", "properties": {}},
+    },
+    {
+        "name": "get_superagent_stats",
+        "description": "Per-agent SuperAgent program metrics: response times, response rates, listing quality, transactions, streaks.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "search": {"type": "string", "description": "Filter by agent name or email"},
+                "page": {"type": "integer"},
+                "perPage": {"type": "integer"},
+            },
+        },
+    },
+    {
+        "name": "get_arena_ranking",
+        "description": "Your client's public profile rankings within the arena, optionally filtered by category/location/property type.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "categoryId": {"type": "string", "description": "residential-sale|residential-rent|commercial-sale|commercial-rent"},
+                "locationId": {"type": "integer", "description": "From locations-api search_locations"},
+                "propertyTypeId": {"type": "string"},
+                "page": {"type": "integer"},
+                "perPage": {"type": "integer"},
+            },
+        },
+    },
+    {
+        "name": "get_top_public_profiles",
+        "description": "Cross-client leaderboard of top-ranked public profiles for a location + category combination. Both categoryId and locationId are required.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "categoryId": {"type": "string", "description": "residential-sale|residential-rent|commercial-sale|commercial-rent"},
+                "locationId": {"type": "integer", "description": "From locations-api search_locations"},
+                "propertyTypeId": {"type": "string"},
+                "page": {"type": "integer"},
+                "perPage": {"type": "integer"},
+            },
+            "required": ["categoryId", "locationId"],
+        },
+    },
+]
+
+LOCATIONS_TOOLS = [
+    {
+        "name": "search_locations",
+        "description": "Search for locations by name to resolve a locationId, used by stats-api tools that require locationId.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "search": {"type": "string", "description": "Location name search term"},
+                "id": {"type": "string", "description": "Filter by comma-separated location IDs"},
+                "type": {"type": "string"},
+                "parent": {"type": "string", "description": "Filter by parent location ID"},
+                "page": {"type": "integer"},
+                "perPage": {"type": "integer"},
+            },
+            "required": ["search"],
         },
     },
 ]
@@ -243,12 +356,19 @@ def deploy(profile):
 
     credits_arn = ensure_lambda(lam, CREDITS_LAMBDA_NAME, "credits_tool_lambda.py", lambda_role_arn, SECRET_NAME)
     listings_arn = ensure_lambda(lam, LISTINGS_LAMBDA_NAME, "listings_tool_lambda.py", lambda_role_arn, SECRET_NAME)
+    leads_arn = ensure_lambda(lam, LEADS_LAMBDA_NAME, "leads_tool_lambda.py", lambda_role_arn, SECRET_NAME)
+    stats_arn = ensure_lambda(lam, STATS_LAMBDA_NAME, "stats_tool_lambda.py", lambda_role_arn, SECRET_NAME)
+    locations_arn = ensure_lambda(lam, LOCATIONS_LAMBDA_NAME, "locations_tool_lambda.py", lambda_role_arn, SECRET_NAME)
 
-    gateway_role_arn = ensure_gateway_role(iam, [credits_arn, listings_arn])
+    all_lambda_arns = [credits_arn, listings_arn, leads_arn, stats_arn, locations_arn]
+    gateway_role_arn = ensure_gateway_role(iam, all_lambda_arns)
     gateway_id = ensure_gateway(gw, gateway_role_arn)
 
     ensure_target(gw, gateway_id, "credits-api", credits_arn, CREDITS_TOOLS)
     ensure_target(gw, gateway_id, "listings-api", listings_arn, LISTINGS_TOOLS)
+    ensure_target(gw, gateway_id, "leads-api", leads_arn, LEADS_TOOLS)
+    ensure_target(gw, gateway_id, "stats-api", stats_arn, STATS_TOOLS)
+    ensure_target(gw, gateway_id, "locations-api", locations_arn, LOCATIONS_TOOLS)
 
     info = gw.get_gateway(gatewayIdentifier=gateway_id)
     print(f"\nGateway URL: {info.get('gatewayUrl')}")
@@ -281,7 +401,7 @@ def teardown(profile):
             gw.delete_gateway(gatewayIdentifier=g["gatewayId"])
             print(f"[gateway] deleted {g['gatewayId']}")
 
-    for name in (CREDITS_LAMBDA_NAME, LISTINGS_LAMBDA_NAME):
+    for name in (CREDITS_LAMBDA_NAME, LISTINGS_LAMBDA_NAME, LEADS_LAMBDA_NAME, STATS_LAMBDA_NAME, LOCATIONS_LAMBDA_NAME):
         try:
             lam.delete_function(FunctionName=name)
             print(f"[lambda] deleted {name}")

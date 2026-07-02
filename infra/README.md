@@ -15,11 +15,17 @@ JupyterLab setup are ready.
 | Secrets Manager secret | `listingiq/enterprise-api-credentials` (placeholder values — see below) |
 | Lambda | `listingiq-credits-tool` |
 | Lambda | `listingiq-listings-tool` |
+| Lambda | `listingiq-leads-tool` |
+| Lambda | `listingiq-stats-tool` |
+| Lambda | `listingiq-locations-tool` |
 | IAM role (Lambda execution) | `listingiq-interceptor-lambda-role` |
 | IAM role (Gateway execution) | `listingiq-gateway-role` |
 | AgentCore Gateway | `listingiq-gateway` (`listingiq-gateway-pjolmk6vdb`) |
 | Gateway target | `credits-api` → `listingiq-credits-tool` |
 | Gateway target | `listings-api` → `listingiq-listings-tool` |
+| Gateway target | `leads-api` → `listingiq-leads-tool` |
+| Gateway target | `stats-api` → `listingiq-stats-tool` |
+| Gateway target | `locations-api` → `listingiq-locations-tool` |
 
 Gateway URL: `https://listingiq-gateway-pjolmk6vdb.gateway.bedrock-agentcore.us-east-1.amazonaws.com/mcp`
 
@@ -27,9 +33,13 @@ Inbound auth is `AWS_IAM` (SigV4) — any caller with IAM credentials in this
 account can invoke it; no separate API key needed for the Gateway itself.
 
 Verified end-to-end with a SigV4-signed `tools/list` call — the Gateway
-correctly returns `credits-api___get_credit_balance`,
-`credits-api___get_credit_transactions`, `listings-api___search_listings`,
-and `listings-api___get_listing`. Actual **tool calls** (`tools/call`) are
+correctly returns all 11 tools across the 5 targets:
+`credits-api___get_credit_balance`, `credits-api___get_credit_transactions`,
+`listings-api___search_listings`, `listings-api___get_listing`,
+`leads-api___get_leads`, `stats-api___get_public_profile_stats`,
+`stats-api___get_stats_overview`, `stats-api___get_superagent_stats`,
+`stats-api___get_arena_ranking`, `stats-api___get_top_public_profiles`,
+`locations-api___search_locations`. Actual **tool calls** (`tools/call`) are
 untested beyond that, because the secret still holds `REPLACE_ME` placeholder
 values — see "What's left" below.
 
@@ -64,11 +74,11 @@ what's already been handled" — the Lambda, not the Gateway, owns auth).
 
 ## Files
 
-- `deploy.py` — idempotent provisioning script (secret, IAM roles, both
-  Lambdas, Gateway, both targets). `python deploy.py --status` / `--teardown`
-  also available.
+- `deploy.py` — idempotent provisioning script (secret, IAM roles, all 5
+  Lambdas, Gateway, all 5 targets). `python deploy.py --status` /
+  `--teardown` also available.
 - `_enterprise_api_auth.py` — shared JWT mint/cache + HTTP helper, imported
-  by both Lambda handlers.
+  by every Lambda handler.
 - `credits_tool_lambda.py` — implements `get_credit_balance`,
   `get_credit_transactions` against `/v1/credits/*`.
 - `listings_tool_lambda.py` — implements `search_listings`, `get_listing`
@@ -77,6 +87,20 @@ what's already been handled" — the Lambda, not the Gateway, owns auth).
   — zero matches for `qualityScore`/`quality_score`), so this tool covers
   search/detail only. Quality-score optimization still needs the internal
   (VPN-gated) pf-ranking path, out of scope for this Gateway.
+- `leads_tool_lambda.py` — implements `get_leads` against `/v1/leads`
+  (status, channel, listing, entity type, date-range filters). Array-type
+  filters are passed as comma-separated strings — not yet verified against a
+  real call, see the module docstring for what to check first once
+  credentials land.
+- `stats_tool_lambda.py` — implements `get_public_profile_stats` (v2),
+  `get_stats_overview`, `get_superagent_stats`, `get_arena_ranking`,
+  `get_top_public_profiles` against `/v1/stats/*` and `/v2/stats/public-profiles`.
+  These are enterprise-api's closest thing to a lead-quality/dashboard signal
+  — response rate, response time, and listing quality **per agent**, not
+  per listing (enterprise-api has no per-listing quality score, as above).
+- `locations_tool_lambda.py` — implements `search_locations` against
+  `/v1/locations`, used to resolve a location name to the `locationId` that
+  `get_arena_ranking`/`get_top_public_profiles` require.
 
 ## What's left
 
